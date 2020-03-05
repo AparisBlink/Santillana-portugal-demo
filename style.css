@@ -407,27 +407,10 @@
 /*TITULO 1*/
 
 .bck-title1 {
-	display: inline-block;
-	-webkit-box-shadow: 0 0 0 2px #10a0c6;
-	   -moz-box-shadow: 0 0 0 2px #10a0c6;
-	        box-shadow: 0 0 0 2px #10a0c6;
-	border: 2px solid #fff;
-	background: #9ac9df;
-	padding: 4px 8px;
-	color: #10a0c6;
-    font-family: GhostKid;
-    font-size: 2.4rem;
-    letter-spacing: 1px;
-    text-shadow: 1px 1px #fff,
-    			 1px 0px #fff,
-    			 1px -1px #fff,
-    			 0px -1px #fff,
-    			 -1px -1px #fff,
-    			 -1px 0px #fff,
-    			 -1px 1px #fff,
-    			 0px 1px #fff,
-    			 2px 2px #10a0c6;
-    line-height: 1;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 17px;
+    color: #44913a;
 }
 
 /*TITULO 2*/
@@ -1204,6 +1187,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#419bd1",endCo
     color: #338DBA;
 }
 
+/*Título 1*/
+.unittag_santillanaportugalmates .bck-title1 {
+    color: #338DBA;
+}
+
 /*Titulo 2*/
 
 .unittag_santillanaportugalmates .bck-title2 {
@@ -1302,6 +1290,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e59f00', end
     font-weight: bold;
     color: #fff;
     margin-left: 5px;
+}
+
+/*Título 1*/
+
+.unittag_santillanaportugalportugues .bck-title1 {
+	color: #F6B645;
 }
 
 /*Titulo 2*/
