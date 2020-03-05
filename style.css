@@ -75,6 +75,79 @@
 	  font-weight: 400;
 	}
 
+/*Indice del libro*/
+
+/*INDICE*/ 
+
+#indice .units ul li a .title {
+    font-size: 20px;
+}
+
+#indice .units ul li {
+    padding: 0;
+    border-radius: 0;
+    border: 3px solid #3ac62a;
+    background: transparent;
+    padding: 10px 0px;
+}
+
+#list-units .unittag_santillanaportugalciencias {
+    border-color: #85BC40 !important;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+
+#list-units .unittag_santillanaportugalmates {
+    border-color: #0086C0 !important;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+
+#list-units .unittag_santillanaportugalportugues {
+    border-color: #FFCC00 !important;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+
+#list-units .unittag_santillanaportugalciencias.active:not(.disabled), #list-units .unittag_santillanaportugalciencias:hover {
+    background: #85BC40 !important;
+    transform: scale(1.1);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+       margin: 15px 0px;
+}
+
+#list-units .unittag_santillanaportugalmates.active:not(.disabled), #list-units .unittag_santillanaportugalmates:hover {
+    background: #0086C0 !important;
+    transform: scale(1.1);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+        margin: 15px 0px;
+}
+
+#list-units .unittag_santillanaportugalportugues.active:not(.disabled), #list-units .unittag_santillanaportugalportugues:hover {
+    background: #FFCC00 !important;
+    transform: scale(1.1);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    margin: 15px 0px;
+}
+
+#indice .unit-content .header .title {
+    background: black;
+    height: fit-content;
+    height: -moz-fit-content;
+    padding: 9px;
+    margin-left: -8px;
+    padding-left: 35px;
+}
+
 
 /* General */
 
@@ -170,7 +243,7 @@
 
 	.content_type_clase_santillanapt #actividad .texto_curso li,
 	.content_type_clase_santillanapt #actividad .workspace ul li li {
-		margin-bottom: 10px;
+		margin-bottom: 40px;
 	}
 
 	#actividad .class_slide {
@@ -218,7 +291,9 @@
 		-moz-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
 		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
+		border-bottom: 2px solid #44913a;
 	}
+
 
 	.content_type_clase_santillanapt .slide_main input:focus,
 	.content_type_clase_santillanapt .slide_main .img-input-container:focus {
@@ -493,21 +568,18 @@
 .cke_contents ol li:before {
     content: counter(bck-li-counter);
     position: absolute;
-    top: -2px;
+    top: 0px;
     left: -3px;
     display: block;
     width: 24px;
     height: 24px;
-    -webkit-box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
-	   -moz-box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
-			box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
-    border: 1px solid #b25313;
+    border: none;
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    background: #F58220;
+    background: #D62927;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     line-height: 2.5rem;
@@ -515,35 +587,60 @@
 
 /*LISTA ORDENADA 2*/
 
+.content ol.bck-ol.bck-ol2,
+ .cke_contents ol.bck-ol.bck-ol2 {
+    margin-left: -33px;
+}
+
 .content .bck-ol2 li:before,
 .cke_contents .bck-ol2 li:before {
-	-webkit-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-       -moz-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-    		box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-    border: 1px solid #109FC5;
-    background: #fff;
-    color: #000;
+     top: -4px;
+    background: #338DBA;
+    font-size: 20px;
+    font-weight: bold;
+    height: 31px;
+    width: 31px;
+    left: -12px;
+    padding-top: 3px;
+    border: 1px solid white;
+    box-shadow: 2px 1px #00000061;
+    color: white;
 }
 
 /*LISTA ORDENADA 3*/
 
+.unittag_santillanaportugalportugues .content.content ol.bck-ol.bck-ol3,
+ .unittag_santillanaportugalportugues .cke_contents ol.bck-ol.bck-ol3 {
+    list-style-type: none;
+    padding-left: 0;
+    counter-reset: bck-li-counter;
+    margin-left: 5px;
+}
+
 .content .bck-ol3 li:before,
 .cke_contents .bck-ol3 li:before {
-	-webkit-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-       -moz-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-    		box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-    border: none;
-    background: transparent;
-    color: #000;
-    font-size: 2rem;
+    top: -2px;
+    border: 2px solid #ecb700;
+    background: #ffffff;
+    font-size: 21px;
+    font-weight: bold;
+    color: #ecb700;
+    width: 29px;
+    height: 29px;
+    left: -11px;
 }
 
 /*LISTA ORDENADA 4*/
 
+ .content ol.bck-ol.bck-ol4,
+  .cke_contents ol.bck-ol.bck-ol4 {
+    margin-left: -6px;
+}
+
 .content .bck-ol4 li:before,
 .cke_contents .bck-ol4 li:before {
-	content: counter(bck-li-counter, lower-alpha);
-	top: 0;
+    content: counter(bck-li-counter, lower-alpha) ")";
+    top: 0;
 	left: -5px;
 	width: 28px;
 	height: 20px;
@@ -554,8 +651,8 @@
     -webkit-border-radius: 0;
        -moz-border-radius: 0;
             border-radius: 0;
-    background: #C9DE79;
-    color: #000;
+    background: none;
+    color: #338dba;
     line-height: 2rem;
 }
 
@@ -583,15 +680,21 @@
 	margin-bottom: 0;
 }
 
+/*Caja 1 */
+
+.bck-box.bck-box1 {
+	margin: 0;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding: 0px;
+    margin-left: 28px;
+}
+
 /* Caja 2 */
 .bck-box.bck-box2 {
-	-webkit-box-shadow: 0 3px 0 #BCBDC0;
-	   -moz-box-shadow: 0 3px 0 #BCBDC0;
-	        box-shadow: 0 3px 0 #BCBDC0;
-	-webkit-border-radius: 50%;
-	   -moz-border-radius: 50%;
-	        border-radius: 50%;
-	padding: 6px 15px;
+	padding: 0px;
 	text-align: center;
 }
 
@@ -648,6 +751,101 @@
     margin-bottom: 20px;
 }
 
+/*Énfasis 1*/
+
+.bck-enfasis-1 {
+    color: #d62927;
+    font-weight: bold;
+}
+
+/*Desplegable*/
+
+ .bck-dropdown-button {
+    background: rgb(65,155,209);
+    background: -moz-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
+    background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#419bd1",endColorstr="#8abee2",GradientType=1);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    padding: 8px 92px 0px 16px;
+    font-size: 18px;
+}
+
+ .bck-dropdown-icon>.fa {
+    display: inline-block;
+    border: 0;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    padding: 7px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+ .bck-dropdown-content {
+    overflow-y: auto;
+    display: none;
+    max-height: 300px;
+    padding: 10px;
+    background-color: white;
+    border: 4px solid #86bce1;
+}
+
+ .bck-dropdown-titulo {
+    font-size: 18px;
+}
+
+/*Flipbox*/
+
+body:not(.edit) .bck-flipbox-face.front,
+ body:not(.edit) .bck-flipbox-face.back {
+    border-color: #63acd9;
+}
+
+body:not(.edit) .front .bck-flipbox-title,
+ body:not(.edit) .front .bck-flipbox-section {
+    color: #63acd9;
+}
+
+body:not(.edit) .bck-flipbox-face.back {
+    background-color: #63acd9;
+}
+
+/*POPUP*/
+
+ .info-template.shown {
+    width: 150px;
+    background: white;
+    border: 2px solid #14799b;
+
+}
+
+ .info-template .info-title {
+    color: #006E92;
+}
+
+ .info-template .info-icon {
+    display: none;
+}
+
+ .info-popover .popover-title:before, .popover-template .popover-title:before {
+    display: none;
+}
+
+ .info-popover .popover-title, .popover-template .popover-title {
+    background: white;
+    color: #037093;
+    font-weight: bold;
+}
+
+ .popover-container {
+    border: 3px solid #037093;
+}
+
 /* Icons */
 
 #actividad .player.audio {
@@ -669,25 +867,7 @@
 	margin-top: -16px;
 }
 
-.item-container .icon-draw:before {
-	background-image: url(images/Icon_draw.png);
-}
 
-.item-container .icon-write:before {
-	background-image: url(images/Icon_write.png);
-}
-
-.item-container .icon-speaking:before {
-	background-image: url(images/Icon_speaking.png);
-}
-
-.item-container .icon-reading:before {
-	background-image: url(images/Icon_reading.png);
-}
-
-.item-container .icon-star:before {
-	background-image: url(images/Icon_star.png);
-}
 
 /* Forms */
 
@@ -709,24 +889,51 @@
 
 .content_type_clase_santillanapt .slide_main input:focus,
 .content_type_clase_santillanapt .slide_main .img-input-container:focus {
-    border-top-color: #10A0C6;
-    border-right-color: #10A0C6;
-    border-bottom-color: #10A0C6;
-    border-left-color: #10A0C6;
+	border: 1px solid #ccc;
+    border-top-color: #44913a;
+    border-right-color: #44913a;
+    border-bottom-color: #44913a;
+    border-left-color: #44913a;
     -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
     -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
 }
 
-/* Slides */
+
+/*Ajuste general a slides (Revisar)*/
+#actividad .workspace {
+   margin-left: 0px;
+}
+
+/* --------- Slides ----------------- */
+
+img.Wirisformula {
+    margin-top: -20px;
+}
+
+.workspace.fillblanks.frame.fill-text {
+    padding: 0px;
+}
 
 #actividad .workspace.multiple-choice .opcion,
 #actividad .workspace.matching .opciones .opcion:not(.ko):not(.ok),
 #actividad .workspace.ordenar .js-rank-item {
     border-width: 2px;
-    border-color: #10A0C6;
+    border-color: #44913a;
     border-style: solid;
     background: #fff;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    padding: 11px;
+}
+
+#actividad .workspace.ordenar .js-rank-item:hover {
+    transform: scale(1.1);
+    background-color: #44913a3d;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
 }
 
 #actividad .workspace.matching .opciones .opcion.emparejado.destino {
@@ -762,4 +969,589 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
 	width: auto;
 	height: 100px !important;
 	padding: 0;
+}
+
+/*Sopa de letras*/
+
+.rf-tgrid {
+    height: 26px;
+    width: 26px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    border: 1px solid #d8d8d8;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Verdadero o falso*/
+
+.checkbox-option label.filter-label, .checkbox-option label.filter-label-append, .radio-option label.filter-label {
+    -moz-user-select: none;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 9px;
+}
+
+.workspace.true-false {
+    margin-left: 28px !important;
+}
+
+/* Texto a imagen*/
+
+#actividad .workspace.drag-and-drop {
+    position: relative;
+    margin-left: 28px;
+}
+
+/*Elegir respuesta*/
+
+#actividad .workspace.multiple-choice .opcion.respuesta_checked {
+    border-color: #44913a;
+    background-color: #44913a3d;
+}
+
+#actividad .workspace.multiple-choice .opcion,
+ #actividad .workspace.matching .opciones .opcion:not(.ko):not(.ok),
+  #actividad .workspace.ordenar .js-rank-item {
+    background: #fff;
+    border: none;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+#actividad .workspace.multiplechoice_horizontal .opcion:hover {
+    background: #44913a3d;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+/*Area de respuesta*/
+
+.shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
+    -webkit-box-shadow: 0 0 2px #3ac62a;
+    -moz-box-shadow: 0 0 2px #3ac62a;
+    box-shadow: 0 0 2px #44913a;
+    border-color: #44913a;
+}
+
+/*Rellenar espacios*/
+
+.fillblanks-draggable-wrapper .response:hover {
+    background: #44913a3d;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+}
+
+.fillblanks-draggable-wrapper .response {
+    background: #ffffff;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+}
+
+.content_type_clase_santillanapt .slide_main input[disabled], .content_type_clase_santillanapt .slide_main input[readonly], fieldset[disabled] .content_type_clase_santillanapt .slide_main input, .content_type_clase_santillanapt .slide_main .img-input-container {
+    background-color: #fff;
+}
+
+/*Espacio Slides concatenadas*/
+
+#actividad .slide-concatenate .class_slide {
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+/*Botones*/
+
+.btn-danger, .btn-danger[disabled] {
+    color: #fc4237;
+    background-color: #ffffff;
+    border-color: #fc4237;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+
+.btn-danger:hover, .btn-danger:focus,
+ .btn-danger:active, .btn-danger.active,
+  .open .dropdown-toggle.btn-danger {
+    color: #fff;
+    background-color: #db3228;
+    border-color: transparent;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+
+.btn-primary[disabled],
+ .btn-primary[disabled]:focus {
+    color: #3ac62a;
+    background-color: #ffffff;
+    border-color: #3ac62a;
+    border-radius: 0;
+        transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+
+.btn-primary, .btn-primary.disabled,
+ .btn-primary.disabled:hover,
+  .btn-primary.disabled:focus {
+    color: #3ac62a;
+    background-color: #ffffff;
+    border-color: #3ac62a;
+    border-radius: 0;
+    opacity: 1;
+        transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+
+#actividad .content .review .attemps span {
+    color: #ffffff;
+    background-color: #3ac62a;
+    -webkit-border-radius: 0%;
+    border-radius: 0%;
+    -moz-border-radius: 0%;
+    border-radius: 0%;
+    border: 1px solid #3ac62a;
+}
+
+.btn-solution, .btn-solution.disabled,
+ .btn-solution[disabled], .btn-next,
+  .btn-next.disabled, .btn-next[disabled] {
+    color: #00bdff;
+    background-color: #ffffff;
+    border-color: #00bdff;
+    -webkit-border-radius: 0%;
+    border-radius: 0%;
+    -moz-border-radius: 0%;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+
+.btn-solution:hover, .btn-solution:focus,
+ .btn-solution:active, .btn-next:hover,
+  .btn-next:focus, .btn-next:active,
+   .open .dropdown-toggle.btn-solution {
+    color: #fff;
+    background-color: #00bdff;
+    border-color: transparent;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+
+/*NAVBAR INFERIOR*/
+.logo-publisher {
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    left: 21px;
+    width: 178px;
+    height: 39px;
+    background-position: center center;
+    background: url(/useruploads/r/a/146502376/activity_other_imported/logo-santillana_demoportugal_png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+}  
+
+/*NAVBAR COLORES*/
+
+.unittag_santillanaportugalciencias .navbar-bottom {
+    background: #13270e;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.unittag_santillanaportugalciencias #bottom-navigator li.active {
+    background: #85bc50;
+}
+
+.unittag_santillanaportugalciencias #bottom-navigator li:hover {
+    background: rgb(216, 243, 195);
+}
+
+
+.unittag_santillanaportugalportugues .navbar-bottom {
+    background: #402d00;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.unittag_santillanaportugalportugues #bottom-navigator li.active {
+    background: #ecb700;
+}
+
+.unittag_santillanaportugalportugues #bottom-navigator li:hover {
+    background: #f5eac5;
+}
+
+
+
+/**** CSS MATEMÁTICAS ****
+.unittag_santillanaportugalmates */
+
+/*HEADER*/
+
+.unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title {
+    background: rgb(65,155,209);
+background: -moz-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
+background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#419bd1",endColorstr="#8abee2",GradientType=1);
+}
+
+.unittag_santillanaportugalmates .ficha {
+    display: inline;
+    background: #BD0925;
+    padding: 0px 11px;
+    border-radius: 11%;
+    border: 3px solid white;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: Arial,sans-serif;
+}
+
+.unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title h3 {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: left;
+}
+
+/*Rellenar espacios*/
+
+.unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main input:focus, .content_type_clase_santillanapt .slide_main .img-input-container:focus {
+    border: 1px solid #338dba;
+    border-top-color: #338dba;
+    border-right-color: #338dba;
+    border-bottom-color: #338dba;
+    border-left-color: #338dba;
+}
+
+.unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main input, .content_type_clase_santillanapt .slide_main .img-input-container {
+    border: 1px solid #8abee2;
+    border-bottom: 1px solid #8abee2;
+    vertical-align: top;
+}
+
+.unittag_santillanaportugalmates .content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
+    border: 3px solid #fff;
+    padding: 0px;
+    background: none;
+}
+
+.unittag_santillanaportugalmates .content table:not(.rf-tablegrid) {
+    border: none;
+    margin-bottom: 10px;
+}
+
+/*RESPUESTA MULTIPLE*/
+
+.unittag_santillanaportugalmates #actividad .workspace.multiplechoice_horizontal .opcion:hover {
+    background: #178ff51c;
+}
+
+.unittag_santillanaportugalmates #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+    border-color: #178ff51c;
+    background-color: #178ff51c;
+}
+
+/**** CSS PORTUGUES ****
+.unittag_santillanaportugalportugues */
+
+/*Header*/
+
+.unittag_santillanaportugalportugues.content_type_clase_santillanapt #actividad .content .header .title {
+ background: #e59f00; /* Old browsers */
+background: -moz-linear-gradient(top, #e59f00 0%, #f2c900 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e59f00 0%,#f2c900 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e59f00 0%,#f2c900 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e59f00', endColorstr='#f2c900',GradientType=0 );
+}
+
+.unittag_santillanaportugalportugues .ficha {
+    display: inline;
+    background: transparent;
+    padding: 0px 18px;
+    border-radius: 11%;
+    border: 3px solid white;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Arial,sans-serif;
+    box-shadow: none;
+    color: white;
+}
+
+.unittag_santillanaportugalportugues.content_type_clase_santillanapt #actividad .content .header .title h3 {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: left;
+}
+
+.unittag_santillanaportugalportugues .texto_vertical {
+    display: inline;
+    font-size: 44px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 5px;
+}
+
+/*CAJA 1*/
+
+.unittag_santillanaportugalportugues .bck-box1 .bck-title {
+    color: #CA041A;
+    width: fit-content;
+    width: -moz-fit-content;
+    padding: 3px 28px;
+    border-radius: 5%;
+    border: 2px solid #CA041A;
+}
+
+.unittag_santillanaportugalportugues .bck-box1 {
+    margin: 10px;
+    border: 5px solid #F6B645;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #ffffffb0;
+    padding: 26px;
+}
+
+/*CAJA 2*/
+
+.unittag_santillanaportugalportugues .bck-box.bck-box2 {
+    padding: 0px;
+    text-align: center;
+    border: 0;
+    background:#ecb700;
+    padding: 3px 27px;
+    border: 3px solid #ecb700;
+    width: fit-content;
+    width: -moz-fit-content;
+    margin-bottom: 24px;
+    color: white;
+    font-weight: bold;
+    margin-left: -5px
+}
+
+/*PopUp*/
+
+/*POPUP*/
+.unittag_santillanaportugalportugues .info-template .info-title {
+    color: #006E92;
+}
+
+.unittag_santillanaportugalportugues .info-popover .popover-title, .popover-template .popover-title {
+    color: #037093;
+}
+
+.unittag_santillanaportugalportugues .popover-container {
+    border-color: #037093;
+}
+
+.unittag_santillanaportugalportugues #actividad .workspace.test .respuestas li:hover {
+    background: #ecb70033;
+}
+
+/*COLOR TEST*/
+
+.unittag_santillanaportugalportugues .checkbox-option label.filter-label:before, .unittag_santillanaportugalportugues .slides_averages #cont_checkSelfCorrect label:before, .unittag_santillanaportugalportugues .slides_averages #cont_checkEvaluation label:before, .unittag_santillanaportugalportugues .radio-option label.filter-label:before {
+    filter: hue-rotate(-41deg);
+}
+
+/*RELLENAR ESPACIOS*/
+
+.unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main input:focus, .content_type_clase_santillanapt .slide_main .img-input-container:focus {
+    border: 1px solid #ccc;
+    border-top-color: #ecb700;
+    border-right-color: #ecb700;
+    border-bottom-color: #ecb700;
+    border-left-color: #ecb700;
+}
+
+
+.unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main input, .content_type_clase_santillanapt .slide_main .img-input-container {
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #ecb700;
+}
+
+.unittag_santillanaportugalportugues #actividad .workspace.multiplechoice_horizontal .opcion:hover {
+    background: #ecb70033;
+}
+
+.unittag_santillanaportugalportugues #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+    border-color: #ecb70033;
+    background-color: #ecb70033;
+}
+
+.unittag_santillanaportugalportugues .shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
+    -webkit-box-shadow: 0 0 2px #ecb700;
+    -moz-box-shadow: 0 0 2px #ecb700;
+    box-shadow: 0 0 2px #ecb700;
+    border-color: #ecb700;
+}
+
+/*ORDENAR PALABRAS*/
+
+.unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+    border: 2px solid #ecb700;
+    padding-top: 10px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+
+.unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
+    background-color: #ecb700;
+    padding: 3px;
+}
+
+.unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_lista .classify-item {
+    background: white;
+    transform: scale(1.0);
+    transition: transform, margin 0.2s;
+    -webkit-transition: transform, margin 0.2s;
+    -moz-transition: transform, margin 0.2s;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
+    background: #ecb70033;
+    transform: scale(1.1);
+    transition: transform, margin 0.2s;
+    -webkit-transition: transform, margin 0.2s;
+    -moz-transition: transform, margin 0.2s;
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: 0px 10px;
+
+}
+
+
+/* Smartphones (portrait & landscape) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+   .unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main {
+    padding: 0px 20px 0px 58px;
+}
+
+.unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title h3 {
+    font-size: 22px;
+}
+
+.unittag_santillanaportugalmates .ficha {
+    font-size: 22px;
+}
+
+.unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title {
+    padding: 24px 22px;
+}
+
+.unittag_santillanaportugalportugues.content_type_clase_santillanapt #actividad .content .header .title {
+    padding: 20px 10px;
+}
+
+.unittag_santillanaportugalportugues .texto_vertical {
+    font-size: 34px;
+}
+
+.unittag_santillanaportugalportugues .ficha {
+    font-size: 42px;
+}
+}
+
+/*AJUSTE PARA FONDO EN SLIDE CON FONDO*/
+
+@media screen and (max-width: 1023px) {
+
+.unittag_santillanaportugalportugues #actividad .carousel-inner .item-container.aux-fullscreen, #actividad .carousel-inner .item-container.aux-bckg {
+    padding-left: 0px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*QUERIES*/
+
+@media only screen and (max-width: 640px) {
+.logo-publisher {
+    width: 40px;
+    background: url(/useruploads/r/a/146502386/activity_other_imported/logo-santillana_demoportugal_movil.png);
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+}
+
+/* Smartphones (portrait & landscape) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .content_type_clase_santillanapt #actividad .content .header .title h3 span {
+    text-align: center;
+    line-height: 27px;
+}
+
+.content_type_clase_santillanapt #actividad .content .header .title h3 {
+    text-align: left;
+}
+.content_type_clase_santillanapt #actividad .content .header .title {
+    padding: 40px 60px;
+}
+.content_type_clase_santillanapt #actividad .content .header .title h3 span {
+    padding-bottom: 20px;
+}
+}
+
+
+/*---------------------------------------------PRUEBA IMAGEN FONDO--------------------------------------------*/
+
+#actividad .carousel-inner .seccionazul .item-container {
+    background-image: url(/useruploads/r/a/146261466/activity_other_imported/Fondo_UD1_Santillana-Portuga_2l.jpg);
+    margin: 20px auto 30px;
+    /* padding: 0px; */
+    padding-bottom: 90px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*---------------------------------------------PRUEBA IMAGEN FONDO SECCIONMARRON--------------------------------------------*/
+
+#actividad .carousel-inner .seccionmarron .item-container {
+    background-image: url(/useruploads/r/a/146870856/activity_other_imported/fondo_vela_santillanaportugal.jpg);
+    margin: 20px auto 30px;
+    /* padding: 0px; */
+    padding-bottom: 90px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
