@@ -128,8 +128,11 @@
 
 	.content_type_clase_santillanapt #actividad .content .header .title {
 		margin: -40px 0 20px;
-		background: #10A0C6;
-		padding: 20px 97px;
+		padding: 24px 97px;
+		background: rgb(68,145,58);
+	background: -moz-linear-gradient(180deg, rgba(68,145,58,1) 0%, rgba(134,189,80,1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(68,145,58,1) 0%, rgba(134,189,80,1) 100%);
+	background: linear-gradient(180deg, rgba(68,145,58,1) 0%, rgba(134,189,80,1) 100%);
 	}
 
 	.content_type_clase_santillanapt #actividad .content .slide-concatenate .header .title {
@@ -144,13 +147,13 @@
 		padding: 0;
 		color: #fff;
 		font-size: 1.4rem;
-		font-weight: 700;
+		font-weight: 200;
 		text-align: right;
 	}
 
 	.content_type_clase_santillanapt #actividad .content .header .title h3 span {
 		float: left;
-		font-size: 1.8rem;
+		font-size: 26px;
 		font-weight: 900;
 		line-height: 1.1rem;
 	}
@@ -432,9 +435,10 @@
 
 .bck-title2 {
 	display: block;
-    color: #f58220;
-    font-family: GhostKid;
-    font-size: 2.4rem;
+    color: #44913A;
+    font-family: "Garamond", serif;
+    font-size: 36px;
+    font-weight: bold;
     letter-spacing: 1px;
     text-shadow: 1px 1px #fff,
     			 1px 0px #fff,
