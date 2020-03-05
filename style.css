@@ -602,6 +602,10 @@
 	margin-bottom: 0;
 }
 
+.bck-box p:last-of-type {
+    margin-bottom: 0;
+}
+
 /*Caja 1 */
 .bck-box.bck-box1 {
 	margin: 10px;
@@ -625,47 +629,27 @@
 
 /* Caja 2 */
 .bck-box.bck-box2 {
-	padding: 0px;
-	text-align: center;
+    padding: 0px;
+    border: 0;
+    border: 3px solid #44913A;
+    margin-bottom: 24px;
+    color: white;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    text-align: left;
 }
 
-/* Caja 3 */
-.bck-box.bck-box3 {
-	position: relative;
-	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.5);
-	   -moz-box-shadow: 1px 1px 1px rgba(0,0,0,.5);
-	        box-shadow: 1px 1px 1px rgba(0,0,0,.5);
-	-webkit-transform: rotate(2deg);
-	   -moz-transform: rotate(2deg);
-	    -ms-transform: rotate(2deg);
-	     -o-transform: rotate(2deg);
-	        transform: rotate(2deg);
+.bck-box.bck-box2 .bck-title {
+    background: #44913A;
+    color: white;
+    font-weight: bold;
+    padding: 8px 10px;
 }
 
-.bck-box.bck-box3 .bck-title {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	-webkit-transform: translate(-50%,-50%);
-	   -moz-transform: translate(-50%,-50%);
-	    -ms-transform: translate(-50%,-50%);
-	     -o-transform: translate(-50%,-50%);
-	        transform: translate(-50%,-50%);
-	display: inline-block;
-	border: 1px solid #10a0c6;
-	-webkit-border-radius: 10px;
-	   -moz-border-radius: 10px;
-	        border-radius: 10px;
-	background: #fff;
-	padding: 0 6px;
-}
-
-.bck-box.bck-box3 .bck-title p {
-	display: inline;
-}
-
-.bck-box.bck-box3 .bck-content {
-	margin-top: 15px;
+.bck-box.bck-box2 .bck-content {
+    padding: 8px 10px;
+    background: white;
 }
 
 /*TABLA POR DEFECTO*/
@@ -1232,6 +1216,24 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#419bd1",endCo
     background: #338DBA;
 }
 
+/*Caja 1*/
+
+.unittag_santillanaportugalmates .bck-box.bck-box1 {
+	border-color: #338DBA; 
+}
+
+
+/* Caja 2 */
+
+.unittag_santillanaportugalmates .bck-box.bck-box2 {
+    border-color: #338DBA;
+}
+
+.unittag_santillanaportugalmates .bck-box.bck-box2 .bck-title {
+    background: #338DBA;
+}
+
+
 /*Desplegable*/
 
 .unittag_santillanaportugalmates .bck-dropdown-button {
@@ -1316,19 +1318,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e59f00', end
 
 /*CAJA 2*/
 
+
 .unittag_santillanaportugalportugues .bck-box.bck-box2 {
-    padding: 0px;
-    text-align: center;
-    border: 0;
-    background:#ecb700;
-    padding: 3px 27px;
-    border: 3px solid #ecb700;
-    width: fit-content;
-    width: -moz-fit-content;
-    margin-bottom: 24px;
-    color: white;
-    font-weight: bold;
-    margin-left: -5px
+    border-color: #ECB700;
+}
+
+.unittag_santillanaportugalportugues .bck-box.bck-box2 .bck-title {
+    background: #ECB700;
 }
 
 /*Enfasis 2*/
