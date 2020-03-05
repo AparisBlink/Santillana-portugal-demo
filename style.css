@@ -483,7 +483,9 @@
 }
 
 .content .bck-ol1 li:before,
-.cke_contents .bck-ol1 li:before {
+.cke_contents .bck-ol1 li:before,
+  .content .bck-ol li:before,
+    .cke_contents .bck-ol li:before {
     content: counter(bck-li-counter);
     position: absolute;
     top: 0px;
