@@ -1,17 +1,17 @@
 (function (blink) {
 	'use strict';
 
-	var santillana-portugal-demoStyle = function () {
+	var santillanaptStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	santillana-portugal-demoStyle.prototype = {
+	santillanaptStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_santillana-portugal-demo',
+		bodyClassName: 'content_type_clase_santillanapt',
 		ckEditorStyles: {
-			name: 'santillana-portugal-demo',
+			name: 'santillanapt',
 			styles: [
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
@@ -92,8 +92,8 @@
 		//BK-15873 Quitamos la funcion getEditorStyles para que la herede de basic
 	};
 
-	santillana-portugal-demoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), santillana-portugal-demoStyle.prototype);
+	santillanaptStyle.prototype = _.extend({}, new blink.theme.styles.basic(), santillanaptStyle.prototype);
 
-	blink.theme.styles.santillana-portugal-demo = santillana-portugal-demoStyle;
+	blink.theme.styles.santillanapt = santillanaptStyle;
 
 })( blink );
