@@ -634,19 +634,7 @@
     background: white;
 }
 
-/*TABLA POR DEFECTO*/
 
-.content table:not(.rf-tablegrid) td,
-.content table:not(.rf-tablegrid) th {
-    border: 3px solid #fff;
-    padding: 10px;
-    background: #D4EAE4;
-}
-
-.content table:not(.rf-tablegrid) {
-    border: 1px solid #F37731;
-    margin-bottom: 20px;
-}
 
 /*Énfasis 1*/
 
@@ -1157,16 +1145,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#419bd1",endCo
     vertical-align: top;
 }
 
-.unittag_santillanaportugalmates .content table:not(.rf-tablegrid) td, .content table:not(.rf-tablegrid) th {
-    border: 3px solid #fff;
-    padding: 0px;
-    background: none;
-}
-
-.unittag_santillanaportugalmates .content table:not(.rf-tablegrid) {
-    border: none;
-    margin-bottom: 10px;
-}
 
 /*RESPUESTA MULTIPLE*/
 
