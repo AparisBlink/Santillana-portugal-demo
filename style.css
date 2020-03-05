@@ -1247,17 +1247,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#419bd1",endCo
 
 /*Flipbox*/
 
-body:not(.edit) .unittag_santillanaportugalmates .bck-flipbox-face.front,
- body:not(.edit) .unittag_santillanaportugalmates .bck-flipbox-face.back {
+body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.front,
+ body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.back {
     border-color: #63acd9;
 }
 
-body:not(.edit) .unittag_santillanaportugalmates .front .bck-flipbox-title,
- body:not(.edit) .unittag_santillanaportugalmates .front .bck-flipbox-section {
+body:not(.edit).unittag_santillanaportugalmates .front .bck-flipbox-title,
+ body:not(.edit).unittag_santillanaportugalmates .front .bck-flipbox-section {
     color: #63acd9;
 }
 
-body:not(.edit) .unittag_santillanaportugalmates .bck-flipbox-face.back {
+body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.back {
     background-color: #63acd9;
 }
 
@@ -1358,19 +1358,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e59f00', end
 }
 
 /*Flipbox*/
-/*Flipbox*/
 
-body:not(.edit) .unittag_santillanaportugalportugues .bck-flipbox-face.front,
- body:not(.edit) .unittag_santillanaportugalportugues .bck-flipbox-face.back {
+body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.front,
+ body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
     border-color: #e59f00 ;
 }
 
-body:not(.edit) .unittag_santillanaportugalportugues .front .bck-flipbox-title,
- body:not(.edit) .unittag_santillanaportugalportugues .front .bck-flipbox-section {
+body:not(.edit).unittag_santillanaportugalportugues .front .bck-flipbox-title,
+ body:not(.edit).unittag_santillanaportugalportugues .front .bck-flipbox-section {
     color: #f2c900 ;
 }
 
-body:not(.edit) .unittag_santillanaportugalportugues .bck-flipbox-face.back {
+body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
     background-color: #e59f00 ;
 }
 
