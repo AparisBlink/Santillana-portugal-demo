@@ -529,8 +529,8 @@
 
 /*LISTA ORDENADA 3*/
 
-.unittag_santillanaportugalportugues .content.content ol.bck-ol.bck-ol3,
- .unittag_santillanaportugalportugues .cke_contents ol.bck-ol.bck-ol3 {
+ .content.content ol.bck-ol.bck-ol3,
+  .cke_contents ol.bck-ol.bck-ol3 {
     list-style-type: none;
     padding-left: 0;
     counter-reset: bck-li-counter;
@@ -572,7 +572,7 @@
        -moz-border-radius: 0;
             border-radius: 0;
     background: none;
-    color: #338dba;
+    color: #D62927;
     line-height: 2rem;
 }
 
@@ -603,16 +603,25 @@
 }
 
 /*Caja 1 */
-
 .bck-box.bck-box1 {
-	margin: 0;
-    border: none;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    padding: 0px;
-    margin-left: 28px;
+	margin: 10px;
+    border: 5px solid #44913A;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #ffffffb0;
+    padding: 26px;
 }
+
+.bck-box.bck-box1 .bck-title {
+	color: #CA041A;
+    width: fit-content;
+    width: -moz-fit-content;
+    padding: 3px 28px;
+    border-radius: 5%;
+    border: 2px solid #CA041A;
+}
+
 
 /* Caja 2 */
 .bck-box.bck-box2 {
@@ -679,6 +688,18 @@
     color: #d62927;
     font-weight: bold;
 }
+
+/*Énfasis 2*/
+
+.bck-enfasis-2 {
+    background: #44913a;
+    padding: 8px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
 
 /*Desplegable*/
 
@@ -1192,6 +1213,28 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#419bd1",endCo
     background-color: #178ff51c;
 }
 
+/*Lista ordenada 4*/
+
+.unittag_santillanaportugalmates .content .bck-ol4 li:before,
+.unittag_santillanaportugalmates .cke_contents .bck-ol4 li:before {
+    color: #338DBA;
+}
+
+/*Titulo 2*/
+
+.unittag_santillanaportugalmates .bck-title2 {
+	color: #338DBA;
+}
+
+/*Enfasis 2*/
+
+.unittag_santillanaportugalmates .bck-enfasis-2 {
+    background: #338DBA;
+}
+
+
+
+
 /**** CSS PORTUGUES ****
 .unittag_santillanaportugalportugues */
 
@@ -1232,25 +1275,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e59f00', end
     margin-left: 5px;
 }
 
-/*CAJA 1*/
+/*Titulo 2*/
 
-.unittag_santillanaportugalportugues .bck-box1 .bck-title {
-    color: #CA041A;
-    width: fit-content;
-    width: -moz-fit-content;
-    padding: 3px 28px;
-    border-radius: 5%;
-    border: 2px solid #CA041A;
+.unittag_santillanaportugalportugues .bck-title2 {
+	color: #F6B645;
 }
 
+/*CAJA 1*/
+
 .unittag_santillanaportugalportugues .bck-box1 {
-    margin: 10px;
-    border: 5px solid #F6B645;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    background: #ffffffb0;
-    padding: 26px;
+    border-color: #F6B645;
 }
 
 /*CAJA 2*/
@@ -1270,7 +1304,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e59f00', end
     margin-left: -5px
 }
 
-/*PopUp*/
+/*Enfasis 2*/
+
+.unittag_santillanaportugalportugues .bck-enfasis-2 {
+    background: #ECB700;
+}
+
+/*Lista ordenada 4*/
+
+.unittag_santillanaportugalportugues .content .bck-ol4 li:before,
+.unittag_santillanaportugalportugues .cke_contents .bck-ol4 li:before {
+    color: #ECB700;
+}
 
 /*POPUP*/
 .unittag_santillanaportugalportugues .info-template .info-title {
