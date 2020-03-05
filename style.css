@@ -1244,7 +1244,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#419bd1",endCo
 }
 
 .unittag_santillanaportugalmates .bck-dropdown-content {
-	border-color: rgba(138,190,226,1) 100%);
+	border-color: rgba(138,190,226,1);
 }
 
 /*Flipbox*/
@@ -1362,7 +1362,7 @@ body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.front,
 
 body:not(.edit).unittag_santillanaportugalportugues .front .bck-flipbox-title,
  body:not(.edit).unittag_santillanaportugalportugues .front .bck-flipbox-section {
-    color: #f2c900 ;
+    color: #e59f00 ;
 }
 
 body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
