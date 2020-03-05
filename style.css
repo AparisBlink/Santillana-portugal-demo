@@ -449,7 +449,7 @@
     			 0px 1px #fff;
 }
 
-/* Lists */
+/* Listas */
 
 .texto_curso ul li,
 .workspace ul li ul li,
@@ -466,18 +466,14 @@
 }
 
 .content .bck-ol,
-.cke_contents .bck-ol,
-.content ol,
-.cke_contents ol {
+.cke_contents .bck-ol {
 	list-style-type: none;
 	padding-left: 0;
 	counter-reset: bck-li-counter;
 }
 
 .content .bck-ol li,
-.cke_contents .bck-ol li,
-.content ol li,
-.cke_contents ol li {
+.cke_contents .bck-ol li{
 	list-style-type: none;
 	padding-left: 28px;
 	margin-bottom: 16px;
@@ -487,9 +483,7 @@
 }
 
 .content .bck-ol1 li:before,
-.cke_contents .bck-ol1 li:before,
-.content ol li:before,
-.cke_contents ol li:before {
+.cke_contents .bck-ol1 li:before {
     content: counter(bck-li-counter);
     position: absolute;
     top: 0px;
@@ -582,7 +576,9 @@
 
 /*LISTA DESORDENADA POR DEFECTO*/
 
-.texto_curso ul li:before, .workspace ul li ul li:before, .cke_contents ul li:before {
+.texto_curso ul li:before,
+ .workspace ul li ul li:before,
+  .cke_contents ul li:before {
     width: 6px;
     height: 6px;
     background-color: #414141;
