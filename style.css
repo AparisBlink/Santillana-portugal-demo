@@ -30,7 +30,7 @@
 }
 
 #list-units .unittag_santillanaportugalportugues {
-    border-color: #FFCC00 !important;
+    border-color: #CA041A !important;
     transition: all 0.2s;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -55,7 +55,7 @@
 }
 
 #list-units .unittag_santillanaportugalportugues.active:not(.disabled), #list-units .unittag_santillanaportugalportugues:hover {
-    background: #FFCC00 !important;
+    background: #CA041A !important;
     transform: scale(1.1);
     transition: all 0.2s;
     -webkit-transition: all 0.2s;
