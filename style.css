@@ -1342,9 +1342,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e59f00', end
     text-align: left;
 }
 
-.unittag_santillanaportugalportugues .texto_vertical {
+.unittag_santillanaportugalportugues .unidade {
     display: inline;
-    font-size: 44px;
+    font-size: 34px;
     font-weight: bold;
     color: #fff;
     margin-left: 5px;
@@ -1540,7 +1540,7 @@ and (max-device-width : 480px) {
     padding: 20px 10px;
 }
 
-.unittag_santillanaportugalportugues .texto_vertical {
+.unittag_santillanaportugalportugues .unidade {
     font-size: 34px;
 }
 
