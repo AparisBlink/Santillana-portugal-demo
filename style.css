@@ -545,7 +545,7 @@
 
 .content .bck-ol4 li:before,
 .cke_contents .bck-ol4 li:before {
-    content: counter(bck-li-counter, lower-alpha) ")";
+    content: counter(bck-li-counter, lower-alpha) ")" !important;
     top: 0;
 	left: -5px;
 	width: 28px;
