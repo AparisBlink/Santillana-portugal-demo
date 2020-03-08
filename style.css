@@ -167,7 +167,7 @@
 
 	.content_type_clase_santillanapt #actividad .texto_curso li,
 	.content_type_clase_santillanapt #actividad .workspace ul li li {
-		margin-bottom: 40px;
+		margin-bottom: 10px;
 	}
 
 	#actividad .class_slide {
@@ -440,13 +440,7 @@
 	padding-left: 30px;
 }
 
-.texto_curso ul li:before,
-.workspace ul li ul li:before,
-.cke_contents ul li:before {
-	width: 4px;
-	height: 4px;
-	background-color: #414141;
-}
+
 
 .content .bck-ol,
 .cke_contents .bck-ol {
@@ -492,7 +486,7 @@
 
 .content ol.bck-ol.bck-ol2,
  .cke_contents ol.bck-ol.bck-ol2 {
-    margin-left: -33px;
+    margin-left: 7px;
 }
 
 .content .bck-ol2 li:before,
@@ -540,7 +534,7 @@
 
  .content ol.bck-ol.bck-ol4,
   .cke_contents ol.bck-ol.bck-ol4 {
-    margin-left: -6px;
+    margin-left: 1px;
 }
 
 .content .bck-ol4 li:before,
@@ -567,9 +561,18 @@
 .texto_curso ul li:before,
  .workspace ul li ul li:before,
   .cke_contents ul li:before {
-    width: 6px;
-    height: 6px;
+    width: 8px;
+    height: 8px;
     background-color: #414141;
+    margin-top: 9px;
+}
+
+/*LISTA DESORDENADA 1*/
+
+.texto_curso .bck-ul1 li:before,
+ .workspace ul li .bck-ul1 li:before,
+  .cke_contents .bck-ul1 li:before {
+    background-color: #44913A;
 }
 
 /*CAJAS*/
@@ -1245,6 +1248,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#419bd1",endCo
     color: #338DBA;
 }
 
+/*LISTA DESORDENADA 1*/
+
+.unittag_santillanaportugalmates .texto_curso .bck-ul1 li:before,
+.unittag_santillanaportugalmates .workspace ul li .bck-ul1 li:before,
+.unittag_santillanaportugalmates .cke_contents .bck-ul1 li:before {
+    background-color: #338DBA;
+}
+
+
 /*Título 1*/
 .unittag_santillanaportugalmates .bck-title1 {
     color: #338DBA;
@@ -1390,6 +1402,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e59f00', end
 .unittag_santillanaportugalportugues .content .bck-ol4 li:before,
 .unittag_santillanaportugalportugues .cke_contents .bck-ol4 li:before {
     color: #ECB700;
+}
+
+/*LISTA DESORDENADA 1*/
+
+.unittag_santillanaportugalportugues .texto_curso .bck-ul1 li:before,
+.unittag_santillanaportugalportugues .workspace ul li .bck-ul1 li:before,
+.unittag_santillanaportugalportugues .cke_contents .bck-ul1 li:before {
+    background-color: #ECB700;
 }
 
 /*Desplegable*/
