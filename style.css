@@ -278,31 +278,26 @@
 		padding-right: 100px;
 	}
 
-	.logo-publisher {
-		display: inline-block;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100px;
-		height: 44px;
-		background: url(logo-pearson.png) 0 0 no-repeat;
-		-webkit-background-size: contain;
-		   -moz-background-size: contain;
-		     -o-background-size: contain;
-		        background-size: contain;
-		background-position: center center;
-
+	.logo-publisher {      
+        display: inline-block;
+        position: absolute;
+        top: 3px;
+        left: 21px;
+        width: 178px;
+        height: 39px;
+        background-position: center center;
+        background: url(/useruploads/r/a/146502376/activity_other_imported/logo-santillana_demoportugal_png.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
 	}
 
 	@media only screen and (max-width: 640px) {
 		.navbar-bottom {
 			padding-left: 40px;
 			padding-right: 40px;
-		}
-
-		.logo-publisher {
-			width: 40px;
-			background-image: url(Pearson-logo-2016-219x286.png);
 		}
 	}
 
@@ -1133,22 +1128,6 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
     -moz-transition: all 0.2s;
 }
 
-/*NAVBAR INFERIOR*/
-.logo-publisher {
-    display: inline-block;
-    position: absolute;
-    top: 3px;
-    left: 21px;
-    width: 178px;
-    height: 39px;
-    background-position: center center;
-    background: url(/useruploads/r/a/146502376/activity_other_imported/logo-santillana_demoportugal_png.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-}  
 
 /*NAVBAR COLORES*/
 
@@ -1579,23 +1558,11 @@ and (max-device-width : 480px) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*QUERIES*/
 
 @media only screen and (max-width: 640px) {
 .logo-publisher {
-    width: 40px;
+    width: 23px;
     background: url(/useruploads/r/a/146502386/activity_other_imported/logo-santillana_demoportugal_movil.png);
     background-size: 32px;
     background-repeat: no-repeat;
