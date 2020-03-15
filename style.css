@@ -1188,58 +1188,64 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
 /**** CSS MATEMÁTICAS ****
 .unittag_santillanaportugalmates */
 /*CAMBIOS DE TAG MATES*/
+/*CAMBIOS DE TAG MATES*/
 
 /*Cambios de ckeditor*/
 
 /*Títulos*/
-.unittag_santillanaportugalmatess .bck-title1 {
+.unittag_santillanaportugalmates .bck-title1 {
     color: #338DBA;
 }
 
-.unittag_santillanaportugalmatess .bck-title2 {
+.unittag_santillanaportugalmates .bck-title2 {
 	color: #338DBA;
 }
 
-.unittag_santillanaportugalmatess .bck-title3 {
+.unittag_santillanaportugalmates .bck-title3 {
     border-color:#338DBA ;
     color: #338DBA;
 }
 
-.unittag_santillanaportugalmatess .bck-title4 {
+.unittag_santillanaportugalmates .bck-title4 {
     background: #338DBA;
 }
 
-.unittag_santillanaportugalmatess .bck-title5 {
+.unittag_santillanaportugalmates .bck-title5 {
     border-color: #338DBA;
     color: #338DBA;
 }
 
 /*Cajas*/
-.unittag_santillanaportugalmatess .bck-box1 .bck-title {
+.unittag_santillanaportugalmates .bck-box1 .bck-title {
     background: #338DBA;
 }
-.unittag_santillanaportugalmatess .bck-box.bck-box1 {
+.unittag_santillanaportugalmates .bck-box.bck-box1 {
     border-color: #338DBA;
 }
 
-.unittag_santillanaportugalmatess .bck-box.bck-box2 {
+.unittag_santillanaportugalmates .bck-box.bck-box2 {
     border-color: #338DBA;
 }
 
-.unittag_santillanaportugalmatess .bck-box.bck-box2 .bck-title {
+.unittag_santillanaportugalmates .bck-box.bck-box2 .bck-title {
     background: #338DBA;
 }
 
-.unittag_santillanaportugalmatess .bck-box.bck-box3 {
+.unittag_santillanaportugalmates .bck-box.bck-box3 {
     background: #338DBA66;
 }
-.unittag_santillanaportugalmatess .bck-box.bck-box3 .bck-title {
+.unittag_santillanaportugalmates .bck-box.bck-box3 .bck-title {
     background: #338DBA;
 }
 
 /*Énfasis*/
 .unittag_santillanaportugalmates .bck-enfasis-7 {
     background: #63acd9;
+}
+/*Listas*/
+.content .bck-ol7 li:before,
+.cke_contents .bck-ol7 li:before {
+    color: #63acd9;
 }
 
 /*Desplegable*/
@@ -1341,7 +1347,6 @@ background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 1
 .unittag_santillanaportugalmates .unittag_santillanaportugalportugues .checkbox-option label.filter-label:before, .unittag_santillanaportugalportugues .slides_averages #cont_checkSelfCorrect label:before, .unittag_santillanaportugalportugues .slides_averages #cont_checkEvaluation label:before, .unittag_santillanaportugalportugues .radio-option label.filter-label:before {
     filter: hue-rotate(118deg);
 }
-
 
 
 
