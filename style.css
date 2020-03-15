@@ -454,9 +454,7 @@
 	line-height: 1.1rem;
 }
 
-.content .bck-ol1 li:before,
-.cke_contents .bck-ol1 li:before,
-  .content .bck-ol li:before,
+.content .bck-ol li:before,
     .cke_contents .bck-ol li:before {
     content: counter(bck-li-counter);
     position: absolute;
@@ -465,16 +463,19 @@
     display: block;
     width: 28px;
     height: 28px;
-    border: none;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
     background: #D62927;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     line-height: 2.5rem;
+}
+
+
+.content .bck-ol1 li:before,
+.cke_contents .bck-ol1 li:before {
+    background: #D62927;
+
 }
 
 /*LISTA ORDENADA 2*/
@@ -486,17 +487,7 @@
 
 .content .bck-ol2 li:before,
 .cke_contents .bck-ol2 li:before {
-     top: -4px;
     background: #338DBA;
-    font-size: 20px;
-    font-weight: bold;
-    height: 31px;
-    width: 31px;
-    left: -12px;
-    padding-top: 3px;
-    border: 1px solid white;
-    box-shadow: 2px 1px #00000061;
-    color: white;
 }
 
 /*LISTA ORDENADA 3*/
@@ -511,18 +502,7 @@
 
 .content .bck-ol3 li:before,
 .cke_contents .bck-ol3 li:before {
-    top: -2px;
     border: 2px solid #ecb700;
-    background: #ffffff;
-    font-size: 21px;
-    font-weight: bold;
-    color: #000000;
-    width: 29px;
-    height: 29px;
-    -moz-border-radius: 25%;
-    -webkit-border-radius: 25%;
-    border-radius: 25%;
-    left: -11px;
 }
 
 /*LISTA ORDENADA 4*/
