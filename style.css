@@ -1047,6 +1047,7 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
+    padding: 11px;
 }
 
 #actividad .workspace.multiplechoice_horizontal .opcion:hover {
