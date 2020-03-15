@@ -419,7 +419,7 @@
 
 .bck-title3 {
     font-size: 35px;
-    border: 4px solid;
+    border: 2px solid;
     border-color: #44913a;
     width: fit-content;
     width: -moz-fit-content;
@@ -467,15 +467,12 @@
 /*Caja 1 */
 
 .bck-box.bck-box1 {
-	margin: 10px;
     border: 3px solid #44913A;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    background: #ffffffb0;
     padding: 10px 20px;
 }
-
 
 
 /* Caja 2 */
@@ -502,10 +499,26 @@
     background: white;
 }
 
+/*Caja 3*/
+.bck-box.bck-box3 {
+    background: #44913a66;
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    border-radius: 22px;}
+
+.bck-box.bck-box3 .bck-title {
+    background: #44913a;
+    width: fit-content;
+    width: -moz-fit-content;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    margin: -9px auto 10px auto;
+}
 
 /*Caja 3 */
 
-.bck-box.bck-box3 {
+.bck-box.bck-box4 {
 	margin: 10px;
     border: 3px solid #CA041A;
     -webkit-border-radius: 10px;
@@ -513,6 +526,7 @@
     border-radius: 10px;
     padding: 10px 20px;
 }
+
 
 /* Listas */
 
