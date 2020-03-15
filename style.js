@@ -16,11 +16,17 @@
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
 				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title bck-title2'} },
+				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title bck-title3'} },
 
-				{ name: 'Lista ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol1' } },
-				{ name: 'Lista ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol2' } },
-				{ name: 'Lista ordenada 3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol3' } },
-                { name: 'Lista ordenada 4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol4' } },
+				{ name: 'Lista ordenada 1 Verde', element: 'ol', attributes: { 'class': 'bck-ol bck-ol1' } },
+				{ name: 'Lista ordenada 2 Azul', element: 'ol', attributes: { 'class': 'bck-ol bck-ol2' } },
+				{ name: 'Lista ordenada 3 Rojo', element: 'ol', attributes: { 'class': 'bck-ol bck-ol3' } },
+				{ name: 'Lista ordenada 4 Azul FYQ', element: 'ol', attributes: { 'class': 'bck-ol bck-ol4' } },
+				{ name: 'Lista ordenada 5 Naranja', element: 'ol', attributes: { 'class': 'bck-ol bck-ol5' } },
+				{ name: 'Lista ordenada 6 Dorado', element: 'ol', attributes: { 'class': 'bck-ol bck-ol6' } },
+				{ name: 'Lista ordenada 7 abc auto', element: 'ol', attributes: { 'class': 'bck-ol bck-ol7' } },
+				{ name: 'Lista ordenada 8 abc rojo', element: 'ol', attributes: { 'class': 'bck-ol bck-ol8' } },
+				{ name: 'Lista ordenada 9 abc dorado', element: 'ol', attributes: { 'class': 'bck-ol bck-ol9' } },
                 
                 { name: 'Lista desordenada 1', element: 'ul', attributes: { 'class': 'bck-ul1' } },
 
