@@ -537,6 +537,35 @@
     padding: 10px 20px;
 }
 
+/*POPUP*/
+
+.info-template.shown {
+    width: 150px;
+    background: white;
+    border: 2px solid #14799b;
+}
+
+ .info-template .info-title {
+    color: #006E92;
+}
+
+ .info-template .info-icon {
+    display: none;
+}
+
+ .info-popover .popover-title:before, .popover-template .popover-title:before {
+    display: none;
+}
+
+ .info-popover .popover-title, .popover-template .popover-title {
+    background: white;
+    color: #037093;
+    font-weight: bold;
+}
+
+ .popover-container {
+    border: 3px solid #037093;
+}
 
 /* Listas */
 
@@ -797,36 +826,7 @@ body:not(.edit) .bck-flipbox-face.back {
     background-color: #4d973d;
 }
 
-/*POPUP*/
 
- .info-template.shown {
-    width: 150px;
-    background: white;
-    border: 2px solid #14799b;
-
-}
-
- .info-template .info-title {
-    color: #006E92;
-}
-
- .info-template .info-icon {
-    display: none;
-}
-
- .info-popover .popover-title:before, .popover-template .popover-title:before {
-    display: none;
-}
-
- .info-popover .popover-title, .popover-template .popover-title {
-    background: white;
-    color: #037093;
-    font-weight: bold;
-}
-
- .popover-container {
-    border: 3px solid #037093;
-}
 
 /*Tablas*/
 
