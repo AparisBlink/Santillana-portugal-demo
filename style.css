@@ -449,7 +449,70 @@
     margin: 20px 0;
 }
 
+/*CAJAS*/
 
+.bck-box {
+	margin: 20px 0px;
+    padding: 10px 8px;
+}
+
+.bck-box .bck-content p:last-child {
+	margin-bottom: 0;
+}
+
+.bck-box p:last-of-type {
+    margin-bottom: 0;
+}
+
+/*Caja 1 */
+
+.bck-box.bck-box1 {
+	margin: 10px;
+    border: 3px solid #44913A;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #ffffffb0;
+    padding: 10px 20px;
+}
+
+
+
+/* Caja 2 */
+.bck-box.bck-box2 {
+    padding: 0px;
+    border: 0;
+    border: 3px solid #44913A;
+    margin-bottom: 24px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    text-align: left;
+}
+
+.bck-box.bck-box2 .bck-title {
+    background: #44913A;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.bck-box.bck-box2 .bck-content {
+    padding: 10px 20px;
+    background: white;
+}
+
+
+/*Caja 3 */
+
+.bck-box.bck-box3 {
+	margin: 10px;
+    border: 3px solid #CA041A;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
 
 /* Listas */
 
@@ -598,82 +661,7 @@
     background-color: #44913A;
 }
 
-/*CAJAS*/
 
-.bck-box {
-	margin: 10px;
-	border: 2px solid #10a0c6;
-	-webkit-border-radius: 10px;
-	   -moz-border-radius: 10px;
-	        border-radius: 10px;
-	background: #fff;
-	padding: 6px;
-}
-
-.bck-box .bck-content p:last-child {
-	margin-bottom: 0;
-}
-
-.bck-box p:last-of-type {
-    margin-bottom: 0;
-}
-
-/*Caja 1 */
-.bck-box.bck-box1 {
-	margin: 10px;
-    border: 3px solid #44913A;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    background: #ffffffb0;
-    padding: 10px 20px;
-}
-
-.bck-box.bck-box1 .bck-title {
-	color: #CA041A;
-    width: fit-content;
-    width: -moz-fit-content;
-    padding: 3px 28px;
-    border-radius: 5%;
-    border: 2px solid #CA041A;
-}
-
-
-/* Caja 2 */
-.bck-box.bck-box2 {
-    padding: 0px;
-    border: 0;
-    border: 3px solid #44913A;
-    margin-bottom: 24px;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    text-align: left;
-}
-
-.bck-box.bck-box2 .bck-title {
-    background: #44913A;
-    color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-}
-
-.bck-box.bck-box2 .bck-content {
-    padding: 10px 20px;
-    background: white;
-}
-
-
-/*Caja 3 */
-
-.bck-box.bck-box3 {
-	margin: 10px;
-    border: 3px solid #CA041A;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    padding: 10px 20px;
-}
 
 
 
