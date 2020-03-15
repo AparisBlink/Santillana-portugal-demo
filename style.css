@@ -1257,6 +1257,22 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
     background-color: #338DBA;
 }
 
+/*POPUP*/
+#actividad .info-button {
+    background: #338DBA;
+}
+.info-template.shown {
+    border: 2px solid #338DBA;
+}
+ .info-template .info-title {
+    color: #338DBA;
+}
+ .info-popover .popover-title, .popover-template .popover-title {
+    color: #338DBA;
+}
+ .popover-container {
+    border: 3px solid #338DBA;
+}
 
 
 /*Desplegable*/
@@ -1359,7 +1375,10 @@ background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 1
 }
 
 /*COLOR TEST*/
-.unittag_santillanaportugalmates .unittag_santillanaportugalportugues .checkbox-option label.filter-label:before, .unittag_santillanaportugalportugues .slides_averages #cont_checkSelfCorrect label:before, .unittag_santillanaportugalportugues .slides_averages #cont_checkEvaluation label:before, .unittag_santillanaportugalportugues .radio-option label.filter-label:before {
+.unittag_santillanaportugalmates .checkbox-option label.filter-label:before,
+ .unittag_santillanaportugalmates .slides_averages #cont_checkSelfCorrect label:before,
+  .unittag_santillanaportugalmates .slides_averages #cont_checkEvaluation label:before,
+   .unittag_santillanaportugalmates .radio-option label.filter-label:before {
     filter: hue-rotate(118deg);
 }
 
