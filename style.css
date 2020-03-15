@@ -1705,3 +1705,52 @@ and (max-device-width : 480px) {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*CAMBIOS DE TAG MATES*/
+
+/*Títulos*/
+.unittag_santillanaportugalmates .bck-title1 {
+    color: #338DBA;
+}
+
+.unittag_santillanaportugalmates .bck-title2 {
+	color: #338DBA;
+}
+
+.unittag_santillanaportugalmates .bck-title3 {
+    border-color:#338DBA ;
+    color: #338DBA;
+}
+
+.unittag_santillanaportugalmates .bck-title4 {
+    background: #338DBA;
+}
+
+.unittag_santillanaportugalmates .bck-title5 {
+    border-color: #338DBA;
+    color: #338DBA;
+}
+
+/*Cajas*/
+.bck-box1 .bck-title {
+    background: #338DBA;
+}
+.bck-box.bck-box1 {
+    border-color: #338DBA;
+}
+
+.bck-box.bck-box2 {
+    border-color: #338DBA;
+}
+
+.bck-box.bck-box2 .bck-title {
+    background: #338DBA;
+}
+
+/*Caja 3*/
+.bck-box.bck-box3 {
+    background: #338DBA66;
+}
+.bck-box.bck-box3 .bck-title {
+    background: #338DBA;
+}
