@@ -453,7 +453,7 @@
 
 .bck-box {
 	margin: 20px 0px;
-    padding: 10px 8px;
+    padding: 10px 20px;
 }
 
 .bck-box .bck-content p:last-child {
@@ -471,7 +471,6 @@
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    padding: 10px 20px;
 }
 
 
