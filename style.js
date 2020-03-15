@@ -46,6 +46,7 @@
 				{ name: 'Énfasis 6', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
 				{ name: 'Énfasis 7', element: 'span', attributes: { 'class': 'bck-enfasis-7'} },
 				{ name: 'Énfasis 8', element: 'span', attributes: { 'class': 'bck-enfasis-8'} },
+				{ name: 'Énfasis 9', element: 'span', attributes: { 'class': 'bck-enfasis-9'} },
 
 				
 				
