@@ -1303,8 +1303,8 @@ background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 1
 .unittag_santillanaportugalmates .content_type_clase_santillanapt .slide_main .img-input-container {
     background: #3b779321;
 }
-.content_type_clase_santillanapt .slide_main input:focus,
-	.content_type_clase_santillanapt .slide_main .img-input-container:focus {
+.unittag_santillanaportugalmates .content_type_clase_santillanapt .slide_main input:focus,
+.unittag_santillanaportugalmates .content_type_clase_santillanapt .slide_main .img-input-container:focus {
         border: 2px solid #63acd9;
     }
     
@@ -1316,26 +1316,30 @@ background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 1
     border-color: #178ff51c;
     background-color: #178ff51c;
 }
-#actividad .workspace.multiple-choice .opcion.respuesta_checked {
+.unittag_santillanaportugalmates #actividad .workspace.multiple-choice .opcion.respuesta_checked {
     background-color: #63acd93d;
 }
 
 /*Ordenar*/
-#actividad .workspace.ordenar .js-rank-item:hover {
+.unittag_santillanaportugalmates #actividad .workspace.ordenar .js-rank-item:hover {
     background-color: #63acd93d;
 }
 /*Respuesta larga*/
-.shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
+.unittag_santillanaportugalmates .shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
     -webkit-box-shadow: 0 0 2px #63acd9;
     -moz-box-shadow: 0 0 2px #63acd9;
     box-shadow: 0 0 2px #63acd9;
     border-color: #63acd9;
 }
 /*Rellenar espacios - Arrastrar a hueco - */
-.fillblanks-draggable-wrapper .response:hover {
+.unittag_santillanaportugalmates .fillblanks-draggable-wrapper .response:hover {
     background: #63acd93d;
 }
 
+/*COLOR TEST*/
+.unittag_santillanaportugalmates .unittag_santillanaportugalportugues .checkbox-option label.filter-label:before, .unittag_santillanaportugalportugues .slides_averages #cont_checkSelfCorrect label:before, .unittag_santillanaportugalportugues .slides_averages #cont_checkEvaluation label:before, .unittag_santillanaportugalportugues .radio-option label.filter-label:before {
+    filter: hue-rotate(118deg);
+}
 
 
 
