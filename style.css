@@ -923,7 +923,7 @@ body:not(.edit) .bck-flipbox-face.back {
 	background: url(images/Icon_audio.png) center center / cover;
 }*/
 
-.item-container .icon:before {
+/*.item-container .icon:before {
 	content: "";
 	background-repeat: no-repeat;
 	-webkit-background-size: auto 100%;
@@ -936,7 +936,7 @@ body:not(.edit) .bck-flipbox-face.back {
 	height: 40px;
 	width: 54px;
 	margin-top: -16px;
-}
+}*/
 
 
 
