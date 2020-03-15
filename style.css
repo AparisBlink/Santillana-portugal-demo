@@ -198,38 +198,16 @@
 
 	.content_type_clase_santillanapt .slide_main input,
 	.content_type_clase_santillanapt .slide_main .img-input-container {
-		color: #555;
-		background-color: #fff;
-		background-image: none;
-		border: 1px solid #ccc;
-		-webkit-border-radius: 4px;
-		   -moz-border-radius: 4px;
-		        border-radius: 4px;
-		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-		     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-		-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-		-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-		transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-		-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-		-moz-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
-		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
-		border-bottom: 2px solid #44913a;
+        color: #555;
+        background: #47933b21;
 	}
 
 
 	.content_type_clase_santillanapt .slide_main input:focus,
 	.content_type_clase_santillanapt .slide_main .img-input-container:focus {
-		border-top-color: #3AC62A;
-		border-right-color: #3AC62A;
-		border-bottom-color: #3AC62A;
-		border-left-color: #3AC62A;
 		outline-width: 0px;
-		outline-style: none;
-		-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
-		   -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
-		        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
+        outline-style: none;
+        border: 2px solid #46923a;
 	}
 
 	.content_type_clase_santillanapt .slide_main input[disabled],
@@ -273,7 +251,7 @@
 
 /* Navbar */
 	.navbar-bottom {
-		background: #132E4C;
+        background: #13270e;
 		padding-left: 100px;
 		padding-right: 100px;
 	}
@@ -353,12 +331,12 @@
 		text-indent: initial;
 	}
 	#bottom-navigator li:hover {
-		background: rgb(142, 206, 224);
+        background: rgb(216, 243, 195);
 		color: transparent;
 	}
 	#bottom-navigator li.active {
-		background: #007FA3;
-		color: transparent;
+        background: #85bc50;
+        color: transparent;
 	}
 	#bottom-navigator.show_left:before {
 		content: '\F053';
@@ -919,11 +897,7 @@ body:not(.edit) .bck-flipbox-face.back {
 
 /* Icons */
 
-/*#actividad .player.audio {
-	background: url(images/Icon_audio.png) center center / cover;
-}*/
-
-/*.item-container .icon:before {
+.item-container .icon:before {
 	content: "";
 	background-repeat: no-repeat;
 	-webkit-background-size: auto 100%;
@@ -936,7 +910,25 @@ body:not(.edit) .bck-flipbox-face.back {
 	height: 40px;
 	width: 54px;
 	margin-top: -16px;
-}*/
+}
+
+/*Icono de Audio - Cambia por tag*/
+#actividad .player.audio,
+ #actividad .player.video, 
+ #help-panel-content .player,
+  #remote-alert-modal-rich .player {
+    background-color:#44913a;
+  }
+
+/*Icono archivo adjunto*/
+.bck-sub-label, 
+.bck-file-label {
+    background-attachment: #d9d9d9;
+}
+.bck-file-attach span {
+    vertical-align: middle;
+}
+
 
 
 
@@ -958,17 +950,7 @@ body:not(.edit) .bck-flipbox-face.back {
     display: none;
 }
 
-.content_type_clase_santillanapt .slide_main input:focus,
-.content_type_clase_santillanapt .slide_main .img-input-container:focus {
-	border: 1px solid #ccc;
-    border-top-color: #44913a;
-    border-right-color: #44913a;
-    border-bottom-color: #44913a;
-    border-left-color: #44913a;
-    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
-    -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
-}
+
 
 
 /*Ajuste general a slides (Revisar)*/
@@ -1000,11 +982,11 @@ img.Wirisformula {
 }
 
 #actividad .workspace.ordenar .js-rank-item:hover {
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
     transform: scale(1.1);
     background-color: #44913a3d;
-    transition: transform 0.5s;
-    -webkit-transition: transform 0.5s;
-    -moz-transition: transform 0.5s;
 }
 
 #actividad .workspace.matching .opciones .opcion.emparejado.destino {
@@ -1127,7 +1109,9 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
     -moz-transition: transform 0.5s;
 }
 
-.content_type_clase_santillanapt .slide_main input[disabled], .content_type_clase_santillanapt .slide_main input[readonly], fieldset[disabled] .content_type_clase_santillanapt .slide_main input, .content_type_clase_santillanapt .slide_main .img-input-container {
+.content_type_clase_santillanapt .slide_main input[disabled],
+ .content_type_clase_santillanapt .slide_main input[readonly],
+  fieldset[disabled] .content_type_clase_santillanapt .slide_main input, .content_type_clase_santillanapt .slide_main .img-input-container {
     background-color: #fff;
 }
 
@@ -1224,176 +1208,13 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
 }
 
 
-/*NAVBAR COLORES*/
-
-.unittag_santillanaportugalciencias .navbar-bottom {
-    background: #13270e;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.unittag_santillanaportugalciencias #bottom-navigator li.active {
-    background: #85bc50;
-}
-
-.unittag_santillanaportugalciencias #bottom-navigator li:hover {
-    background: rgb(216, 243, 195);
-}
-
-
-.unittag_santillanaportugalportugues .navbar-bottom {
-    background: #402d00;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.unittag_santillanaportugalportugues #bottom-navigator li.active {
-    background: #ecb700;
-}
-
-.unittag_santillanaportugalportugues #bottom-navigator li:hover {
-    background: #f5eac5;
-}
-
 
 
 /**** CSS MATEMÁTICAS ****
 .unittag_santillanaportugalmates */
 
-/*HEADER*/
-
-.unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title {
-    background: rgb(65,155,209);
-background: -moz-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
-background: -webkit-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
-background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#419bd1",endColorstr="#8abee2",GradientType=1);
-}
-
-.unittag_santillanaportugalmates .ficha {
-    display: inline;
-    background: #BD0925;
-    padding: 0px 11px;
-    border-radius: 11%;
-    border: 3px solid white;
-    font-size: 37px;
-    font-weight: bold;
-    font-family: Arial,sans-serif;
-}
-
-.unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title h3 {
-    font-weight: bold;
-    font-size: 36px;
-    text-align: left;
-}
-
-/*Rellenar espacios*/
-
-.unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main input:focus, .content_type_clase_santillanapt .slide_main .img-input-container:focus {
-    border: 1px solid #338dba;
-    border-top-color: #338dba;
-    border-right-color: #338dba;
-    border-bottom-color: #338dba;
-    border-left-color: #338dba;
-}
-
-.unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main input, .content_type_clase_santillanapt .slide_main .img-input-container {
-    border: 1px solid #8abee2;
-    border-bottom: 1px solid #8abee2;
-    vertical-align: top;
-}
 
 
-/*RESPUESTA MULTIPLE*/
-
-.unittag_santillanaportugalmates #actividad .workspace.multiplechoice_horizontal .opcion:hover {
-    background: #178ff51c;
-}
-
-.unittag_santillanaportugalmates #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-    border-color: #178ff51c;
-    background-color: #178ff51c;
-}
-
-/*Lista ordenada 4*/
-
-.unittag_santillanaportugalmates .content .bck-ol4 li:before,
-.unittag_santillanaportugalmates .cke_contents .bck-ol4 li:before {
-    color: #338DBA;
-}
-
-/*LISTA DESORDENADA 1*/
-
-.unittag_santillanaportugalmates .texto_curso .bck-ul1 li:before,
-.unittag_santillanaportugalmates .workspace ul li .bck-ul1 li:before,
-.unittag_santillanaportugalmates .cke_contents .bck-ul1 li:before {
-    background-color: #338DBA;
-}
-
-
-/*Título 1*/
-.unittag_santillanaportugalmates .bck-title1 {
-    color: #338DBA;
-}
-
-/*Titulo 2*/
-
-.unittag_santillanaportugalmates .bck-title2 {
-	color: #338DBA;
-}
-
-/*Enfasis 2*/
-
-.unittag_santillanaportugalmates .bck-enfasis-2 {
-    background: #338DBA;
-}
-
-/*Caja 1*/
-
-.unittag_santillanaportugalmates .bck-box.bck-box1 {
-	border-color: #338DBA; 
-}
-
-
-/* Caja 2 */
-
-.unittag_santillanaportugalmates .bck-box.bck-box2 {
-    border-color: #338DBA;
-}
-
-.unittag_santillanaportugalmates .bck-box.bck-box2 .bck-title {
-    background: #338DBA;
-}
-
-
-/*Desplegable*/
-
-.unittag_santillanaportugalmates .bck-dropdown-button {
-    background: rgb(65,155,209);
-    background: -moz-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
-    background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
-}
-
-.unittag_santillanaportugalmates .bck-dropdown-content {
-	border-color: rgba(138,190,226,1);
-}
-
-/*Flipbox*/
-
-body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.front,
- body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.back {
-    border-color: #63acd9;
-}
-
-body:not(.edit).unittag_santillanaportugalmates .front .bck-flipbox-title,
- body:not(.edit).unittag_santillanaportugalmates .front .bck-flipbox-section {
-    color: #63acd9;
-}
-
-body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.back {
-    background-color: #63acd9;
-}
 
 
 /**** CSS PORTUGUES ****
