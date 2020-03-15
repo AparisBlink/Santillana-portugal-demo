@@ -955,18 +955,6 @@ img.Wirisformula {
     padding: 0px;
 }
 
-#actividad .workspace.multiple-choice .opcion,
-#actividad .workspace.matching .opciones .opcion:not(.ko):not(.ok),
-#actividad .workspace.ordenar .js-rank-item {
-    border-width: 2px;
-    border-color: #44913a;
-    border-style: solid;
-    background: #fff;
-    transition: transform 0.5s;
-    -webkit-transition: transform 0.5s;
-    -moz-transition: transform 0.5s;
-    padding: 11px;
-}
 
 #actividad .workspace.ordenar .js-rank-item:hover {
     -moz-transform: scale(1.1);
@@ -1048,7 +1036,6 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
 /*Elegir respuesta*/
 
 #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-    border-color: #44913a;
     background-color: #44913a3d;
 }
 
@@ -1199,6 +1186,155 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
 
 /**** CSS MATEMÁTICAS ****
 .unittag_santillanaportugalmates */
+/*CAMBIOS DE TAG MATES*/
+
+/*Cambios de ckeditor*/
+
+/*Títulos*/
+.unittag_santillanaportugalmatess .bck-title1 {
+    color: #338DBA;
+}
+
+.unittag_santillanaportugalmatess .bck-title2 {
+	color: #338DBA;
+}
+
+.unittag_santillanaportugalmatess .bck-title3 {
+    border-color:#338DBA ;
+    color: #338DBA;
+}
+
+.unittag_santillanaportugalmatess .bck-title4 {
+    background: #338DBA;
+}
+
+.unittag_santillanaportugalmatess .bck-title5 {
+    border-color: #338DBA;
+    color: #338DBA;
+}
+
+/*Cajas*/
+.unittag_santillanaportugalmatess .bck-box1 .bck-title {
+    background: #338DBA;
+}
+.unittag_santillanaportugalmatess .bck-box.bck-box1 {
+    border-color: #338DBA;
+}
+
+.unittag_santillanaportugalmatess .bck-box.bck-box2 {
+    border-color: #338DBA;
+}
+
+.unittag_santillanaportugalmatess .bck-box.bck-box2 .bck-title {
+    background: #338DBA;
+}
+
+.unittag_santillanaportugalmatess .bck-box.bck-box3 {
+    background: #338DBA66;
+}
+.unittag_santillanaportugalmatess .bck-box.bck-box3 .bck-title {
+    background: #338DBA;
+}
+
+/*Énfasis*/
+.unittag_santillanaportugalmates .bck-enfasis-7 {
+    background: #63acd9;
+}
+
+/*Desplegable*/
+.unittag_santillanaportugalmates .bck-dropdown-button {
+    background: rgb(65,155,209);
+    background: -moz-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
+    background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
+}
+.unittag_santillanaportugalmates .bck-dropdown-content {
+	border-color: rgba(138,190,226,1);
+}
+
+/*Flipbox*/
+
+body:not(.edit) .bck-flipbox-face.front,
+ body:not(.edit) .bck-flipbox-face.back {
+    border-color: #63acd9;
+}
+body:not(.edit) .front .bck-flipbox-title,
+ body:not(.edit) .front .bck-flipbox-section {
+    color: #63acd9;
+}
+body:not(.edit) .bck-flipbox-face.back {
+    background-color: #63acd9;
+}
+
+/*Icono de Audio - Cambia por tag*/
+#actividad .unittag_santillanaportugalmates .player.audio,
+ #actividad .unittag_santillanaportugalmates .player.video, 
+ #help-panel-content .unittag_santillanaportugalmates .player,
+  #remote-alert-modal-rich .unittag_santillanaportugalmates .player {
+    background-color:#63acd9;
+  }
+
+
+
+/*---CAMBIO HEADER Y NAVBAR----*/
+.unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title {
+background: rgb(65,155,209);
+background: -moz-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
+background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
+}
+
+.unittag_santillanaportugalmates .navbar-bottom {
+    background: #132E4C;
+}
+.unittag_santillanaportugalmates #bottom-navigator li:hover {
+    background: rgb(142, 206, 224);
+    color: transparent;
+}
+.unittag_santillanaportugalmates #bottom-navigator li.active {
+    background: #007FA3;
+    color: transparent;
+}
+
+/*----CAMBIOS EN LAS SLIDES----*/
+
+/*Form Hueco*/
+.unittag_santillanaportugalmates .content_type_clase_santillanapt .slide_main input,
+.unittag_santillanaportugalmates .content_type_clase_santillanapt .slide_main .img-input-container {
+    background: #3b779321;
+}
+.content_type_clase_santillanapt .slide_main input:focus,
+	.content_type_clase_santillanapt .slide_main .img-input-container:focus {
+        border: 2px solid #63acd9;
+    }
+    
+/*RESPUESTA MULTIPLE*/
+.unittag_santillanaportugalmates #actividad .workspace.multiplechoice_horizontal .opcion:hover {
+    background: #178ff51c;
+}
+.unittag_santillanaportugalmates #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+    border-color: #178ff51c;
+    background-color: #178ff51c;
+}
+#actividad .workspace.multiple-choice .opcion.respuesta_checked {
+    background-color: #63acd93d;
+}
+
+/*Ordenar*/
+#actividad .workspace.ordenar .js-rank-item:hover {
+    background-color: #63acd93d;
+}
+/*Respuesta larga*/
+.shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
+    -webkit-box-shadow: 0 0 2px #63acd9;
+    -moz-box-shadow: 0 0 2px #63acd9;
+    box-shadow: 0 0 2px #63acd9;
+    border-color: #63acd9;
+}
+/*Rellenar espacios - Arrastrar a hueco - */
+.fillblanks-draggable-wrapper .response:hover {
+    background: #63acd93d;
+}
 
 
 
