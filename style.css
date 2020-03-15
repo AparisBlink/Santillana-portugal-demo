@@ -565,14 +565,20 @@
 
 /*POPUP*/
 
+#actividad .info-button {
+    background: #44913a;
+    color: white;
+    cursor: pointer;
+}
+
 .info-template.shown {
     width: 150px;
     background: white;
-    border: 2px solid #14799b;
+    border: 2px solid #44913a;
 }
 
  .info-template .info-title {
-    color: #006E92;
+    color: #44913a;
 }
 
  .info-template .info-icon {
@@ -585,12 +591,13 @@
 
  .info-popover .popover-title, .popover-template .popover-title {
     background: white;
-    color: #037093;
+    color: #44913a;
     font-weight: bold;
+    padding-left: 14px;
 }
 
  .popover-container {
-    border: 3px solid #037093;
+    border: 3px solid #44913a;
 }
 
 /* Listas */
