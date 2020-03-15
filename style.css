@@ -478,7 +478,8 @@
     margin: -41px auto 10px auto;
 }
 .bck-box.bck-box1 {
-    border: 3px solid #44913A;
+    border: 3px solid;
+    border-color: #44913A;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -489,7 +490,8 @@
 .bck-box.bck-box2 {
     padding: 0px;
     border: 0;
-    border: 3px solid #44913A;
+    border: 3px solid;
+    border-color: #44913A;
     margin-bottom: 24px;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -1704,53 +1706,4 @@ and (max-device-width : 480px) {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-/*CAMBIOS DE TAG MATES*/
-
-/*Títulos*/
-.unittag_santillanaportugalmates .bck-title1 {
-    color: #338DBA;
-}
-
-.unittag_santillanaportugalmates .bck-title2 {
-	color: #338DBA;
-}
-
-.unittag_santillanaportugalmates .bck-title3 {
-    border-color:#338DBA ;
-    color: #338DBA;
-}
-
-.unittag_santillanaportugalmates .bck-title4 {
-    background: #338DBA;
-}
-
-.unittag_santillanaportugalmates .bck-title5 {
-    border-color: #338DBA;
-    color: #338DBA;
-}
-
-/*Cajas*/
-.bck-box1 .bck-title {
-    background: #338DBA;
-}
-.bck-box.bck-box1 {
-    border-color: #338DBA;
-}
-
-.bck-box.bck-box2 {
-    border-color: #338DBA;
-}
-
-.bck-box.bck-box2 .bck-title {
-    background: #338DBA;
-}
-
-/*Caja 3*/
-.bck-box.bck-box3 {
-    background: #338DBA66;
-}
-.bck-box.bck-box3 .bck-title {
-    background: #338DBA;
 }
