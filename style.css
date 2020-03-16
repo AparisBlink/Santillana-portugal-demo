@@ -8,11 +8,12 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
     border-left: 16px solid white !important;
 }
 #indice .units ul li a:not(.delete) {
-    padding: 20px;
+    padding: 20px 10px;
 }
 
 #indice .units ul li a .title {
     font-size: 22px;
+    line-height: 28px;
 }
 
 #indice .units ul li {
@@ -71,9 +72,6 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
     background: #5EBDC4 !important;
 }
 
-
-
-
 #indice .unit-content .header .title {
     background: #0000008c;
     height: fit-content;
@@ -124,8 +122,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
 	}
 
 	#indice .units ul li a .number,
-	#indice .unit-content .header .number
-	 {
+	#indice .unit-content .header .number {
 		visibility: hidden;
 	}
 
@@ -143,7 +140,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
 	background: linear-gradient(180deg, rgba(68,145,58,1) 0%, rgba(134,189,80,1) 100%);
     min-height: 75px;
     padding: 33px 90px;
-}
+    }
 
 	.content_type_clase_santillanapt #actividad .content .slide-concatenate .header .title {
 		display: none;
@@ -507,7 +504,8 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
     background: #44913a66;
     -moz-border-radius: 22px;
     -webkit-border-radius: 22px;
-    border-radius: 22px;}
+    border-radius: 22px;
+}
 
 .bck-box.bck-box3 .bck-title {
     background: #44913a;
@@ -1961,32 +1959,6 @@ body:not(.edit).unittag_santillanaportugalfyq .bck-flipbox-face.back {
     background: #5ebdc0;
 }
 
-/* Smartphones (portrait & landscape) */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-
-   .unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main {
-    padding: 0px 20px 0px 58px;
-}
-
-.unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title h3 {
-    font-size: 22px;
-}
-
-
-.unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title {
-    padding: 24px 22px;
-}
-
-.unittag_santillanaportugalportugues.content_type_clase_santillanapt #actividad .content .header .title {
-    padding: 20px 10px;
-}
-
-.unittag_santillanaportugalportugues .unidade {
-    font-size: 34px;
-}
-
 /**** CSS HISTORIA ****
 .unittag_santillanaportugalhistoria */
 
@@ -2147,7 +2119,7 @@ body:not(.edit).unittag_santillanaportugalhistoria .bck-flipbox-face.back {
 .unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main input:focus,
 .unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main .img-input-container:focus {
         border: 2px solid #E76A5E;
-    }
+}
     
 /*RESPUESTA MULTIPLE*/
 .unittag_santillanaportugalhistoria #actividad .workspace.multiplechoice_horizontal .opcion:hover {
@@ -2194,31 +2166,50 @@ body:not(.edit).unittag_santillanaportugalhistoria .bck-flipbox-face.back {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
 }
-
 .unittag_santillanaportugalhistoria #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
     background-color: #ed7e33;
     padding: 3px;
 }
-
-
-
 .unittag_santillanaportugalhistoria #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
     background: #ed7e33;
 }
 
+/* Smartphones (portrait & landscape) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+   .unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main {
+    padding: 0px 20px 0px 58px;
+}
+
+.unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title h3 {
+    font-size: 22px;
+}
+
+
+.unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title {
+    padding: 24px 22px;
+}
+
+.unittag_santillanaportugalportugues.content_type_clase_santillanapt #actividad .content .header .title {
+    padding: 20px 10px;
+}
+
+.unittag_santillanaportugalportugues .unidade {
+    font-size: 34px;
+}
+}
 
 /*AJUSTE PARA FONDO EN SLIDE CON FONDO*/
-
 @media screen and (max-width: 1023px) {
-
-.unittag_santillanaportugalportugues #actividad .carousel-inner .item-container.aux-fullscreen, #actividad .carousel-inner .item-container.aux-bckg {
+.unittag_santillanaportugalportugues #actividad .carousel-inner .item-container.aux-fullscreen,
+ #actividad .carousel-inner .item-container.aux-bckg {
     padding-left: 0px;
 }
 }
 
-
 /*QUERIES*/
-
 @media only screen and (max-width: 640px) {
 .logo-publisher {
     width: 45px;
@@ -2232,20 +2223,17 @@ body:not(.edit).unittag_santillanaportugalhistoria .bck-flipbox-face.back {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-
     .content_type_clase_santillanapt #actividad .content .header .title h3 span {
     text-align: center;
     line-height: 27px;
     padding-bottom: 20px;
 }
-
 .content_type_clase_santillanapt #actividad .content .header .title h3 {
     text-align: left;
 }
 .content_type_clase_santillanapt #actividad .content .header .title {
     padding: 18px;
 }
-
 }
 
 
