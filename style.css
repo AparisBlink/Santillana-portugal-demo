@@ -130,7 +130,8 @@
 	background: -moz-linear-gradient(180deg, rgba(68,145,58,1) 0%, rgba(134,189,80,1) 100%);
 	background: -webkit-linear-gradient(180deg, rgba(68,145,58,1) 0%, rgba(134,189,80,1) 100%);
 	background: linear-gradient(180deg, rgba(68,145,58,1) 0%, rgba(134,189,80,1) 100%);
-	}
+    min-height: 75px;
+}
 
 	.content_type_clase_santillanapt #actividad .content .slide-concatenate .header .title {
 		display: none;
@@ -1435,7 +1436,7 @@ background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 1
 /**** CSS PORTUGUES ****
 .unittag_santillanaportugalportugues */
 
-/*CAMBIOS DE TAG MATES*/
+/*CAMBIOS DE TAG Portugues*/
 
 /*Cambios de ckeditor*/
 
@@ -1674,9 +1675,6 @@ and (max-device-width : 480px) {
     font-size: 22px;
 }
 
-.unittag_santillanaportugalmates .ficha {
-    font-size: 22px;
-}
 
 .unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title {
     padding: 24px 22px;
@@ -1690,10 +1688,7 @@ and (max-device-width : 480px) {
     font-size: 34px;
 }
 
-.unittag_santillanaportugalportugues .ficha {
-    font-size: 42px;
-}
-}
+
 
 /*AJUSTE PARA FONDO EN SLIDE CON FONDO*/
 
