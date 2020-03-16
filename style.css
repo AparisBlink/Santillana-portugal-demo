@@ -1187,6 +1187,43 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
     -moz-transition: all 0.2s;
 }
 
+/*Clasificar PALABRAS*/
+
+ #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+    border: 2px solid #44913A;
+    padding-top: 10px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+
+ #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
+    background-color: #86bd50;
+    padding: 3px;
+}
+
+ #actividad .workspace.clasificar .clasificar_lista .classify-item {
+    background: white;
+    transform: scale(1.0);
+    transition: transform, margin 0.2s;
+    -webkit-transition: transform, margin 0.2s;
+    -moz-transition: transform, margin 0.2s;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+ #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
+    background: #86bd50;
+    transform: scale(1.1);
+    transition: transform, margin 0.2s;
+    -webkit-transition: transform, margin 0.2s;
+    -moz-transition: transform, margin 0.2s;
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: 0px 10px;
+
+}
+
 
 
 
@@ -1381,6 +1418,16 @@ background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 1
    .unittag_santillanaportugalmates .radio-option label.filter-label:before {
     filter: hue-rotate(118deg);
 }
+/*Clasificar PALABRAS*/
+#actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+    border: 2px solid #63acd9;
+}
+ #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
+    background-color: #8abee2;
+}
+ #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
+    background: #8abee2;
+}
 
 
 
@@ -1533,7 +1580,7 @@ body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
 /*Form Hueco*/
 .unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main input,
 .unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main .img-input-container {
-    background: #3b779321;
+    background: #dd493b33;
 }
 .unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main input:focus,
 .unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main .img-input-container:focus {
@@ -1576,7 +1623,7 @@ body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
     filter: hue-rotate(633deg);
 }
 
-/*ORDENAR PALABRAS*/
+/*Clasificar PALABRAS*/
 
 .unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
     border: 2px solid #DC4739;
@@ -1587,7 +1634,7 @@ body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
 }
 
 .unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
-    background-color: #DC4739;
+    background-color: #F37367;
     padding: 3px;
 }
 
@@ -1602,7 +1649,7 @@ body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
 }
 
 .unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
-    background: rgba(224, 47, 31, 0.767);
+    background: #F37367;
     transform: scale(1.1);
     transition: transform, margin 0.2s;
     -webkit-transition: transform, margin 0.2s;
