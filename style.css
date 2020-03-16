@@ -1219,12 +1219,12 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
 
 #actividad .content .review .attemps span {
     color: #ffffff;
-    background-color: #3ac62a;
+    background-color: #4b4b4b;
     -webkit-border-radius: 0%;
     border-radius: 0%;
     -moz-border-radius: 0%;
     border-radius: 0%;
-    border: 1px solid #3ac62a;
+    border: 1px solid #4b4b4b;
 }
 
 .btn-solution, .btn-solution.disabled,
@@ -1252,6 +1252,8 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
 }
+
+
 
 /*Clasificar PALABRAS*/
 
