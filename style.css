@@ -847,6 +847,21 @@ body:not(.edit) .bck-flipbox-face.back {
     border: 2px solid #ECB700;
 }
 
+.bck-table.bck-table-4 td,
+ .bck-table.bck-table-4 th {
+    border: 2px solid #ED7E33;
+}
+
+.bck-table.bck-table-5 td,
+ .bck-table.bck-table-5 th {
+    border: 2px solid #5EBDC4;
+}
+
+.bck-table.bck-table-6 td,
+ .bck-table.bck-table-6 th {
+    border: 2px solid #DC4739;
+}
+
 .bck-td-1 {
     background: #5ba042;
     color: white;
@@ -872,6 +887,33 @@ body:not(.edit) .bck-flipbox-face.back {
 
 .bck-td-6 {
     background: #ecb70059;
+}
+
+.bck-td-7 {
+    background: #ED7E33;
+    color: white;
+}
+
+.bck-td-8 {
+    background: #ed7e3354;
+}
+
+.bck-td-9 {
+    background: #5EBDC4;
+    color: white;
+}
+
+.bck-td-10 {
+    background: #67c8cf59;
+}
+
+.bck-td-11 {
+    background: #DC4739;
+    color: white;
+}
+
+.bck-td-12 {
+    background: #dc47396e;
 }
 
 
