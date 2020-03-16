@@ -131,6 +131,7 @@
 	background: -webkit-linear-gradient(180deg, rgba(68,145,58,1) 0%, rgba(134,189,80,1) 100%);
 	background: linear-gradient(180deg, rgba(68,145,58,1) 0%, rgba(134,189,80,1) 100%);
     min-height: 75px;
+    padding: 33px 90px;
 }
 
 	.content_type_clase_santillanapt #actividad .content .slide-concatenate .header .title {
