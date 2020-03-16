@@ -1905,6 +1905,218 @@ and (max-device-width : 480px) {
     font-size: 34px;
 }
 
+/**** CSS HISTORIA ****
+.unittag_santillanaportugalhistoria */
+
+/*CAMBIOS DE TAG HISTORIA*/
+
+/*Cambios de ckeditor*/
+
+/*Títulos*/
+.unittag_santillanaportugalhistoria .bck-title1 {
+    color: #ed7e33;
+}
+
+.unittag_santillanaportugalhistoria .bck-title2 {
+	color: #ed7e33;
+}
+
+.unittag_santillanaportugalhistoria .bck-title3 {
+    border-color:#ed7e33 ;
+    color: #ed7e33;
+}
+
+.unittag_santillanaportugalhistoria .bck-title4 {
+    background: #ed7e33;
+}
+
+.unittag_santillanaportugalhistoria .bck-title5 {
+    border-color: #ed7e33;
+    color: #ed7e33;
+}
+
+/*Cajas*/
+.unittag_santillanaportugalhistoria .bck-box1 .bck-title {
+    background: #ed7e33;
+}
+.unittag_santillanaportugalhistoria .bck-box.bck-box1 {
+    border-color: #ed7e33;
+}
+
+.unittag_santillanaportugalhistoria .bck-box.bck-box2 {
+    border-color: #ed7e33;
+}
+
+.unittag_santillanaportugalhistoria .bck-box.bck-box2 .bck-title {
+    background: #ed7e33;
+}
+
+.unittag_santillanaportugalhistoria .bck-box.bck-box3 {
+    background: #ed7e3366;
+}
+.unittag_santillanaportugalhistoria .bck-box.bck-box3 .bck-title {
+    background: #ed7e33;
+}
+
+/*Énfasis*/
+.unittag_santillanaportugalhistoria .bck-enfasis-7 {
+    background: #ed7e33;
+}
+/*Listas*/
+.unittag_santillanaportugalhistoria .content .bck-ol7 li:before,
+.unittag_santillanaportugalhistoria .cke_contents .bck-ol7 li:before {
+    color: #ed7e33;
+}
+.unittag_santillanaportugalhistoria .texto_curso .bck-ul1 li:before,
+.unittag_santillanaportugalhistoria .workspace ul li .bck-ul1 li:before,
+.unittag_santillanaportugalhistoria .cke_contents .bck-ul1 li:before {
+    background-color: #ed7e33;
+}
+
+/*POPUP*/
+.unittag_santillanaportugalhistoria #actividad .info-button {
+    background: #ed7e33;
+}
+.unittag_santillanaportugalhistoria .info-template.shown {
+    border: 2px solid #ed7e33;
+}
+.unittag_santillanaportugalhistoria .info-template .info-title {
+    color: #ed7e33;
+}
+.unittag_santillanaportugalhistoria .info-popover .popover-title,
+.unittag_santillanaportugalhistoria .popover-template .popover-title {
+    color: #ed7e33;
+}
+.unittag_santillanaportugalhistoria .popover-container {
+    border: 3px solid #ed7e33;
+}
+
+
+/*Desplegable*/
+.unittag_santillanaportugalhistoria .bck-dropdown-button {
+    background: rgb(237,126,51);
+    background: -moz-linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
+    background: linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
+}
+.unittag_santillanaportugalhistoria .bck-dropdown-content {
+	border-color:  #ee9652;
+}
+
+/*Flipbox*/
+
+body:not(.edit).unittag_santillanaportugalhistoria .bck-flipbox-face.front,
+ body:not(.edit).unittag_santillanaportugalhistoria .bck-flipbox-face.back {
+    border-color: #ed7e33;
+}
+body:not(.edit).unittag_santillanaportugalhistoria .front .bck-flipbox-title,
+ body:not(.edit).unittag_santillanaportugalhistoria .front .bck-flipbox-section {
+    color: #ed7e33;
+}
+body:not(.edit).unittag_santillanaportugalhistoria .bck-flipbox-face.back {
+    background-color: #ed7e33;
+}
+
+/*Icono de Audio - Cambia por tag*/
+.unittag_santillanaportugalhistoria #actividad .player.audio,
+.unittag_santillanaportugalhistoria #actividad .player.video, 
+.unittag_santillanaportugalhistoria #help-panel-content .player,
+.unittag_santillanaportugalhistoria #remote-alert-modal-rich .player {
+    background-color:#ed7e33;
+  }
+  .unittag_santillanaportugalhistoria #actividad .player:hover,
+  .unittag_santillanaportugalhistoria #help-panel-content .player:hover,
+  .unittag_santillanaportugalhistoria #remote-alert-modal-rich .player:hover {
+        background-color: #ee9652;
+    }
+
+
+/*---CAMBIO HEADER Y NAVBAR----*/
+.unittag_santillanaportugalhistoria.content_type_clase_santillanapt #actividad .content .header .title {
+    background: rgb(237,126,51);
+    background: -moz-linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
+    background: linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
+}
+
+.unittag_santillanaportugalhistoria .navbar-bottom {
+    background: #614533;
+}
+.unittag_santillanaportugalhistoria #bottom-navigator li:hover {
+    background: #ed7e33;
+}
+.unittag_santillanaportugalhistoria #bottom-navigator li.active {
+    background: #ee9652;
+}
+
+/*----CAMBIOS EN LAS SLIDES----*/
+
+/*Form Hueco*/
+.unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main input,
+.unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main .img-input-container {
+    background: #dd493b33;
+}
+.unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main input:focus,
+.unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main .img-input-container:focus {
+        border: 2px solid #E76A5E;
+    }
+    
+/*RESPUESTA MULTIPLE*/
+.unittag_santillanaportugalhistoria #actividad .workspace.multiplechoice_horizontal .opcion:hover {
+    background: #ee965242;
+}
+.unittag_santillanaportugalhistoria #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+    border-color: #ee965242;
+    background-color: #ee965242;
+}
+.unittag_santillanaportugalhistoria #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+    background-color: #ee965242;
+}
+
+/*Ordenar*/
+.unittag_santillanaportugalhistoria #actividad .workspace.ordenar .js-rank-item:hover {
+    background-color: #ee965242;
+}
+/*Respuesta larga*/
+.unittag_santillanaportugalhistoria .shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
+    -webkit-box-shadow: 0 0 2px #ed7e33;
+    -moz-box-shadow: 0 0 2px #ed7e33;
+    box-shadow: 0 0 2px #ed7e33;
+    border-color: #ed7e33;
+}
+/*Rellenar espacios - Arrastrar a hueco - */
+.unittag_santillanaportugalhistoria .fillblanks-draggable-wrapper .response:hover {
+    background: #ed7e3352;
+}
+
+/*COLOR TEST*/
+.unittag_santillanaportugalhistoria .checkbox-option label.filter-label:before,
+ .unittag_santillanaportugalhistoria .slides_averages #cont_checkSelfCorrect label:before,
+  .unittag_santillanaportugalhistoria .slides_averages #cont_checkEvaluation label:before,
+   .unittag_santillanaportugalhistoria .radio-option label.filter-label:before {
+    filter: hue-rotate(296deg);
+}
+
+/*Clasificar PALABRAS*/
+
+.unittag_santillanaportugalhistoria #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+    border: 2px solid #ed7e33;
+    padding-top: 10px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+
+.unittag_santillanaportugalhistoria #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
+    background-color: #ed7e33;
+    padding: 3px;
+}
+
+
+
+.unittag_santillanaportugalhistoria #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
+    background: #ed7e33;
+}
 
 
 /*AJUSTE PARA FONDO EN SLIDE CON FONDO*/
