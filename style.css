@@ -3,26 +3,30 @@
 
 /*INDICE*/ 
 
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units ul li.active a {
+    color: #fff;
+    border-left: 16px solid white !important;
+}
+#indice .units ul li a:not(.delete) {
+    padding: 20px;
+}
+
 #indice .units ul li a .title {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #indice .units ul li {
     border-radius: 0;
     border: 3px solid;
     background: transparent;
+    padding: 0;
+    -moz-transition: background 0.2s ease-out;
+    -webkit-transition: background 0.2s ease-out;
+    transition: background 0.2s ease-out;
 }
 
 #list-units .unittag_santillanaportugalciencias {
     border-color: #85BC40 !important;
-}
-
-#list-units .unittag_santillanaportugalmates {
-    border-color: #0086C0 !important;
-}
-
-#list-units .unittag_santillanaportugalportugues {
-    border-color: #CA041A !important;
 }
 
 #list-units .unittag_santillanaportugalciencias.active:not(.disabled),
@@ -30,15 +34,45 @@
     background: #85BC40 !important;
 }
 
+#list-units .unittag_santillanaportugalmates {
+    border-color: #0086C0 !important;
+}
+
 #list-units .unittag_santillanaportugalmates.active:not(.disabled),
  #list-units .unittag_santillanaportugalmates:hover {
     background: #0086C0 !important;
+}
+
+
+#list-units .unittag_santillanaportugalportugues {
+    border-color: #CA041A !important;
 }
 
 #list-units .unittag_santillanaportugalportugues.active:not(.disabled),
  #list-units .unittag_santillanaportugalportugues:hover {
     background: #CA041A !important;
 }
+
+#list-units .unittag_santillanaportugalhistoria {
+    border-color: #ED7E33 !important;
+}
+
+#list-units .unittag_santillanaportugalhistoria.active:not(.disabled),
+ #list-units .unittag_santillanaportugalhistoria:hover {
+    background: #ED7E33 !important;
+}
+
+#list-units .unittag_santillanaportugalfyq {
+    border-color: #5EBDC4 !important;
+}
+
+#list-units .unittag_santillanaportugalfyq.active:not(.disabled),
+ #list-units .unittag_santillanaportugalfyq:hover {
+    background: #5EBDC4 !important;
+}
+
+
+
 
 #indice .unit-content .header .title {
     background: #0000008c;
