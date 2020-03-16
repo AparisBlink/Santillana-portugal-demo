@@ -14,20 +14,20 @@
 }
 
 #list-units .unittag_santillanaportugalciencias {
-    border-color: #85BC40;
+    border-color: #85BC40 !important;
 }
 
 #list-units .unittag_santillanaportugalmates {
-    border-color: #0086C0;
+    border-color: #0086C0 !important;
 }
 
 #list-units .unittag_santillanaportugalportugues {
-    border-color: #CA041A;
+    border-color: #CA041A !important;
 }
 
 #list-units .unittag_santillanaportugalciencias.active:not(.disabled),
  #list-units .unittag_santillanaportugalciencias:hover {
-    background: #85BC40;
+    background: #85BC40 !important;
 }
 
 #list-units .unittag_santillanaportugalmates.active:not(.disabled),
