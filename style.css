@@ -8,59 +8,36 @@
 }
 
 #indice .units ul li {
-    padding: 0;
     border-radius: 0;
-    border: 3px solid #3ac62a;
+    border: 3px solid;
     background: transparent;
-    padding: 10px 0px;
 }
 
 #list-units .unittag_santillanaportugalciencias {
-    border-color: #85BC40 !important;
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
+    border-color: #85BC40;
 }
 
 #list-units .unittag_santillanaportugalmates {
-    border-color: #0086C0 !important;
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
+    border-color: #0086C0;
 }
 
 #list-units .unittag_santillanaportugalportugues {
-    border-color: #CA041A !important;
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
+    border-color: #CA041A;
 }
 
-#list-units .unittag_santillanaportugalciencias.active:not(.disabled), #list-units .unittag_santillanaportugalciencias:hover {
-    background: #85BC40 !important;
-    transform: scale(1.1);
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-       margin: 15px 0px;
+#list-units .unittag_santillanaportugalciencias.active:not(.disabled),
+ #list-units .unittag_santillanaportugalciencias:hover {
+    background: #85BC40;
 }
 
-#list-units .unittag_santillanaportugalmates.active:not(.disabled), #list-units .unittag_santillanaportugalmates:hover {
+#list-units .unittag_santillanaportugalmates.active:not(.disabled),
+ #list-units .unittag_santillanaportugalmates:hover {
     background: #0086C0 !important;
-    transform: scale(1.1);
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-        margin: 15px 0px;
 }
 
-#list-units .unittag_santillanaportugalportugues.active:not(.disabled), #list-units .unittag_santillanaportugalportugues:hover {
+#list-units .unittag_santillanaportugalportugues.active:not(.disabled),
+ #list-units .unittag_santillanaportugalportugues:hover {
     background: #CA041A !important;
-    transform: scale(1.1);
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    margin: 15px 0px;
 }
 
 #indice .unit-content .header .title {
