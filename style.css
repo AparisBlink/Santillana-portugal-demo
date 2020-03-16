@@ -1258,19 +1258,19 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
 }
 
 /*POPUP*/
-#actividad .info-button {
+.unittag_santillanaportugalmates #actividad .info-button {
     background: #338DBA;
 }
-.info-template.shown {
+.unittag_santillanaportugalmates .info-template.shown {
     border: 2px solid #338DBA;
 }
- .info-template .info-title {
+.unittag_santillanaportugalmates .info-template .info-title {
     color: #338DBA;
 }
- .info-popover .popover-title, .popover-template .popover-title {
+.unittag_santillanaportugalmates .info-popover .popover-title, .popover-template .popover-title {
     color: #338DBA;
 }
- .popover-container {
+.unittag_santillanaportugalmates .popover-container {
     border: 3px solid #338DBA;
 }
 
@@ -1288,15 +1288,15 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
 
 /*Flipbox*/
 
-body:not(.edit) .bck-flipbox-face.front,
- body:not(.edit) .bck-flipbox-face.back {
+body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.front,
+ body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.back {
     border-color: #63acd9;
 }
-body:not(.edit) .front .bck-flipbox-title,
- body:not(.edit) .front .bck-flipbox-section {
+body:not(.edit).unittag_santillanaportugalmates .front .bck-flipbox-title,
+ body:not(.edit).unittag_santillanaportugalmates .front .bck-flipbox-section {
     color: #63acd9;
 }
-body:not(.edit) .bck-flipbox-face.back {
+body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.back {
     background-color: #63acd9;
 }
 
@@ -1384,185 +1384,202 @@ background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 1
 
 
 
+
 /**** CSS PORTUGUES ****
 .unittag_santillanaportugalportugues */
 
-/*Header*/
+/*CAMBIOS DE TAG MATES*/
 
-.unittag_santillanaportugalportugues.content_type_clase_santillanapt #actividad .content .header .title {
- background: #e59f00; /* Old browsers */
-background: -moz-linear-gradient(top, #e59f00 0%, #f2c900 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #e59f00 0%,#f2c900 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #e59f00 0%,#f2c900 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e59f00', endColorstr='#f2c900',GradientType=0 );
-}
+/*Cambios de ckeditor*/
 
-.unittag_santillanaportugalportugues .ficha {
-    display: inline;
-    background: transparent;
-    padding: 0px 18px;
-    border-radius: 11%;
-    border: 3px solid white;
-    font-size: 55px;
-    font-weight: bold;
-    font-family: Arial,sans-serif;
-    box-shadow: none;
-    color: white;
-}
-
-.unittag_santillanaportugalportugues.content_type_clase_santillanapt #actividad .content .header .title h3 {
-    font-weight: bold;
-    font-size: 36px;
-    text-align: left;
-}
-
-.unittag_santillanaportugalportugues .unidade {
-    display: inline;
-    font-size: 34px;
-    font-weight: bold;
-    color: #fff;
-    margin-left: 5px;
-}
-
-/*Título 1*/
-
+/*Títulos*/
 .unittag_santillanaportugalportugues .bck-title1 {
-	color: #F6B645;
+    color: #DC4739;
 }
-
-/*Titulo 2*/
 
 .unittag_santillanaportugalportugues .bck-title2 {
-	color: #F6B645;
+	color: #DC4739;
 }
 
-/*CAJA 1*/
-
-.unittag_santillanaportugalportugues .bck-box1 {
-    border-color: #ecb700;
+.unittag_santillanaportugalportugues .bck-title3 {
+    border-color:#DC4739 ;
+    color: #DC4739;
 }
 
-/*CAJA 2*/
+.unittag_santillanaportugalportugues .bck-title4 {
+    background: #DC4739;
+}
 
+.unittag_santillanaportugalportugues .bck-title5 {
+    border-color: #DC4739;
+    color: #DC4739;
+}
+
+/*Cajas*/
+.unittag_santillanaportugalportugues .bck-box1 .bck-title {
+    background: #DC4739;
+}
+.unittag_santillanaportugalportugues .bck-box.bck-box1 {
+    border-color: #DC4739;
+}
 
 .unittag_santillanaportugalportugues .bck-box.bck-box2 {
-    border-color: #ECB700;
+    border-color: #DC4739;
 }
 
 .unittag_santillanaportugalportugues .bck-box.bck-box2 .bck-title {
-    background: #ECB700;
+    background: #DC4739;
 }
 
-/*Enfasis 2*/
-
-.unittag_santillanaportugalportugues .bck-enfasis-2 {
-    background: #ECB700;
+.unittag_santillanaportugalportugues .bck-box.bck-box3 {
+    background: #DC473966;
+}
+.unittag_santillanaportugalportugues .bck-box.bck-box3 .bck-title {
+    background: #DC4739;
 }
 
-/*Lista ordenada 4*/
-
-.unittag_santillanaportugalportugues .content .bck-ol4 li:before,
-.unittag_santillanaportugalportugues .cke_contents .bck-ol4 li:before {
-    color: #ECB700;
+/*Énfasis*/
+.unittag_santillanaportugalportugues .bck-enfasis-7 {
+    background: #CF4639;
 }
-
-/*LISTA DESORDENADA 1*/
-
+/*Listas*/
+.unittag_santillanaportugalportugues .content .bck-ol7 li:before,
+.unittag_santillanaportugalportugues .cke_contents .bck-ol7 li:before {
+    color: #DC4739;
+}
 .unittag_santillanaportugalportugues .texto_curso .bck-ul1 li:before,
 .unittag_santillanaportugalportugues .workspace ul li .bck-ul1 li:before,
 .unittag_santillanaportugalportugues .cke_contents .bck-ul1 li:before {
-    background-color: #ECB700;
+    background-color: #DC4739;
 }
+
+/*POPUP*/
+.unittag_santillanaportugalportugues #actividad .info-button {
+    background: #DC4739;
+}
+.unittag_santillanaportugalportugues .info-template.shown {
+    border: 2px solid #DC4739;
+}
+.unittag_santillanaportugalportugues .info-template .info-title {
+    color: #DC4739;
+}
+.unittag_santillanaportugalportugues .info-popover .popover-title, .popover-template .popover-title {
+    color: #DC4739;
+}
+.unittag_santillanaportugalportugues .popover-container {
+    border: 3px solid #DC4739;
+}
+
 
 /*Desplegable*/
-
 .unittag_santillanaportugalportugues .bck-dropdown-button {
-    background: #e59f00;
-    background: -moz-linear-gradient(top, #e59f00 0%, #f2c900 100%);
-    background: -webkit-linear-gradient(top, #e59f00 0%,#f2c900 100%);
-    background: linear-gradient(to bottom, #e59f00 0%,#f2c900 100%);
+    background: rgb(220,71,57);
+    background: -moz-linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
+    background: linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
 }
-
 .unittag_santillanaportugalportugues .bck-dropdown-content {
-	border-color: #f2c900;
+	border-color:  rgba(244,117,105,1);
 }
 
 /*Flipbox*/
 
 body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.front,
  body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
-    border-color: #e59f00 ;
+    border-color: #E76A5E;
 }
-
 body:not(.edit).unittag_santillanaportugalportugues .front .bck-flipbox-title,
  body:not(.edit).unittag_santillanaportugalportugues .front .bck-flipbox-section {
-    color: #e59f00 ;
+    color: #E76A5E;
 }
-
 body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
-    background-color: #e59f00 ;
+    background-color: #E76A5E;
 }
 
-/*POPUP*/
-.unittag_santillanaportugalportugues .info-template .info-title {
-    color: #006E92;
+/*Icono de Audio - Cambia por tag*/
+.unittag_santillanaportugalportugues #actividad .player.audio,
+.unittag_santillanaportugalportugues #actividad .player.video, 
+.unittag_santillanaportugalportugues #help-panel-content .player,
+.unittag_santillanaportugalportugues #remote-alert-modal-rich .player {
+    background-color:#E76A5E;
+  }
+  .unittag_santillanaportugalportugues #actividad .player:hover,
+  .unittag_santillanaportugalportugues #help-panel-content .player:hover,
+  .unittag_santillanaportugalportugues #remote-alert-modal-rich .player:hover {
+        background-color: #F68378;
+    }
+
+
+/*---CAMBIO HEADER Y NAVBAR----*/
+.unittag_santillanaportugalportugues.content_type_clase_santillanapt #actividad .content .header .title {
+    background: rgb(220,71,57);
+    background: -moz-linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
+    background: linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
 }
 
-.unittag_santillanaportugalportugues .info-popover .popover-title, .popover-template .popover-title {
-    color: #037093;
+.unittag_santillanaportugalportugues .navbar-bottom {
+    background: #46201c;
+}
+.unittag_santillanaportugalportugues #bottom-navigator li:hover {
+    background: #F68378;
+}
+.unittag_santillanaportugalportugues #bottom-navigator li.active {
+    background: #E76A5E;
 }
 
-.unittag_santillanaportugalportugues .popover-container {
-    border-color: #037093;
+/*----CAMBIOS EN LAS SLIDES----*/
+
+/*Form Hueco*/
+.unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main input,
+.unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main .img-input-container {
+    background: #3b779321;
+}
+.unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main input:focus,
+.unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main .img-input-container:focus {
+        border: 2px solid #E76A5E;
+    }
+    
+/*RESPUESTA MULTIPLE*/
+.unittag_santillanaportugalportugues #actividad .workspace.multiplechoice_horizontal .opcion:hover {
+    background: #e76a5e47;
+}
+.unittag_santillanaportugalportugues #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+    border-color: #e76a5e47;
+    background-color: #e76a5e47;
+}
+.unittag_santillanaportugalportugues #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+    background-color: #E76A5E3d;
 }
 
-.unittag_santillanaportugalportugues #actividad .workspace.test .respuestas li:hover {
-    background: #ecb70033;
+/*Ordenar*/
+.unittag_santillanaportugalportugues #actividad .workspace.ordenar .js-rank-item:hover {
+    background-color: #E76A5E3d;
 }
-
+/*Respuesta larga*/
+.unittag_santillanaportugalportugues .shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
+    -webkit-box-shadow: 0 0 2px #E76A5E;
+    -moz-box-shadow: 0 0 2px #E76A5E;
+    box-shadow: 0 0 2px #E76A5E;
+    border-color: #E76A5E;
+}
+/*Rellenar espacios - Arrastrar a hueco - */
+.unittag_santillanaportugalportugues .fillblanks-draggable-wrapper .response:hover {
+    background: #E76A5E3d;
+}
 
 /*COLOR TEST*/
-
-.unittag_santillanaportugalportugues .checkbox-option label.filter-label:before, .unittag_santillanaportugalportugues .slides_averages #cont_checkSelfCorrect label:before, .unittag_santillanaportugalportugues .slides_averages #cont_checkEvaluation label:before, .unittag_santillanaportugalportugues .radio-option label.filter-label:before {
-    filter: hue-rotate(-41deg);
-}
-
-/*RELLENAR ESPACIOS*/
-
-.unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main input:focus, .content_type_clase_santillanapt .slide_main .img-input-container:focus {
-    border: 1px solid #ccc;
-    border-top-color: #ecb700;
-    border-right-color: #ecb700;
-    border-bottom-color: #ecb700;
-    border-left-color: #ecb700;
-}
-
-
-.unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main input, .content_type_clase_santillanapt .slide_main .img-input-container {
-    border: 1px solid #ccc;
-    border-bottom: 2px solid #ecb700;
-}
-
-.unittag_santillanaportugalportugues #actividad .workspace.multiplechoice_horizontal .opcion:hover {
-    background: #ecb70033;
-}
-
-.unittag_santillanaportugalportugues #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-    border-color: #ecb70033;
-    background-color: #ecb70033;
-}
-
-.unittag_santillanaportugalportugues .shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
-    -webkit-box-shadow: 0 0 2px #ecb700;
-    -moz-box-shadow: 0 0 2px #ecb700;
-    box-shadow: 0 0 2px #ecb700;
-    border-color: #ecb700;
+.unittag_santillanaportugalportugues .checkbox-option label.filter-label:before,
+ .unittag_santillanaportugalportugues .slides_averages #cont_checkSelfCorrect label:before,
+  .unittag_santillanaportugalportugues .slides_averages #cont_checkEvaluation label:before,
+   .unittag_santillanaportugalportugues .radio-option label.filter-label:before {
+    filter: hue-rotate(633deg);
 }
 
 /*ORDENAR PALABRAS*/
 
 .unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 2px solid #ecb700;
+    border: 2px solid #DC4739;
     padding-top: 10px;
     border-radius: 0;
     -webkit-border-radius: 0;
@@ -1570,7 +1587,7 @@ body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
 }
 
 .unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
-    background-color: #ecb700;
+    background-color: #DC4739;
     padding: 3px;
 }
 
@@ -1585,7 +1602,7 @@ body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
 }
 
 .unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
-    background: #ecb70033;
+    background: rgba(224, 47, 31, 0.767);
     transform: scale(1.1);
     transition: transform, margin 0.2s;
     -webkit-transition: transform, margin 0.2s;
