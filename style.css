@@ -950,8 +950,17 @@ body:not(.edit) .bck-flipbox-face.back {
     background: #dc47396e;
 }
 
+/*Enlace*/
 
+a {
+    text-decoration: underline;
+}
 
+a:hover,
+ a:active,
+  a:focus {
+    color: #5BA042;
+}
 /* Icons */
 
 .item-container .icon:before {
@@ -1408,6 +1417,12 @@ body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.back {
         background-color: #91c9ec;
     }
 
+/*Enlace*/
+.unittag_santillanaportugalmates a:hover,
+.unittag_santillanaportugalmates a:active,
+.unittag_santillanaportugalmates a:focus {
+    color: #338DBA;
+}
 
 /*---CAMBIO HEADER Y NAVBAR----*/
 .unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title {
@@ -1615,6 +1630,12 @@ body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
         background-color: #F68378;
     }
 
+/*Enlace*/
+.unittag_santillanaportugalportugues a:hover,
+.unittag_santillanaportugalportugues a:active,
+.unittag_santillanaportugalportugues a:focus {
+    color: #E76A5E;
+}
 
 /*---CAMBIO HEADER Y NAVBAR----*/
 .unittag_santillanaportugalportugues.content_type_clase_santillanapt #actividad .content .header .title {
@@ -1844,6 +1865,12 @@ body:not(.edit).unittag_santillanaportugalfyq .bck-flipbox-face.back {
         background-color: #91e0e6;
     }
 
+/*Enlace*/
+.unittag_santillanaportugalfyq a:hover,
+.unittag_santillanaportugalfyq a:active,
+.unittag_santillanaportugalfyq a:focus {
+    color: #5ebdc0;
+}
 
 /*---CAMBIO HEADER Y NAVBAR----*/
 .unittag_santillanaportugalfyq.content_type_clase_santillanapt #actividad .content .header .title {
@@ -2083,6 +2110,12 @@ body:not(.edit).unittag_santillanaportugalhistoria .bck-flipbox-face.back {
         background-color: #ee9652;
     }
 
+/*Enlace*/
+.unittag_santillanaportugalhistoria a:hover,
+.unittag_santillanaportugalhistoria a:active,
+.unittag_santillanaportugalhistoria a:focus {
+    color: #ed7e33;
+}
 
 /*---CAMBIO HEADER Y NAVBAR----*/
 .unittag_santillanaportugalhistoria.content_type_clase_santillanapt #actividad .content .header .title {
