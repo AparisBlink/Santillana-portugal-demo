@@ -53,13 +53,22 @@
 				{ name: 'Tabla verde', element: 'table', attributes: { 'class': 'bck-table bck-table-1' } },
 				{ name: 'Tabla azul', element: 'table', attributes: { 'class': 'bck-table bck-table-2' } },
 				{ name: 'Tabla amarilla', element: 'table', attributes: { 'class': 'bck-table bck-table-3' } },
+				{ name: 'Tabla Naranja', element: 'table', attributes: { 'class': 'bck-table bck-table-4' } },
+				{ name: 'Tabla Celeste', element: 'table', attributes: { 'class': 'bck-table bck-table-5' } },
+				{ name: 'Tabla Roja', element: 'table', attributes: { 'class': 'bck-table bck-table-6' } },
 
 				{ name: 'Celda verde 1', element: 'td', attributes: { 'class': 'bck-td-1' } },
 				{ name: 'Celda verde 2', element: 'td', attributes: { 'class': 'bck-td-2' } },
 				{ name: 'Celda azul 1', element: 'td', attributes: { 'class': 'bck-td-3' } },
 				{ name: 'Celda azul 2', element: 'td', attributes: { 'class': 'bck-td-4' } },
 				{ name: 'Celda amarilla 1', element: 'td', attributes: { 'class': 'bck-td-5' } },
-				{ name: 'Celda amarilla 2', element: 'td', attributes: { 'class': 'bck-td-6' } }
+				{ name: 'Celda amarilla 2', element: 'td', attributes: { 'class': 'bck-td-6' } },
+				{ name: 'Celda Naranja 1', element: 'td', attributes: { 'class': 'bck-td-7' } },
+				{ name: 'Celda Naranja 2', element: 'td', attributes: { 'class': 'bck-td-8' } },
+				{ name: 'Celda Celeste 1', element: 'td', attributes: { 'class': 'bck-td-9' } },
+				{ name: 'Celda Celeste 2', element: 'td', attributes: { 'class': 'bck-td-10' } },
+				{ name: 'Celda Roja 1', element: 'td', attributes: { 'class': 'bck-td-11' } },
+				{ name: 'Celda Roja 2', element: 'td', attributes: { 'class': 'bck-td-12' } },
 			]
 		},
 
