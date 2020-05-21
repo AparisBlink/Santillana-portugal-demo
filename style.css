@@ -2069,11 +2069,11 @@ body:not(.edit).unittag_santillanaportugalhistoria .bck-flipbox-face.back {
 /*Form Hueco*/
 .unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main input,
 .unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main .img-input-container {
-    background: #dd493b33;
+    background: #ee96523b;
 }
 .unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main input:focus,
 .unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main .img-input-container:focus {
-        border: 2px solid #E76A5E;
+        border: 2px solid #ed7e33;
 }
     
 /*RESPUESTA MULTIPLE*/
