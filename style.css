@@ -1146,6 +1146,9 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
     -moz-box-shadow: -2px 1px 7px 0px #0000002b;
     box-shadow: -2px 1px 7px 0px #0000002b;
 }
+#actividad .workspace.matching .opciones .opcion:not(.ko):not(.ok) p{
+    padding:11px;
+}
 
 /*Botones*/
 
