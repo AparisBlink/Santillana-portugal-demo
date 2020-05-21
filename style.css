@@ -961,7 +961,7 @@ a:hover,
 /*Icono archivo adjunto*/
 .bck-sub-label, 
 .bck-file-label {
-    background-attachment: #d9d9d9;
+    background: #dfdfdf;
 }
 .bck-file-attach span {
     vertical-align: middle;
