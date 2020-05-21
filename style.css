@@ -1343,6 +1343,7 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
 }
 .unittag_santillanaportugalmates .info-template.shown {
     border: 2px solid #338DBA;
+    border-right: 0;
 }
 .unittag_santillanaportugalmates .info-template .info-title {
     color: #338DBA;
@@ -1556,6 +1557,7 @@ background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 1
 }
 .unittag_santillanaportugalportugues .info-template.shown {
     border: 2px solid #DC4739;
+    border-right: 0;
 }
 .unittag_santillanaportugalportugues .info-template .info-title {
     color: #DC4739;
@@ -1778,6 +1780,7 @@ body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
 }
 .unittag_santillanaportugalfyq .info-template.shown {
     border: 2px solid #5ebdc0;
+    border-right: 0;
 }
 .unittag_santillanaportugalfyq .info-template .info-title {
     color: #5ebdc0;
@@ -1992,6 +1995,7 @@ body:not(.edit).unittag_santillanaportugalfyq .bck-flipbox-face.back {
 }
 .unittag_santillanaportugalhistoria .info-template.shown {
     border: 2px solid #ed7e33;
+    border-right: 0;
 }
 .unittag_santillanaportugalhistoria .info-template .info-title {
     color: #ed7e33;
