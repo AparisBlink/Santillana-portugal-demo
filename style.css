@@ -1078,7 +1078,6 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
 }
 
 #actividad .workspace.multiple-choice .opcion,
- #actividad .workspace.matching .opciones .opcion:not(.ko):not(.ok),
   #actividad .workspace.ordenar .js-rank-item {
     background: #fff;
     border: none;
@@ -1136,6 +1135,11 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
 #actividad .slide-concatenate .class_slide {
     padding-bottom: 20px;
     padding-top: 0px;
+}
+
+/* RELACIONAR PALABRARS */
+#actividad .workspace.matching .opciones .opcion:not(.ko):not(.ok) {
+    padding:0;
 }
 
 /*Botones*/
