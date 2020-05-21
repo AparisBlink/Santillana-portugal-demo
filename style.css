@@ -28,12 +28,12 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
     transition: background 0.2s ease-out;
 }
 
-#list-units .unittag_santillanaportugalciencias {
+#list-units  {
     border-color: #85BC40 !important;
 }
 
-#list-units .unittag_santillanaportugalciencias.active:not(.disabled),
- #list-units .unittag_santillanaportugalciencias:hover {
+#list-units .active:not(.disabled),
+ #list-units:hover {
     background: #85BC40 !important;
 }
 
