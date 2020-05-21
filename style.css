@@ -1843,10 +1843,10 @@ body:not(.edit).unittag_santillanaportugalfyq .bck-flipbox-face.back {
     background: #2a4d4e;
 }
 .unittag_santillanaportugalfyq #bottom-navigator li:hover {
-    background: #5ebdc0;
+    background: #91e0e6;
 }
 .unittag_santillanaportugalfyq #bottom-navigator li.active {
-    background: #91e0e6;
+    background: #5ebdc0;
 }
 
 /*----CAMBIOS EN LAS SLIDES----*/
