@@ -153,17 +153,18 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
 		margin: 0;
 		padding: 0;
 		color: #fff;
-		font-size: 1.4rem;
-		font-weight: 200;
-		text-align: right;
+        text-align: left;
+        font-size: 26px;
+        font-weight: 700;
 	}
 
-	.content_type_clase_santillanapt #actividad .content .header .title h3 span {
-		float: left;
-		font-size: 26px;
-		font-weight: 900;
-		line-height: 1.1rem;
-	}
+    /* CLASE SPAN QUE SE PUEDE INTRODUCIR EN EL HEADER <span class="ficha"> */
+    .content_type_clase_santillanapt #actividad .content .header .title h3 .ficha {
+        float: right;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 2;
+    }
 
 	.content_type_clase_santillanapt #actividad .slide_content_type_1 .pregunta .texto_curso,
 	.content_type_clase_santillanapt #actividad .texto_curso,
