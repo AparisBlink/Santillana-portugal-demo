@@ -1455,13 +1455,13 @@ background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 1
     filter: hue-rotate(118deg);
 }
 /*Clasificar PALABRAS*/
-#actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+.unittag_santillanaportugalmates #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
     border: 2px solid #63acd9;
 }
- #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
+.unittag_santillanaportugalmates #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
     background-color: #8abee2;
 }
- #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
+.unittag_santillanaportugalmates #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
     background: #8abee2;
 }
 
