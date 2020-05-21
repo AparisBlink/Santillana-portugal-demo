@@ -1253,20 +1253,15 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
 
  #actividad .workspace.clasificar .clasificar_lista .classify-item {
     background: white;
-    transform: scale(1.0);
-    transition: transform, margin 0.2s;
-    -webkit-transition: transform, margin 0.2s;
-    -moz-transition: transform, margin 0.2s;
     width: fit-content;
     width: -moz-fit-content;
+    -webkit-box-shadow: -2px 1px 7px 0px #0000002b;
+    -moz-box-shadow: -2px 1px 7px 0px #0000002b;
+    box-shadow: -2px 1px 7px 0px #0000002b;
 }
 
  #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
     background: #86bd50;
-    transform: scale(1.1);
-    transition: transform, margin 0.2s;
-    -webkit-transition: transform, margin 0.2s;
-    -moz-transition: transform, margin 0.2s;
     width: fit-content;
     width: -moz-fit-content;
     margin: 0px 10px;
@@ -1701,15 +1696,6 @@ body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
     padding: 3px;
 }
 
-.unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_lista .classify-item {
-    background: white;
-    transform: scale(1.0);
-    transition: transform, margin 0.2s;
-    -webkit-transition: transform, margin 0.2s;
-    -moz-transition: transform, margin 0.2s;
-    width: fit-content;
-    width: -moz-fit-content;
-}
 
 .unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
     background: #F37367;
