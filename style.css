@@ -1854,11 +1854,11 @@ body:not(.edit).unittag_santillanaportugalfyq .bck-flipbox-face.back {
 /*Form Hueco*/
 .unittag_santillanaportugalfyq.content_type_clase_santillanapt .slide_main input,
 .unittag_santillanaportugalfyq.content_type_clase_santillanapt .slide_main .img-input-container {
-    background: #dd493b33;
+    background: #8ddde342;
 }
 .unittag_santillanaportugalfyq.content_type_clase_santillanapt .slide_main input:focus,
 .unittag_santillanaportugalfyq.content_type_clase_santillanapt .slide_main .img-input-container:focus {
-        border: 2px solid #E76A5E;
+        border: 2px solid #5ebdc0;
     }
     
 /*RESPUESTA MULTIPLE*/
