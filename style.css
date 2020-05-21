@@ -2058,10 +2058,10 @@ body:not(.edit).unittag_santillanaportugalhistoria .bck-flipbox-face.back {
     background: #614533;
 }
 .unittag_santillanaportugalhistoria #bottom-navigator li:hover {
-    background: #ed7e33;
+    background: #ee9652;
 }
 .unittag_santillanaportugalhistoria #bottom-navigator li.active {
-    background: #ee9652;
+    background: #ed7e33;
 }
 
 /*----CAMBIOS EN LAS SLIDES----*/
