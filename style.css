@@ -17,6 +17,8 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
 }
 
 #indice .units ul li {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
     border-radius: 0;
     border: 3px solid;
     background: transparent;
@@ -461,6 +463,8 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
     font-weight: bold;
     width: fit-content;
     width: -moz-fit-content;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
     border-radius: 50%;
     padding: 6px 33px;
     font-size: 40px;
@@ -567,6 +571,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
     width: 150px;
     background: white;
     border: 2px solid #44913a;
+    border-right: 0;
 }
 
  .info-template .info-title {
@@ -1160,6 +1165,8 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
     color: #3ac62a;
     background-color: #ffffff;
     border-color: #3ac62a;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
     border-radius: 0;
         transition: all 0.2s;
     -webkit-transition: all 0.2s;
@@ -1172,6 +1179,8 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
     color: #3ac62a;
     background-color: #ffffff;
     border-color: #3ac62a;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
     border-radius: 0;
     opacity: 1;
         transition: all 0.2s;
