@@ -1111,16 +1111,16 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
 
 .fillblanks-draggable-wrapper .response:hover {
     background: #44913a3d;
-    transition: background 0.5s;
-    -webkit-transition: background 0.5s;
-    -moz-transition: background 0.5s;
+    transition: background 0.2s;
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
 }
 
 .fillblanks-draggable-wrapper .response {
     background: #ffffff;
-    transition: background 0.5s;
-    -webkit-transition: background 0.5s;
-    -moz-transition: background 0.5s;
+    transition: background 0.2s;
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
     -webkit-box-shadow: -2px 1px 7px 0px #0000002b;
     -moz-box-shadow: -2px 1px 7px 0px #0000002b;
     box-shadow: -2px 1px 7px 0px #0000002b;
