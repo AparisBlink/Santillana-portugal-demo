@@ -1696,14 +1696,6 @@ body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
 }
 .unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
     background: #e76a5e47;
-    transform: scale(1.1);
-    transition: transform, margin 0.2s;
-    -webkit-transition: transform, margin 0.2s;
-    -moz-transition: transform, margin 0.2s;
-    width: fit-content;
-    width: -moz-fit-content;
-    margin: 0px 10px;
-
 }
 
 /**** CSS FYQ ****
