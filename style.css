@@ -1258,14 +1258,13 @@ body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
     -webkit-box-shadow: -2px 1px 7px 0px #0000002b;
     -moz-box-shadow: -2px 1px 7px 0px #0000002b;
     box-shadow: -2px 1px 7px 0px #0000002b;
+    padding: 0;
 }
 
  #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
     background: #86bd50;
     width: fit-content;
     width: -moz-fit-content;
-    margin: 0px 10px;
-
 }
 
 
