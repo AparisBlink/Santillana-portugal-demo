@@ -277,7 +277,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
         width: 178px;
         height: 30px;
         background-position: center center;
-        background: url(/imagenes-santillanapt/Santillana-logo.png);
+        background: url(imagenes-santillanapt/Santillana-logo.png);
         background-repeat: no-repeat;
         background-size: contain;
         -webkit-background-size: contain;
@@ -2167,7 +2167,7 @@ and (max-device-width : 480px) {
 @media only screen and (max-width: 640px) {
 .logo-publisher {
     width: 45px;
-    background: url(/imagenes-santillanapt/logo-santillana-movil.png);
+    background: url(imagenes-santillanapt/logo-santillana-movil.png);
     background-size: 25px;
     background-repeat: no-repeat;
     left: 10px;
