@@ -2178,15 +2178,16 @@ and (max-device-width : 480px) {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-    .content_type_clase_santillanapt #actividad .content .header .title h3 span {
-    text-align: center;
-    line-height: 27px;
-    padding-bottom: 20px;
-    min-width: 302px;
-    text-align: left;
+    .content_type_clase_santillanapt #actividad .content .header .title h3 {
+        text-align: left;
+        padding-bottom: 20px;
+        min-width: 302px;
+        text-align: left;
+        line-height: 27px;
 }
-.content_type_clase_santillanapt #actividad .content .header .title h3 {
-    text-align: left;
+.content_type_clase_santillanapt #actividad .content .header .title h3 .ficha {
+    bottom: -16px;
+    position: absolute;
 }
 .content_type_clase_santillanapt #actividad .content .header .title {
     padding: 18px;
