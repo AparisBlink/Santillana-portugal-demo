@@ -2011,5 +2011,10 @@ and (max-device-width : 480px) {
     .bck-dropdown-button {
         padding-right: 20px;
     }
+    #bottom-navigator li {
+        width: 13px;
+        height: 13px;
+        line-height: 2.5rem;
+    }
 }
 
