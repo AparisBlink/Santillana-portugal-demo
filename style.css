@@ -1,111 +1,93 @@
 
-/*Indice del libro*/
 
-/*INDICE*/ 
+/*--------------------- AJUSTES TOC -------------- */ 
+/*--------------------- Se incluyen las variaciones por unittag -------------- */ 
 
-body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units ul li.active a {
-    color: #fff;
-    border-left: 16px solid white !important;
-}
-#indice .units ul li a:not(.delete) {
-    padding: 20px 10px;
-}
+    body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units ul li.active a {
+        color: #fff;
+        border-left: 16px solid white !important;
+    }
+    #indice .units ul li a:not(.delete) {
+        padding: 20px 10px;
+    }
 
-#indice .units ul li a .title {
-    font-size: 22px;
-    line-height: 28px;
-}
+    #indice .units ul li a .title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    #indice .units ul li {
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        border: 3px solid;
+        background: transparent;
+        padding: 0;
+        -moz-transition: background 0.2s ease-out;
+        -webkit-transition: background 0.2s ease-out;
+        transition: background 0.2s ease-out;
+        border: 3px solid #85BC40;
+    }
+    #list-units  {
+        border-color: #85BC40 !important;
+    }
+    #indice .units ul li.active:not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
+        background: #85BC40;
+    }
+    #list-units .unittag_santillanaportugalmates {
+        border-color: #0086C0 !important;
+    }
+    #list-units .unittag_santillanaportugalmates.active:not(.disabled),
+    #list-units .unittag_santillanaportugalmates:hover {
+        background: #0086C0 !important;
+    }
+    #list-units .unittag_santillanaportugalportugues {
+        border-color: #CA041A !important;
+    }
+    #list-units .unittag_santillanaportugalportugues.active:not(.disabled),
+    #list-units .unittag_santillanaportugalportugues:hover {
+        background: #CA041A !important;
+    }
+    #list-units .unittag_santillanaportugalhistoria {
+        border-color: #ED7E33 !important;
+    }
+    #list-units .unittag_santillanaportugalhistoria.active:not(.disabled),
+    #list-units .unittag_santillanaportugalhistoria:hover {
+        background: #ED7E33 !important;
+    }
+    #list-units .unittag_santillanaportugalfyq {
+        border-color: #5EBDC4 !important;
+    }
+    #list-units .unittag_santillanaportugalfyq.active:not(.disabled),
+    #list-units .unittag_santillanaportugalfyq:hover {
+        background: #5EBDC4 !important;
+    }
+    #indice .unit-content .header .title {
+        background: #0000008c;
+        height: fit-content;
+        height: -moz-fit-content;
+        padding: 9px;
+        margin-left: -8px;
+        padding-left: 35px;
+    }
 
-#indice .units ul li {
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    border: 3px solid;
-    background: transparent;
-    padding: 0;
-    -moz-transition: background 0.2s ease-out;
-    -webkit-transition: background 0.2s ease-out;
-    transition: background 0.2s ease-out;
-    border: 3px solid #85BC40;
-}
-
-#list-units  {
-    border-color: #85BC40 !important;
-}
-
-#indice .units ul li.active:not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
-    background: #85BC40;
-}
-
-#list-units .unittag_santillanaportugalmates {
-    border-color: #0086C0 !important;
-}
-
-#list-units .unittag_santillanaportugalmates.active:not(.disabled),
- #list-units .unittag_santillanaportugalmates:hover {
-    background: #0086C0 !important;
-}
-
-
-#list-units .unittag_santillanaportugalportugues {
-    border-color: #CA041A !important;
-}
-
-#list-units .unittag_santillanaportugalportugues.active:not(.disabled),
- #list-units .unittag_santillanaportugalportugues:hover {
-    background: #CA041A !important;
-}
-
-#list-units .unittag_santillanaportugalhistoria {
-    border-color: #ED7E33 !important;
-}
-
-#list-units .unittag_santillanaportugalhistoria.active:not(.disabled),
- #list-units .unittag_santillanaportugalhistoria:hover {
-    background: #ED7E33 !important;
-}
-
-#list-units .unittag_santillanaportugalfyq {
-    border-color: #5EBDC4 !important;
-}
-
-#list-units .unittag_santillanaportugalfyq.active:not(.disabled),
- #list-units .unittag_santillanaportugalfyq:hover {
-    background: #5EBDC4 !important;
-}
-
-#indice .unit-content .header .title {
-    background: #0000008c;
-    height: fit-content;
-    height: -moz-fit-content;
-    padding: 9px;
-    margin-left: -8px;
-    padding-left: 35px;
-}
-
+/*--*/
 
 /* General */
-
 	body.content_type_clase_santillanapt {
 		font-size: 1.8rem;
 		font-family: "Source Sans Pro", sans-serif;
 	}
-
 	body.content_type_clase_santillanapt #actividad .content img {
 		padding: 5px;
 	}
-
-
 	.is_app.content_type_clase_santillanapt {
 		padding-top: 0px;
 	}
-
 	.content_type_clase_santillanapt #actividad {
 		margin-bottom: 0px;
 		-webkit-transform: none;
 		-webkit-transform-style: flat;
 	}
-
 	#actividad .carousel-inner .item-container {
 		background-image: none;
 		margin: 20px auto 30px;
@@ -113,26 +95,21 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
 		padding-bottom: 90px;
 		position: relative;
 	}
-
 	.content_type_clase_santillanapt #actividad .slide-concatenate {
 		margin-top: 30px;
 	}
-
 	.content_type_clase_santillanapt #actividad .content .header .title img,
 	.content_type_clase_santillanapt #actividad .content .header .chapter {
 		display: none;
 	}
-
 	#indice .units ul li a .number,
 	#indice .unit-content .header .number {
 		visibility: hidden;
 	}
-
 	.content_type_clase_santillanapt #actividad .content .header {
 		border: none;
 		margin-bottom: 0;
 	}
-
 	.content_type_clase_santillanapt #actividad .content .header .title {
 		margin: -40px 0 20px;
 		padding: 24px 97px;
@@ -143,11 +120,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
     min-height: 75px;
     padding: 33px 90px;
     }
-
 	.content_type_clase_santillanapt #actividad .content .slide-concatenate .header .title {
 		display: none;
 	}
-
 	.content_type_clase_santillanapt #actividad .content .header .title h3 {
 		position: relative;
 		display: block;
@@ -159,7 +134,6 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
         font-size: 26px;
         font-weight: 700;
 	}
-
     /* CLASE SPAN QUE SE PUEDE INTRODUCIR EN EL HEADER <span class="ficha"> */
     .content_type_clase_santillanapt #actividad .content .header .title h3 .ficha {
         float: right;
@@ -167,62 +141,49 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
         font-weight: 400;
         line-height: 2;
     }
-
 	.content_type_clase_santillanapt #actividad .slide_content_type_1 .pregunta .texto_curso,
 	.content_type_clase_santillanapt #actividad .texto_curso,
 	.html-book {
 		font-size: 1.8rem;
 	}
-
 	.texto_curso p:last-of-type {
 		margin-bottom: 15px;
 	}
-
 	.content_type_clase_santillanapt #actividad .texto_curso li,
 	.content_type_clase_santillanapt #actividad .workspace ul li li {
 		margin-bottom: 10px;
 	}
-
 	#actividad .class_slide {
     	padding: 40px 0 0;
 	}
-
 	#actividad .class_slide:last-of-type {
 	    padding-bottom: 0px;
 	}
-
 	#actividad .slide-concatenate .class_slide {
 	    padding-bottom: 20px;
 	}
-
 	#actividad .slide-concatenate:last-of-type .class_slide {
 	    padding-bottom: 100px;
 	}
-
 	.content_type_clase_santillanapt .slide_main {
 		padding: 0 97px;
 	}
-
 	@media screen and (max-width: 480px) {
 		.content_type_clase_santillanapt .slide_main {
 			padding: 0 35px;
 		}
 	}
-
 	.content_type_clase_santillanapt .slide_main input,
 	.content_type_clase_santillanapt .slide_main .img-input-container {
         color: #555;
         background: #47933b21;
 	}
-
-
 	.content_type_clase_santillanapt .slide_main input:focus,
 	.content_type_clase_santillanapt .slide_main .img-input-container:focus {
 		outline-width: 0px;
         outline-style: none;
         border: 2px solid #46923a;
 	}
-
 	.content_type_clase_santillanapt .slide_main input[disabled],
 	.content_type_clase_santillanapt .slide_main input[readonly],
 	fieldset[disabled] .content_type_clase_santillanapt .slide_main input,
@@ -231,44 +192,39 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
 		background-color: #eee;
 		opacity: 1;
 	}
-
 	.content_type_clase_santillanapt .slide_main .img-input-container input[readonly],
 	.content_type_clase_santillanapt .slide_main .img-input-container input[disabled] {
 		opacity: 0;
 		filter: alpha(opacity=0);
 	}
-
 	.content_type_clase_santillanapt .slide_main input.respuesta_ok,
 	.content_type_clase_santillanapt .slide_main .img-input-container.respuesta_ok {
 		border-color: #57e900;
 		background: #D1F3BD;
 	}
-
 	.content_type_clase_santillanapt .slide_main input.respuesta_ko,
 	.content_type_clase_santillanapt .slide_main .img-input-container.respuesta_ko {
 		border-color: #FF3626;
 		background: #FFA49D;
 	}
-
 	.content_type_clase_santillanapt .slide_main input.solucion,
 	.content_type_clase_santillanapt .slide_main .img-input-container.solucion {
 		border-color: #00BDFF;
 		background: #B6ECFF;
 	}
-
 	.zoom_flag_img {
 		top: 15px;
 		right: 15px;
-	}
+    }
+    
 /**/
 
-/* Navbar */
+/* ----------------------- NAVBAR Inferior ----------------------- */
 	.navbar-bottom {
         background: #13270e;
 		padding-left: 100px;
 		padding-right: 100px;
 	}
-
 	.logo-publisher {      
         display: inline-block;
         position: absolute;
@@ -284,14 +240,19 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
         -moz-background-size: contain;
         -o-background-size: contain;
 	}
-
 	@media only screen and (max-width: 640px) {
 		.navbar-bottom {
 			padding-left: 40px;
 			padding-right: 40px;
-		}
-	}
-
+        }
+         .logo-publisher {
+            width: 45px;
+            background: url(imagenes-santillanapt/logo-santillana-movil.png);
+            background-size: 25px;
+            background-repeat: no-repeat;
+            left: 10px;
+        }
+     }
 	.slider-indicators {
 	    padding-left: 0px;
 	    padding-right: 0px;
@@ -305,20 +266,18 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
 		background-color: #ffffff;
 	    color: #005840;
 	}
-
 	.slider-indicators .active,
 	.edit .slider-indicators .active,
 	.slider-indicators li:hover,
 	.edit .slider-indicators .concat.active,
 	.slider-indicators .active {
-	    background-color: #007FA3;
+	    background-color: #85bc50;
 	    color: #ffffff;
 	}
 
 	.edit .slider-indicators .concat.active:before {
- 		background-color: #007FA3;
+ 		background-color: #85bc50;
 	}
-
 	#bottom-navigator {
 		overflow: hidden;
 		position: relative;
@@ -369,7 +328,6 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
 		background: -o-linear-gradient(left, #132E4C, transparent);
 		background: linear-gradient(to right, #132E4C, transparent);
 	}
-
 	#bottom-navigator.show_right:after {
 		content: '\F054';
 		font-family: 'FontAwesome';
@@ -387,1792 +345,1643 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, #indice .units 
 		background: -o-linear-gradient(right, #132E4C, transparent);
 		background: linear-gradient(to left, #132E4C, transparent);
 	}
-
 /**/
 
-/*TITULOS 1 - 3 CAMBIA COLOR POR TAG*/
-.bck-title1 {
-    font-size: 35px;
-    font-weight: 700;
-    color: #44913a;
-    margin: 20px 0;
-}
+/*-------------------------------- ESTILOS CK-EDITOR -----------------------------*/
 
-.bck-title2 {
-	display: block;
-    color: #44913A;
-    font-family: "Garamond", serif;
-    font-size: 36px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin: 20px 0;
-}
-
-.bck-title3 {
-    font-size: 35px;
-    border: 2px solid;
-    border-color: #44913a;
-    width: fit-content;
-    width: -moz-fit-content;
-    padding: 10px 20px;
-    color: #44913a;
-    margin: 20px 0;
-}
-
-.bck-title4 {
-    background: #44913a;
-    font-size: 35px;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    font-weight: bold;
-    margin: 20px 0;
-}
-
-.bck-title5 {
-    font-size: 35px;
-    border-bottom: 2px solid;
-    border-top: 2px solid;
-    padding: 5px;
-    text-align: center;
-    border-color: #44913a;
-    color: #44913a;
-    margin: 20px 0;
-}
-
-/*CAJAS*/
-
-.bck-box {
-	margin: 20px 0px;
-    padding: 10px 20px 10px 20px;
-}
-
-.bck-box .bck-content p:last-child {
-	margin-bottom: 0;
-}
-
-.bck-box p:last-of-type {
-    margin-bottom: 0;
-}
-
-/*Caja 1 */
-
-.bck-box1 .bck-title {
-    background: #44913a;
-    color: white;
-    font-weight: bold;
-    width: fit-content;
-    width: -moz-fit-content;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    padding: 6px 33px;
-    font-size: 40px;
-    margin: -41px auto 10px auto;
-}
-.bck-box.bck-box1 {
-    border: 3px solid;
-    border-color: #44913A;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-}
-
-
-/* Caja 2 */
-.bck-box.bck-box2 {
-    padding: 0px;
-    border: 0;
-    border: 3px solid;
-    border-color: #44913A;
-    margin-bottom: 24px;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    text-align: left;
-}
-
-.bck-box.bck-box2 .bck-title {
-    background: #44913A;
-    color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-}
-
-.bck-box.bck-box2 .bck-content {
-    padding: 10px 20px;
-    background: white;
-}
-
-/*Caja 3*/
-.bck-box.bck-box3 {
-    background: #44913a66;
-    -moz-border-radius: 22px;
-    -webkit-border-radius: 22px;
-    border-radius: 22px;
-}
-
-.bck-box.bck-box3 .bck-title {
-    background: #44913a;
-    width: fit-content;
-    width: -moz-fit-content;
-    color: white;
-    font-weight: bold;
-    padding: 12px 20px;
-    margin: -9px auto 10px auto;
-}
-
-/*Caja 4 */
-.bck-box4 .bck-title {
-    color: #CA041A;
-    font-weight: bold;
-    margin: 10px 0;
-    font-size: 24px;
-}
-
-.bck-box.bck-box4 {
-    margin: 10px;
-    border: 3px solid #CA041A;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    background: #ca041a61;
-    padding: 10px 20px;
-}
-
-/*Caja 5 */
-.bck-box5 .bck-title {
-    color: #ECB700;
-    font-weight: bold;
-    margin: 10px 0;
-    font-size: 24px;
-}
-
-.bck-box.bck-box5 {
-    margin: 10px;
-    border: 3px solid #ECB700;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    background: rgba(255, 216, 74, 0.596);
-    padding: 10px 20px;
-}
-
-
-/*POPUP*/
-
-#actividad .info-button {
-    background: #44913a;
-    color: white;
-    cursor: pointer;
-}
-
-.info-template.shown {
-    width: 150px;
-    background: white;
-    border: 2px solid #44913a;
-    border-right: 0;
-}
-
- .info-template .info-title {
-    color: #44913a;
-}
-
- .info-template .info-icon {
-    display: none;
-}
-
- .info-popover .popover-title:before, 
- .popover-template .popover-title:before {
-    display: none;
-}
-
- .info-popover .popover-title,
-  .popover-template .popover-title {
-    background: white;
-    color: #44913a;
-    font-weight: bold;
-    padding-left: 14px;
-}
-
- .popover-container {
-    border: 3px solid #44913a;
-}
-
-/* Listas */
-
-.texto_curso ul li,
-.workspace ul li ul li,
-.cke_contents ul li {
-	padding-left: 30px;
-}
-
-
-
-.content .bck-ol,
-.cke_contents .bck-ol {
-	list-style-type: none;
-	padding-left: 0;
-	counter-reset: bck-li-counter;
-}
-
-.content .bck-ol li,
-.cke_contents .bck-ol li{
-	list-style-type: none;
-	padding-left: 43px;
-	margin-bottom: 16px;
-	counter-increment: bck-li-counter;
-	position: relative;
-	line-height: 1.1rem;
-}
-
-.content .bck-ol li:before,
-    .cke_contents .bck-ol li:before {
-        content: counter(bck-li-counter);
-        position: absolute;
-        top: -1px;
-        left: -2px;
+    /* ------- TITULOS 1 - 5. Del 1 al 3 cambia color por tag ---------*/
+    .bck-title1 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #44913a;
+        margin: 20px 0;
+    }
+    .bck-title2 {
         display: block;
-        width: 28px;
-        height: 28px;
-        color: #fff;
-        font-size: 21px;
+        color: #44913A;
+        font-family: "Garamond", serif;
+        font-size: 36px;
         font-weight: bold;
+        letter-spacing: 1px;
+        margin: 20px 0;
+    }
+    .bck-title3 {
+        font-size: 35px;
+        border: 2px solid;
+        border-color: #44913a;
+        width: fit-content;
+        width: -moz-fit-content;
+        padding: 10px 20px;
+        color: #44913a;
+        margin: 20px 0;
+    }
+    .bck-title4 {
+        background: #44913a;
+        font-size: 35px;
+        color: white;
         text-align: center;
-        -webkit-border-radius: 20%;
-        -moz-border-radius: 20%;
-        border-radius: 20%;
-}
-
-
-.content .bck-ol1 li:before,
-.cke_contents .bck-ol1 li:before {
-    background: #44913A;
-}
-
-/*LISTA ORDENADA 2 - Lista azul*/
-
-.content .bck-ol2 li:before,
-.cke_contents .bck-ol2 li:before {
-    background: #338DBA;
-}
-
-/*LISTA ORDENADA 3 - Lista roja*/
-
-.content .bck-ol3 li:before,
-.cke_contents .bck-ol3 li:before {
-    background: #DC4739;
-}
-
-/*LISTA ORDENADA 4 - Lista azul*/
-
-.content .bck-ol4 li:before,
-.cke_contents .bck-ol4 li:before {
-    background: #5EBDC4;
-}
-
-/*LISTA ORDENADA 5 - Lista naranja*/
-
-.content .bck-ol5 li:before,
-.cke_contents .bck-ol5 li:before {
-    background: #ED7E33;
-}
-
-/*LISTA ORDENADA 6 - Lista dorada*/
-
-.content .bck-ol6 li:before,
-.cke_contents .bck-ol6 li:before {
-    background: #ECB700;
-}
-
-/*LISTA ORDENADA 7 - Cambia de color por tag*/
-
-.content .bck-ol7 li:before,
-.cke_contents .bck-ol7 li:before {
-    content: counter(bck-li-counter, lower-alpha) ")";
-    top: 0;
-	left: -5px;
-	width: 28px;
-	height: 20px;
-    background: none;
-    color: #44913A;
-    line-height: 2rem;
-}
-
-/*LISTA ORDENADA 8 - Lista abc rojo */
-
-.content .bck-ol8 li:before,
-.cke_contents .bck-ol8 li:before {
-    content: counter(bck-li-counter, lower-alpha) ")";
-    top: 0;
-	left: -5px;
-	width: 28px;
-	height: 20px;
-    background: none;
-    color: #D62927;
-    line-height: 2rem;
-}
-
-/*LISTA ORDENADA 9 - Lista abc dorada*/
-
-.content .bck-ol9 li:before,
-.cke_contents .bck-ol9 li:before {
-    content: counter(bck-li-counter, lower-alpha) ")";
-    top: 0;
-	left: -5px;
-	width: 28px;
-	height: 20px;
-    background: none;
-    color: #ECB700;
-    line-height: 2rem;
-}
-
-/*LISTA DESORDENADA POR DEFECTO*/
-
-.texto_curso ul li:before,
- .workspace ul li ul li:before,
-  .cke_contents ul li:before {
-    width: 8px;
-    height: 8px;
-    background-color: #414141;
-    margin-top: 9px;
-}
-
-/*LISTA DESORDENADA 1*/
-
-.texto_curso .bck-ul1 li:before,
- .workspace ul li .bck-ul1 li:before,
-  .cke_contents .bck-ul1 li:before {
-    background-color: #44913A;
-}
-
-
-
-
-
-/*Énfasis 1 - 6 - Cambio de colores*/
-
-.bck-enfasis-1 {
-    color: #44913A;
-    font-weight: bold;
-}
-.bck-enfasis-2 {
-    color: #338DBA;
-    font-weight: bold;
-}
-.bck-enfasis-3 {
-    color: #DC4739;
-    font-weight: bold;
-}
-.bck-enfasis-4 {
-    color: #5EBDC4;
-    font-weight: bold;
-}
-.bck-enfasis-5 {
-    color: #ED7E33;
-    font-weight: bold;
-}
-.bck-enfasis-6 {
-    color: #ECB700;
-    font-weight: bold;
-}
-
-/*Énfasis 7 - Cambia de color por tag*/
-.bck-enfasis-7 {
-    background: #44913a;
-    padding: 8px;
-    color: white;
-}
-
-/*Énfasis 8 - Fondo caja blanco con sombra*/
-.bck-enfasis-8 {
-    background: white;
-    padding: 8px;
-    -webkit-box-shadow: 1px 5px 7px 0px rgba(0, 0, 0, 0.32);
-	-moz-box-shadow: 1px 5px 7px 0px rgba(0, 0, 0, 0.32);
-	box-shadow: 1px 5px 7px 0px rgba(0, 0, 0, 0.32);
-}
-
-/*Enfasis 9 - Agrega subrayado - Se puede combinar*/
-.bck-enfasis-9 {
-    border-bottom: 2px solid;
-}
-
-/*Desplegable*/
- .bck-dropdown-button {
-    background: rgb(68,145,58);
-    background: -moz-linear-gradient(180deg, rgba(68,145,58,1) 0%, rgba(134,189,80,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(68,145,58,1) 0%, rgba(134,189,80,1) 100%);
-    background: linear-gradient(180deg, rgba(68,145,58,1) 0%, rgba(134,189,80,1) 100%);
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
-    width: fit-content;
-    padding: 8px 92px 0px 16px;
-    font-size: 18px;
-}
- .bck-dropdown-icon>.fa {
-    display: inline-block;
-    border: 0;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
-    padding: 7px;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
- .bck-dropdown-content {
-    overflow-y: auto;
-    display: none;
-    max-height: 300px;
-    padding: 10px;
-    background-color: white;
-    border: 4px solid;
-    border-color: rgba(134,189,80,1);
-}
- .bck-dropdown-titulo {
-    font-size: 18px;
-}
-
-/*Flipbox*/
-body:not(.edit) .bck-flipbox-face.front,
- body:not(.edit) .bck-flipbox-face.back {
-    border-color: #4d973d;
-}
-body:not(.edit) .front .bck-flipbox-title,
- body:not(.edit) .front .bck-flipbox-section {
-    color: #81ba4f;
-}
-body:not(.edit) .bck-flipbox-face.back {
-    background-color: #4d973d;
-}
-
-/*Tablas*/
-
-.bck-table td, th {
-    padding: 8px;
-}
-.bck-table.bck-table-1 td,
- .bck-table.bck-table-1 th {
-    border: 2px solid #5ba042;
-}
-.bck-table.bck-table-2 td,
- .bck-table.bck-table-2 th {
-    border: 2px solid #338DBA;
-}
-.bck-table.bck-table-3 td,
- .bck-table.bck-table-3 th {
-    border: 2px solid #ECB700;
-}
-.bck-table.bck-table-4 td,
- .bck-table.bck-table-4 th {
-    border: 2px solid #ED7E33;
-}
-.bck-table.bck-table-5 td,
- .bck-table.bck-table-5 th {
-    border: 2px solid #5EBDC4;
-}
-.bck-table.bck-table-6 td,
- .bck-table.bck-table-6 th {
-    border: 2px solid #DC4739;
-}
-.bck-td-1 {
-    background: #5ba042;
-    color: white;
-}
-.bck-td-2 {
-    background: #5ba04269;
-}
-.bck-td-3 {
-    background: #338DBA;
-    color: white;
-}
-.bck-td-4 {
-    background: #338dba73;
-}
-.bck-td-5 {
-    background: #ECB700;
-    color: white;
-}
-.bck-td-6 {
-    background: #ecb70059;
-}
-.bck-td-7 {
-    background: #ED7E33;
-    color: white;
-}
-.bck-td-8 {
-    background: #ed7e3354;
-}
-.bck-td-9 {
-    background: #5EBDC4;
-    color: white;
-}
-.bck-td-10 {
-    background: #67c8cf59;
-}
-.bck-td-11 {
-    background: #DC4739;
-    color: white;
-}
-.bck-td-12 {
-    background: #dc47396e;
-}
-/*Enlace*/
-a {
-    text-decoration: underline;
-}
-a:hover,
- a:active,
-  a:focus {
-    color: #5BA042;
-}
-
-/* Icons */
-.item-container .icon:before {
-	content: "";
-	background-repeat: no-repeat;
-	-webkit-background-size: auto 100%;
-	   -moz-background-size: auto 100%;
-	     -o-background-size: auto 100%;
-	        background-size: auto 100%;
-	background-position: center center;
-	display: inline-block;
-	vertical-align: middle;
-	height: 40px;
-	width: 54px;
-	margin-top: -16px;
-}
-
-/*Icono de Audio - Cambia por tag*/
-#actividad .player.audio,
- #actividad .player.video, 
- #help-panel-content .player,
-  #remote-alert-modal-rich .player {
-    background-color:#44913a;
-  }
-  #actividad .player:hover,
-   #help-panel-content .player:hover,
-    #remote-alert-modal-rich .player:hover {
-        background-color: #0b0;
+        padding: 10px 0;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+    .bck-title5 {
+        font-size: 35px;
+        border-bottom: 2px solid;
+        border-top: 2px solid;
+        padding: 5px;
+        text-align: center;
+        border-color: #44913a;
+        color: #44913a;
+        margin: 20px 0;
     }
 
-/*Icono archivo adjunto*/
-.bck-sub-label, 
-.bck-file-label {
-    background: #dfdfdf;
-}
-.bck-file-attach span {
-    vertical-align: middle;
-}
+    /*------------- CAJAS --------------*/
+    .bck-box {
+        margin: 20px 0px;
+        padding: 10px 20px 10px 20px;
+    }
+    .bck-box .bck-content p:last-child {
+        margin-bottom: 0;
+    }
+    .bck-box p:last-of-type {
+        margin-bottom: 0;
+    }
 
+    /*Caja 1*/
+    .bck-box1 .bck-title {
+        background: #44913a;
+        color: white;
+        font-weight: bold;
+        width: fit-content;
+        width: -moz-fit-content;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        padding: 6px 33px;
+        font-size: 40px;
+        margin: -41px auto 10px auto;
+    }
+    .bck-box.bck-box1 {
+        border: 3px solid;
+        border-color: #44913A;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
 
+    /* Caja 2 */
+    .bck-box.bck-box2 {
+        padding: 0px;
+        border: 0;
+        border: 3px solid;
+        border-color: #44913A;
+        margin-bottom: 24px;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        text-align: left;
+    }
+    .bck-box.bck-box2 .bck-title {
+        background: #44913A;
+        color: white;
+        font-weight: bold;
+        padding: 10px 20px;
+    }
+    .bck-box.bck-box2 .bck-content {
+        padding: 10px 20px;
+        background: white;
+    }
 
+    /*Caja 3*/
+    .bck-box.bck-box3 {
+        background: #44913a66;
+        -moz-border-radius: 22px;
+        -webkit-border-radius: 22px;
+        border-radius: 22px;
+    }
+    .bck-box.bck-box3 .bck-title {
+        background: #44913a;
+        width: fit-content;
+        width: -moz-fit-content;
+        color: white;
+        font-weight: bold;
+        padding: 12px 20px;
+        margin: -9px auto 10px auto;
+    }
 
-/* Forms */
-.content_type_clase_santillanapt .slide_main .fill-text .img-input-container {
-    display: none;
-}
+    /*Caja 4 */
+    .bck-box4 .bck-title {
+        color: #CA041A;
+        font-weight: bold;
+        margin: 10px 0;
+        font-size: 24px;
+    }
+    .bck-box.bck-box4 {
+        margin: 10px;
+        border: 3px solid #CA041A;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        background: #ca041a61;
+        padding: 10px 20px;
+    }
+    /*Caja 5 */
+    .bck-box5 .bck-title {
+        color: #ECB700;
+        font-weight: bold;
+        margin: 10px 0;
+        font-size: 24px;
+    }
+    .bck-box.bck-box5 {
+        margin: 10px;
+        border: 3px solid #ECB700;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(255, 216, 74, 0.596);
+        padding: 10px 20px;
+    }
 
+    /*------------- POPUP ----------------- */
+    #actividad .info-button {
+        background: #44913a;
+        color: white;
+        cursor: pointer;
+    }
+    .info-template.shown {
+        width: 150px;
+        background: white;
+        border: 2px solid #44913a;
+        border-right: 0;
+    }
+    .info-template .info-title {
+        color: #44913a;
+    }
+    .info-template .info-icon {
+        display: none;
+    }
+    .info-popover .popover-title:before, 
+    .popover-template .popover-title:before {
+        display: none;
+    }
+    .info-popover .popover-title,
+    .popover-template .popover-title {
+        background: white;
+        color: #44913a;
+        font-weight: bold;
+        padding-left: 14px;
+    }
+    .popover-container {
+        border: 3px solid #44913a;
+    }
 
+    /* ----------------------Listas ----------------*/
+    .texto_curso ul li,
+    .workspace ul li ul li,
+    .cke_contents ul li {
+        padding-left: 30px;
+    }
+    .content .bck-ol,
+    .cke_contents .bck-ol {
+        list-style-type: none;
+        padding-left: 0;
+        counter-reset: bck-li-counter;
+    }
+    .content .bck-ol li,
+    .cke_contents .bck-ol li{
+        list-style-type: none;
+        padding-left: 43px;
+        margin-bottom: 16px;
+        counter-increment: bck-li-counter;
+        position: relative;
+        line-height: 1.1rem;
+    }
+    .content .bck-ol li:before,
+        .cke_contents .bck-ol li:before {
+            content: counter(bck-li-counter);
+            position: absolute;
+            top: -1px;
+            left: -2px;
+            display: block;
+            width: 28px;
+            height: 28px;
+            color: #fff;
+            font-size: 21px;
+            font-weight: bold;
+            text-align: center;
+            -webkit-border-radius: 20%;
+            -moz-border-radius: 20%;
+            border-radius: 20%;
+    }
+    /*Lista ordenada 1*/
+    .content .bck-ol1 li:before,
+    .cke_contents .bck-ol1 li:before {
+        background: #44913A;
+    }
 
+    /*LISTA ORDENADA 2 - Lista azul*/
+    .content .bck-ol2 li:before,
+    .cke_contents .bck-ol2 li:before {
+        background: #338DBA;
+    }
 
-/*Ajuste general a slides (Revisar)*/
-#actividad .workspace {
-   margin-left: 0px;
-}
+    /*LISTA ORDENADA 3 - Lista roja*/
+    .content .bck-ol3 li:before,
+    .cke_contents .bck-ol3 li:before {
+        background: #DC4739;
+    }
 
-/* --------- Slides ----------------- */
+    /*LISTA ORDENADA 4 - Lista azul*/
+    .content .bck-ol4 li:before,
+    .cke_contents .bck-ol4 li:before {
+        background: #5EBDC4;
+    }
 
-img.Wirisformula {
-    margin-top: -20px;
-}
+    /*LISTA ORDENADA 5 - Lista naranja*/
+    .content .bck-ol5 li:before,
+    .cke_contents .bck-ol5 li:before {
+        background: #ED7E33;
+    }
 
-.workspace.fillblanks.frame.fill-text {
-    padding: 0px;
-}
+    /*LISTA ORDENADA 6 - Lista dorada*/
+    .content .bck-ol6 li:before,
+    .cke_contents .bck-ol6 li:before {
+        background: #ECB700;
+    }
 
+    /*LISTA ORDENADA 7 - Cambia de color por tag*/
+    .content .bck-ol7 li:before,
+    .cke_contents .bck-ol7 li:before {
+        content: counter(bck-li-counter, lower-alpha) ")";
+        top: 0;
+        left: -5px;
+        width: 28px;
+        height: 20px;
+        background: none;
+        color: #44913A;
+        line-height: 2rem;
+    }
 
-#actividad .workspace.ordenar .js-rank-item:hover {
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    background-color: #44913a3d;
-}
+    /*LISTA ORDENADA 8 - Lista abc rojo */
+    .content .bck-ol8 li:before,
+    .cke_contents .bck-ol8 li:before {
+        content: counter(bck-li-counter, lower-alpha) ")";
+        top: 0;
+        left: -5px;
+        width: 28px;
+        height: 20px;
+        background: none;
+        color: #D62927;
+        line-height: 2rem;
+    }
 
-#actividad .workspace.matching .opciones .opcion.emparejado.destino {
-    border-width: 2px 2px 2px 0;
-}
+    /*LISTA ORDENADA 9 - Lista abc dorada*/
+    .content .bck-ol9 li:before,
+    .cke_contents .bck-ol9 li:before {
+        content: counter(bck-li-counter, lower-alpha) ")";
+        top: 0;
+        left: -5px;
+        width: 28px;
+        height: 20px;
+        background: none;
+        color: #ECB700;
+        line-height: 2rem;
+    }
 
-#actividad .workspace.matching .opciones .opcion.emparejado.origen {
-    border-width: 2px 0 2px 2px;
-}
+    /*LISTA DESORDENADA POR DEFECTO*/
+    .texto_curso ul li:before,
+    .workspace ul li ul li:before,
+    .cke_contents ul li:before {
+        width: 8px;
+        height: 8px;
+        background-color: #414141;
+        margin-top: 9px;
+    }
 
-#actividad .workspace.clasificar .clasificar_lista .classify-item {
-    border: 0px solid #d8d8d8;
-}
+    /*LISTA DESORDENADA 1*/
+    .texto_curso .bck-ul1 li:before,
+    .workspace ul li .bck-ul1 li:before,
+    .cke_contents .bck-ul1 li:before {
+        background-color: #44913A;
+    }
 
-#actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 2px solid #10A0C6;
-    padding-top: 10px;
-}
+    /*-----------ÉNFASIS----------------*/
 
-.fillblanks-draggable-wrapper .response {
-    border: 0px solid #d8d8d8;
-    background: #c1e5f7;
-}
+    /*Énfasis 1 - 6 - Cambio de colores*/
+    .bck-enfasis-1 {
+        color: #44913A;
+        font-weight: bold;
+    }
+    .bck-enfasis-2 {
+        color: #338DBA;
+        font-weight: bold;
+    }
+    .bck-enfasis-3 {
+        color: #DC4739;
+        font-weight: bold;
+    }
+    .bck-enfasis-4 {
+        color: #5EBDC4;
+        font-weight: bold;
+    }
+    .bck-enfasis-5 {
+        color: #ED7E33;
+        font-weight: bold;
+    }
+    .bck-enfasis-6 {
+        color: #ECB700;
+        font-weight: bold;
+    }
 
-.fillblanks-draggable-wrapper .response .bck-i-fullscreen-wrapper {
-    padding: 0;
-}
+    /*Énfasis 7 - Cambia de color por tag*/
+    .bck-enfasis-7 {
+        background: #44913a;
+        padding: 8px;
+        color: white;
+    }
 
-body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable-wrapper
-.response .bck-i-fullscreen,
-body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
-.img-input-container.imgFilled img {
-	width: auto;
-	height: 100px !important;
-	padding: 0;
-}
+    /*Énfasis 8 - Fondo caja blanco con sombra*/
+    .bck-enfasis-8 {
+        background: white;
+        padding: 8px;
+        -webkit-box-shadow: 1px 5px 7px 0px rgba(0, 0, 0, 0.32);
+        -moz-box-shadow: 1px 5px 7px 0px rgba(0, 0, 0, 0.32);
+        box-shadow: 1px 5px 7px 0px rgba(0, 0, 0, 0.32);
+    }
 
-/*Sopa de letras*/
+    /*Enfasis 9 - Agrega subrayado - Se puede combinar*/
+    .bck-enfasis-9 {
+        border-bottom: 2px solid;
+    }
 
-.rf-tgrid {
-    height: 26px;
-    width: 26px;
-    font-family: Verdana,Arial,Helvetica,sans-serif;
-    font-weight: normal;
-    font-size: 24px;
-    border: 1px solid #d8d8d8;
-    vertical-align: middle;
-    text-align: center;
-    padding: 10px;
-}
+    /*--------------Desplegable--------------------*/
+    .bck-dropdown-button {
+        background: rgb(68,145,58);
+        background: -moz-linear-gradient(180deg, rgba(68,145,58,1) 0%, rgba(134,189,80,1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(68,145,58,1) 0%, rgba(134,189,80,1) 100%);
+        background: linear-gradient(180deg, rgba(68,145,58,1) 0%, rgba(134,189,80,1) 100%);
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        width: fit-content;
+        padding: 8px 92px 0px 16px;
+        font-size: 18px;
+    }
+    .bck-dropdown-icon>.fa {
+        display: inline-block;
+        border: 0;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+        padding: 7px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .bck-dropdown-content {
+        overflow-y: auto;
+        display: none;
+        max-height: 300px;
+        padding: 10px;
+        background-color: white;
+        border: 4px solid;
+        border-color: rgba(134,189,80,1);
+    }
+    .bck-dropdown-titulo {
+        font-size: 18px;
+    }
 
-/*Verdadero o falso*/
+    /*--------------Flipbox--------------------*/
+    body:not(.edit) .bck-flipbox-face.front,
+    body:not(.edit) .bck-flipbox-face.back {
+        border-color: #4d973d;
+    }
+    body:not(.edit) .front .bck-flipbox-title,
+    body:not(.edit) .front .bck-flipbox-section {
+        color: #81ba4f;
+    }
+    body:not(.edit) .bck-flipbox-face.back {
+        background-color: #4d973d;
+    }
 
-.checkbox-option label.filter-label, .checkbox-option label.filter-label-append, .radio-option label.filter-label {
-    -moz-user-select: none;
-    font-size: 18px;
-    font-weight: normal;
-    margin-top: 9px;
-}
+    /*--------------------Tablas------------------*/
+    .bck-table td, th {
+        padding: 8px;
+    }
+    .bck-table.bck-table-1 td,
+    .bck-table.bck-table-1 th {
+        border: 2px solid #5ba042;
+    }
+    .bck-table.bck-table-2 td,
+    .bck-table.bck-table-2 th {
+        border: 2px solid #338DBA;
+    }
+    .bck-table.bck-table-3 td,
+    .bck-table.bck-table-3 th {
+        border: 2px solid #ECB700;
+    }
+    .bck-table.bck-table-4 td,
+    .bck-table.bck-table-4 th {
+        border: 2px solid #ED7E33;
+    }
+    .bck-table.bck-table-5 td,
+    .bck-table.bck-table-5 th {
+        border: 2px solid #5EBDC4;
+    }
+    .bck-table.bck-table-6 td,
+    .bck-table.bck-table-6 th {
+        border: 2px solid #DC4739;
+    }
+    .bck-td-1 {
+        background: #5ba042;
+        color: white;
+    }
+    .bck-td-2 {
+        background: #5ba04269;
+    }
+    .bck-td-3 {
+        background: #338DBA;
+        color: white;
+    }
+    .bck-td-4 {
+        background: #338dba73;
+    }
+    .bck-td-5 {
+        background: #ECB700;
+        color: white;
+    }
+    .bck-td-6 {
+        background: #ecb70059;
+    }
+    .bck-td-7 {
+        background: #ED7E33;
+        color: white;
+    }
+    .bck-td-8 {
+        background: #ed7e3354;
+    }
+    .bck-td-9 {
+        background: #5EBDC4;
+        color: white;
+    }
+    .bck-td-10 {
+        background: #67c8cf59;
+    }
+    .bck-td-11 {
+        background: #DC4739;
+        color: white;
+    }
+    .bck-td-12 {
+        background: #dc47396e;
+    }
 
-.workspace.true-false {
-    margin-left: 28px !important;
-}
+    /*--------------Enlace-----------------*/
+    #actividad a {
+        text-decoration: underline;
+    }
+    #actividad a:hover,
+    #actividad a:active,
+    #actividad a:focus {
+        color: #5BA042;
+    }
 
-/* Texto a imagen*/
+    /* Icons */
+    .item-container .icon:before {
+        content: "";
+        background-repeat: no-repeat;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+            -o-background-size: auto 100%;
+                background-size: auto 100%;
+        background-position: center center;
+        display: inline-block;
+        vertical-align: middle;
+        height: 40px;
+        width: 54px;
+        margin-top: -16px;
+    }
 
-#actividad .workspace.drag-and-drop {
-    position: relative;
-    margin-left: 28px;
-}
+    /*Icono de Audio - Cambia por tag*/
+    #actividad .player.audio,
+    #actividad .player.video, 
+    #help-panel-content .player,
+    #remote-alert-modal-rich .player {
+        background-color:#44913a;
+    }
+    #actividad .player:hover,
+    #help-panel-content .player:hover,
+        #remote-alert-modal-rich .player:hover {
+            background-color: #0b0;
+        }
 
-/*Elegir respuesta*/
+    /*Icono archivo adjunto*/
+    .bck-sub-label, 
+    .bck-file-label {
+        background: #dfdfdf;
+    }
+    .bck-file-attach span {
+        vertical-align: middle;
+    }
+/*--*/
 
-#actividad .workspace.multiple-choice .opcion.respuesta_checked {
-    background-color: #44913a3d;
-}
+/*------------------- AJUSTES EBN PLANTILLAS DE ACTIVIDADES-------------------*/
 
-#actividad .workspace.multiple-choice .opcion,
-  #actividad .workspace.ordenar .js-rank-item {
-    background: #fff;
-    border: none;
-    transition: transform 0.5s;
-    -webkit-transition: -webkit-transform 0.5s;
-    -moz-transition: -moz-transform 0.5s;
-    padding: 11px;
-    -webkit-box-shadow: -2px 1px 7px 0px #0000002b;
-    -moz-box-shadow: -2px 1px 7px 0px #0000002b;
-    box-shadow: -2px 1px 7px 0px #0000002b;
-}
+    /*-----------Forms-------------- */
+    .content_type_clase_santillanapt .slide_main .fill-text .img-input-container {
+        display: none;
+    }
 
-#actividad .workspace.multiplechoice_horizontal .opcion:hover {
-    background: #44913a3d;
-    transform: scale(1.1);
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-}
+    /*Ajuste generales a slides*/
+    #actividad .workspace {
+    margin-left: 0px;
+    }
 
-/*Area de respuesta*/
+    /* --------- Slides ----------------- */
 
-.shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
-    -webkit-box-shadow: 0 0 2px #3ac62a;
-    -moz-box-shadow: 0 0 2px #3ac62a;
-    box-shadow: 0 0 2px #44913a;
-    border-color: #44913a;
-}
+    img.Wirisformula {
+        margin-top: -20px;
+    }
 
-/*Rellenar espacios*/
+    /*Espacio Slides concatenadas*/
+    #actividad .slide-concatenate .class_slide {
+        padding-bottom: 20px;
+        padding-top: 0px;
+    }
 
-.fillblanks-draggable-wrapper .response:hover {
-    background: #44913a3d;
-    transition: background 0.2s;
-    -webkit-transition: background 0.2s;
-    -moz-transition: background 0.2s;
-}
-
-.fillblanks-draggable-wrapper .response {
-    background: #ffffff;
-    transition: background 0.2s;
-    -webkit-transition: background 0.2s;
-    -moz-transition: background 0.2s;
-    -webkit-box-shadow: -2px 1px 7px 0px #0000002b;
-    -moz-box-shadow: -2px 1px 7px 0px #0000002b;
-    box-shadow: -2px 1px 7px 0px #0000002b;
-}
-
-.content_type_clase_santillanapt .slide_main input[disabled],
- .content_type_clase_santillanapt .slide_main input[readonly],
-  fieldset[disabled] .content_type_clase_santillanapt .slide_main input, .content_type_clase_santillanapt .slide_main .img-input-container {
-    background-color: #fff;
-}
-
-/*Espacio Slides concatenadas*/
-
-#actividad .slide-concatenate .class_slide {
-    padding-bottom: 20px;
-    padding-top: 0px;
-}
-
-/* RELACIONAR PALABRARS */
-#actividad .workspace.matching .opciones .opcion:not(.ko):not(.ok) {
-    padding:0;
-    -webkit-box-shadow: 1px 5px 7px 0px #0000002b;
-    -moz-box-shadow: 1px 5px 7px 0px #0000002b;
-    box-shadow: 1px 5px 7px 0px #0000002b;
-    border: 0;
-    margin: 10px 0;
-}
-
-/*Botones*/
-
-.btn-danger, .btn-danger[disabled] {
-    color: #fc4237;
-    background-color: #ffffff;
-    border-color: #fc4237;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-}
-
-.btn-danger:hover, .btn-danger:focus,
- .btn-danger:active, .btn-danger.active,
-  .open .dropdown-toggle.btn-danger {
-    color: #fff;
-    background-color: #db3228;
-    border-color: transparent;
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-}
-
-.btn-primary[disabled],
- .btn-primary[disabled]:focus {
-    color: #3ac62a;
-    background-color: #ffffff;
-    border-color: #3ac62a;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
+    /*BOTONERA*/
+    .btn-danger, .btn-danger[disabled] {
+        color: #fc4237;
+        background-color: #ffffff;
+        border-color: #fc4237;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
         transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-}
-
-.btn-primary, .btn-primary.disabled,
- .btn-primary.disabled:hover,
-  .btn-primary.disabled:focus {
-    color: #3ac62a;
-    background-color: #ffffff;
-    border-color: #3ac62a;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    opacity: 1;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+    }
+    .btn-danger:hover, .btn-danger:focus,
+    .btn-danger:active, .btn-danger.active,
+    .open .dropdown-toggle.btn-danger {
+        color: #fff;
+        background-color: #db3228;
+        border-color: transparent;
         transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-}
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+    }
+    .btn-primary[disabled],
+    .btn-primary[disabled]:focus {
+        color: #3ac62a;
+        background-color: #ffffff;
+        border-color: #3ac62a;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+            transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+    }
+    .btn-primary, .btn-primary.disabled,
+    .btn-primary.disabled:hover,
+    .btn-primary.disabled:focus {
+        color: #3ac62a;
+        background-color: #ffffff;
+        border-color: #3ac62a;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        opacity: 1;
+            transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+    }
+    #actividad .content .review .attemps span {
+        color: #ffffff;
+        background-color: #4b4b4b;
+        -webkit-border-radius: 0%;
+        border-radius: 0%;
+        -moz-border-radius: 0%;
+        border-radius: 0%;
+        border: 1px solid #4b4b4b;
+    }
+    .btn-solution, .btn-solution.disabled,
+    .btn-solution[disabled], .btn-next,
+    .btn-next.disabled, .btn-next[disabled] {
+        color: #00bdff;
+        background-color: #ffffff;
+        border-color: #00bdff;
+        -webkit-border-radius: 0%;
+        border-radius: 0%;
+        -moz-border-radius: 0%;
+        transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+    }
+    .btn-solution:hover, .btn-solution:focus,
+    .btn-solution:active, .btn-next:hover,
+    .btn-next:focus, .btn-next:active,
+    .open .dropdown-toggle.btn-solution {
+        color: #fff;
+        background-color: #00bdff;
+        border-color: transparent;
+        transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+    }
 
-#actividad .content .review .attemps span {
-    color: #ffffff;
-    background-color: #4b4b4b;
-    -webkit-border-radius: 0%;
-    border-radius: 0%;
-    -moz-border-radius: 0%;
-    border-radius: 0%;
-    border: 1px solid #4b4b4b;
-}
+    /*Sopa de letras*/
+    .rf-tgrid {
+        height: 26px;
+        width: 26px;
+        font-family: Verdana,Arial,Helvetica,sans-serif;
+        font-weight: normal;
+        font-size: 24px;
+        border: 1px solid #d8d8d8;
+        vertical-align: middle;
+        text-align: center;
+        padding: 10px;
+    }
 
-.btn-solution, .btn-solution.disabled,
- .btn-solution[disabled], .btn-next,
-  .btn-next.disabled, .btn-next[disabled] {
-    color: #00bdff;
-    background-color: #ffffff;
-    border-color: #00bdff;
-    -webkit-border-radius: 0%;
-    border-radius: 0%;
-    -moz-border-radius: 0%;
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-}
+    /*Verdadero o falso*/
+    .checkbox-option label.filter-label, .checkbox-option label.filter-label-append, .radio-option label.filter-label {
+        -moz-user-select: none;
+        font-size: 18px;
+        font-weight: normal;
+        margin-top: 9px;
+    }
+    .workspace.true-false {
+        margin-left: 28px !important;
+    }
 
-.btn-solution:hover, .btn-solution:focus,
- .btn-solution:active, .btn-next:hover,
-  .btn-next:focus, .btn-next:active,
-   .open .dropdown-toggle.btn-solution {
-    color: #fff;
-    background-color: #00bdff;
-    border-color: transparent;
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-}
+    /* Texto a imagen*/
+    #actividad .workspace.drag-and-drop {
+        position: relative;
+        margin-left: 28px;
+    }
+
+    /*Elegir respuesta*/
+    #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+        background-color: #44913a3d;
+    }
+    #actividad .workspace.multiple-choice .opcion,
+    #actividad .workspace.ordenar .js-rank-item {
+        background: #fff;
+        border: none;
+        transition: transform 0.5s;
+        -webkit-transition: -webkit-transform 0.5s;
+        -moz-transition: -moz-transform 0.5s;
+        padding: 11px;
+        -webkit-box-shadow: -2px 1px 7px 0px #0000002b;
+        -moz-box-shadow: -2px 1px 7px 0px #0000002b;
+        box-shadow: -2px 1px 7px 0px #0000002b;
+    }
+    #actividad .workspace.multiplechoice_horizontal .opcion:hover {
+        background: #44913a3d;
+        transform: scale(1.1);
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+    }
+
+    /*Area de respuesta*/
+    .shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
+        -webkit-box-shadow: 0 0 2px #3ac62a;
+        -moz-box-shadow: 0 0 2px #3ac62a;
+        box-shadow: 0 0 2px #44913a;
+        border-color: #44913a;
+    }
+
+    /*Rellenar espacios*/
+    body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable-wrapper
+    .response .bck-i-fullscreen,
+    body.content_type_clase_santillanapt #actividad .content .fillblanks-draggable
+    .img-input-container.imgFilled img {
+        width: auto;
+        height: 100px !important;
+        padding: 0;
+    }
+    .fillblanks-draggable-wrapper .response {
+        border: 0px solid #d8d8d8;
+        background: #c1e5f7;
+    }
+    .fillblanks-draggable-wrapper .response .bck-i-fullscreen-wrapper {
+        padding: 0;
+    }
+    .workspace.fillblanks.frame.fill-text {
+        padding: 0px;
+    }
+    .fillblanks-draggable-wrapper .response:hover {
+        background: #44913a3d;
+        transition: background 0.2s;
+        -webkit-transition: background 0.2s;
+        -moz-transition: background 0.2s;
+    }
+    .fillblanks-draggable-wrapper .response {
+        background: #ffffff;
+        transition: background 0.2s;
+        -webkit-transition: background 0.2s;
+        -moz-transition: background 0.2s;
+        -webkit-box-shadow: -2px 1px 7px 0px #0000002b;
+        -moz-box-shadow: -2px 1px 7px 0px #0000002b;
+        box-shadow: -2px 1px 7px 0px #0000002b;
+    }
+    .content_type_clase_santillanapt .slide_main input[disabled],
+    .content_type_clase_santillanapt .slide_main input[readonly],
+    fieldset[disabled] .content_type_clase_santillanapt .slide_main input, .content_type_clase_santillanapt .slide_main .img-input-container {
+        background-color: #fff;
+    }
+    /*Ordenar*/
+    #actividad .workspace.ordenar .js-rank-item:hover {
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        background-color: #44913a3d;
+    }
 
 
+    /* RELACIONAR PALABRARS */
+    #actividad .workspace.matching .opciones .opcion.emparejado.destino {
+        border-width: 2px 2px 2px 0;
+    }
+    #actividad .workspace.matching .opciones .opcion.emparejado.origen {
+        border-width: 2px 0 2px 2px;
+    }
+    #actividad .workspace.matching .opciones .opcion:not(.ko):not(.ok) {
+        padding:0;
+        -webkit-box-shadow: 1px 5px 7px 0px #0000002b;
+        -moz-box-shadow: 1px 5px 7px 0px #0000002b;
+        box-shadow: 1px 5px 7px 0px #0000002b;
+        border: 0;
+        margin: 10px 0;
+    }
 
-/*Clasificar PALABRAS*/
- #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 2px solid #44913A;
-    padding-top: 10px;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-}
- #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
-    background-color: #44913a3d;
-    padding: 3px;
-}
- #actividad .workspace.clasificar .clasificar_lista .classify-item {
-    background: white;
-    width: fit-content;
-    width: -moz-fit-content;
-    -webkit-box-shadow: -2px 1px 7px 0px #0000002b;
-    -moz-box-shadow: -2px 1px 7px 0px #0000002b;
-    box-shadow: -2px 1px 7px 0px #0000002b;
-    padding: 0;
-}
- #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
-    background: #44913a3d;
-    width: fit-content;
-    width: -moz-fit-content;
-}
+    /*Clasificar PALABRAS*/
+    #actividad .workspace.clasificar .clasificar_lista .classify-item {
+        border: 0px solid #d8d8d8;
+    }
+    #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+        border: 2px solid #10A0C6;
+        padding-top: 10px;
+    }
+    #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+        border: 2px solid #44913A;
+        padding-top: 10px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+    }
+    #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
+        background-color: #44913a3d;
+        padding: 3px;
+    }
+    #actividad .workspace.clasificar .clasificar_lista .classify-item {
+        background: white;
+        width: fit-content;
+        width: -moz-fit-content;
+        -webkit-box-shadow: -2px 1px 7px 0px #0000002b;
+        -moz-box-shadow: -2px 1px 7px 0px #0000002b;
+        box-shadow: -2px 1px 7px 0px #0000002b;
+        padding: 0;
+    }
+    #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
+        background: #44913a3d;
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+/*--*/
 
-
-
-
+/*------- CAMBIOS POR UNITTAGS --------*/
 /**** CSS MATEMÁTICAS ****
-.unittag_santillanaportugalmates */
-/*CAMBIOS DE TAG MATES*/
 
-/*Cambios de ckeditor*/
+    .unittag_santillanaportugalmates */
+    /*CAMBIOS DE TAG MATES*/
 
-/*Títulos*/
-.unittag_santillanaportugalmates .bck-title1 {
-    color: #338DBA;
-}
+    /*Cambios de ckeditor*/
 
-.unittag_santillanaportugalmates .bck-title2 {
-	color: #338DBA;
-}
+    /*Títulos*/
+    .unittag_santillanaportugalmates .bck-title1 {
+        color: #338DBA;
+    }
+    .unittag_santillanaportugalmates .bck-title2 {
+        color: #338DBA;
+    }
+    .unittag_santillanaportugalmates .bck-title3 {
+        border-color:#338DBA ;
+        color: #338DBA;
+    }
+    .unittag_santillanaportugalmates .bck-title4 {
+        background: #338DBA;
+    }
+    .unittag_santillanaportugalmates .bck-title5 {
+        border-color: #338DBA;
+        color: #338DBA;
+    }
 
-.unittag_santillanaportugalmates .bck-title3 {
-    border-color:#338DBA ;
-    color: #338DBA;
-}
+    /*Cajas*/
+    .unittag_santillanaportugalmates .bck-box1 .bck-title {
+        background: #338DBA;
+    }
+    .unittag_santillanaportugalmates .bck-box.bck-box1 {
+        border-color: #338DBA;
+    }
+    .unittag_santillanaportugalmates .bck-box.bck-box2 {
+        border-color: #338DBA;
+    }
+    .unittag_santillanaportugalmates .bck-box.bck-box2 .bck-title {
+        background: #338DBA;
+    }
+    .unittag_santillanaportugalmates .bck-box.bck-box3 {
+        background: #338DBA66;
+    }
+    .unittag_santillanaportugalmates .bck-box.bck-box3 .bck-title {
+        background: #338DBA;
+    }
 
-.unittag_santillanaportugalmates .bck-title4 {
-    background: #338DBA;
-}
+    /*Énfasis*/
+    .unittag_santillanaportugalmates .bck-enfasis-7 {
+        background: #63acd9;
+    }
 
-.unittag_santillanaportugalmates .bck-title5 {
-    border-color: #338DBA;
-    color: #338DBA;
-}
+    /*Listas*/
+    .unittag_santillanaportugalmates .content .bck-ol7 li:before,
+    .unittag_santillanaportugalmates .cke_contents .bck-ol7 li:before {
+        color: #338DBA;
+    }
+    .unittag_santillanaportugalmates .texto_curso .bck-ul1 li:before,
+    .unittag_santillanaportugalmates .workspace ul li .bck-ul1 li:before,
+    .unittag_santillanaportugalmates .cke_contents .bck-ul1 li:before {
+        background-color: #338DBA;
+    }
 
-/*Cajas*/
-.unittag_santillanaportugalmates .bck-box1 .bck-title {
-    background: #338DBA;
-}
-.unittag_santillanaportugalmates .bck-box.bck-box1 {
-    border-color: #338DBA;
-}
+    /*POPUP*/
+    .unittag_santillanaportugalmates #actividad .info-button {
+        background: #338DBA;
+    }
+    .unittag_santillanaportugalmates .info-template.shown {
+        border: 2px solid #338DBA;
+        border-right: 0;
+    }
+    .unittag_santillanaportugalmates .info-template .info-title {
+        color: #338DBA;
+    }
+    .unittag_santillanaportugalmates .info-popover .popover-title, 
+    .unittag_santillanaportugalmates .popover-template .popover-title {
+        color: #338DBA;
+    }
+    .unittag_santillanaportugalmates .popover-container {
+        border: 3px solid #338DBA;
+    }
 
-.unittag_santillanaportugalmates .bck-box.bck-box2 {
-    border-color: #338DBA;
-}
+    /*Desplegable*/
+    .unittag_santillanaportugalmates .bck-dropdown-button {
+        background: rgb(65,155,209);
+        background: -moz-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
+        background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
+    }
+    .unittag_santillanaportugalmates .bck-dropdown-content {
+        border-color: rgba(138,190,226,1);
+    }
 
-.unittag_santillanaportugalmates .bck-box.bck-box2 .bck-title {
-    background: #338DBA;
-}
+    /*Flipbox*/
+    body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.front,
+    body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.back {
+        border-color: #63acd9;
+    }
+    body:not(.edit).unittag_santillanaportugalmates .front .bck-flipbox-title,
+    body:not(.edit).unittag_santillanaportugalmates .front .bck-flipbox-section {
+        color: #63acd9;
+    }
+    body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.back {
+        background-color: #63acd9;
+    }
 
-.unittag_santillanaportugalmates .bck-box.bck-box3 {
-    background: #338DBA66;
-}
-.unittag_santillanaportugalmates .bck-box.bck-box3 .bck-title {
-    background: #338DBA;
-}
+    /*Icono de Audio - Cambia por tag*/
+    .unittag_santillanaportugalmates #actividad .player.audio,
+    .unittag_santillanaportugalmates #actividad .player.video, 
+    .unittag_santillanaportugalmates #help-panel-content .player,
+    .unittag_santillanaportugalmates #remote-alert-modal-rich .player {
+        background-color:#63acd9;
+    }
+    .unittag_santillanaportugalmates #actividad .player:hover,
+    .unittag_santillanaportugalmates #help-panel-content .player:hover,
+    .unittag_santillanaportugalmates #remote-alert-modal-rich .player:hover {
+            background-color: #91c9ec;
+    }
 
-/*Énfasis*/
-.unittag_santillanaportugalmates .bck-enfasis-7 {
-    background: #63acd9;
-}
-/*Listas*/
-.unittag_santillanaportugalmates .content .bck-ol7 li:before,
-.unittag_santillanaportugalmates .cke_contents .bck-ol7 li:before {
-    color: #338DBA;
-}
-.unittag_santillanaportugalmates .texto_curso .bck-ul1 li:before,
-.unittag_santillanaportugalmates .workspace ul li .bck-ul1 li:before,
-.unittag_santillanaportugalmates .cke_contents .bck-ul1 li:before {
-    background-color: #338DBA;
-}
+    /*Enlace*/
+    .unittag_santillanaportugalmates a:hover,
+    .unittag_santillanaportugalmates a:active,
+    .unittag_santillanaportugalmates a:focus {
+        color: #338DBA;
+    }
 
-/*POPUP*/
-.unittag_santillanaportugalmates #actividad .info-button {
-    background: #338DBA;
-}
-.unittag_santillanaportugalmates .info-template.shown {
-    border: 2px solid #338DBA;
-    border-right: 0;
-}
-.unittag_santillanaportugalmates .info-template .info-title {
-    color: #338DBA;
-}
-.unittag_santillanaportugalmates .info-popover .popover-title, 
-.unittag_santillanaportugalmates .popover-template .popover-title {
-    color: #338DBA;
-}
-.unittag_santillanaportugalmates .popover-container {
-    border: 3px solid #338DBA;
-}
-
-
-/*Desplegable*/
-.unittag_santillanaportugalmates .bck-dropdown-button {
+    /*---CAMBIO HEADER Y NAVBAR----*/
+    .unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title {
     background: rgb(65,155,209);
     background: -moz-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
     background: -webkit-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
     background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
-}
-.unittag_santillanaportugalmates .bck-dropdown-content {
-	border-color: rgba(138,190,226,1);
-}
-
-/*Flipbox*/
-
-body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.front,
- body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.back {
-    border-color: #63acd9;
-}
-body:not(.edit).unittag_santillanaportugalmates .front .bck-flipbox-title,
- body:not(.edit).unittag_santillanaportugalmates .front .bck-flipbox-section {
-    color: #63acd9;
-}
-body:not(.edit).unittag_santillanaportugalmates .bck-flipbox-face.back {
-    background-color: #63acd9;
-}
-
-/*Icono de Audio - Cambia por tag*/
-.unittag_santillanaportugalmates #actividad .player.audio,
-.unittag_santillanaportugalmates #actividad .player.video, 
-.unittag_santillanaportugalmates #help-panel-content .player,
-.unittag_santillanaportugalmates #remote-alert-modal-rich .player {
-    background-color:#63acd9;
-  }
-  .unittag_santillanaportugalmates #actividad .player:hover,
-  .unittag_santillanaportugalmates #help-panel-content .player:hover,
-  .unittag_santillanaportugalmates #remote-alert-modal-rich .player:hover {
-        background-color: #91c9ec;
     }
 
-/*Enlace*/
-.unittag_santillanaportugalmates a:hover,
-.unittag_santillanaportugalmates a:active,
-.unittag_santillanaportugalmates a:focus {
-    color: #338DBA;
-}
+    .unittag_santillanaportugalmates .navbar-bottom {
+        background: #132E4C;
+    }
+    .unittag_santillanaportugalmates #bottom-navigator li:hover {
+        background: rgb(142, 206, 224);
+        color: transparent;
+    }
+    .unittag_santillanaportugalmates #bottom-navigator li.active {
+        background: #007FA3;
+        color: transparent;
+    }
 
-/*---CAMBIO HEADER Y NAVBAR----*/
-.unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title {
-background: rgb(65,155,209);
-background: -moz-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
-background: -webkit-linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
-background: linear-gradient(180deg, rgba(65,155,209,1) 0%, rgba(138,190,226,1) 100%);
-}
+    /*----CAMBIOS EN LAS SLIDES----*/
 
-.unittag_santillanaportugalmates .navbar-bottom {
-    background: #132E4C;
-}
-.unittag_santillanaportugalmates #bottom-navigator li:hover {
-    background: rgb(142, 206, 224);
-    color: transparent;
-}
-.unittag_santillanaportugalmates #bottom-navigator li.active {
-    background: #007FA3;
-    color: transparent;
-}
+    /*Form Hueco*/
+    .unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main input,
+    .unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main .img-input-container {
+        background: #3b779321;
+    }
+    .unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main input:focus,
+    .unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main .img-input-container:focus {
+            border: 2px solid #63acd9;
+    }
+        
+    /*RESPUESTA MULTIPLE*/
+    .unittag_santillanaportugalmates #actividad .workspace.multiplechoice_horizontal .opcion:hover {
+        background: #178ff51c;
+    }
+    .unittag_santillanaportugalmates #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+        border-color: #178ff51c;
+        background-color: #178ff51c;
+    }
+    .unittag_santillanaportugalmates #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+        background-color: #63acd93d;
+    }
 
-/*----CAMBIOS EN LAS SLIDES----*/
+    /*Ordenar*/
+    .unittag_santillanaportugalmates #actividad .workspace.ordenar .js-rank-item:hover {
+        background-color: #63acd93d;
+    }
 
-/*Form Hueco*/
-.unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main input,
-.unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main .img-input-container {
-    background: #3b779321;
-}
-.unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main input:focus,
-.unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main .img-input-container:focus {
+    /*Respuesta larga*/
+    .unittag_santillanaportugalmates .shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
+        -webkit-box-shadow: 0 0 2px #63acd9;
+        -moz-box-shadow: 0 0 2px #63acd9;
+        box-shadow: 0 0 2px #63acd9;
+        border-color: #63acd9;
+    }
+
+    /*Rellenar espacios - Arrastrar a hueco - */
+    .unittag_santillanaportugalmates .fillblanks-draggable-wrapper .response:hover {
+        background: #63acd93d;
+    }
+
+    /*COLOR TEST*/
+    .unittag_santillanaportugalmates .checkbox-option label.filter-label:before,
+    .unittag_santillanaportugalmates .slides_averages #cont_checkSelfCorrect label:before,
+    .unittag_santillanaportugalmates .slides_averages #cont_checkEvaluation label:before,
+    .unittag_santillanaportugalmates .radio-option label.filter-label:before {
+        filter: hue-rotate(118deg);
+    }
+    /*Clasificar PALABRAS*/
+    .unittag_santillanaportugalmates #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
         border: 2px solid #63acd9;
     }
-    
-/*RESPUESTA MULTIPLE*/
-.unittag_santillanaportugalmates #actividad .workspace.multiplechoice_horizontal .opcion:hover {
-    background: #178ff51c;
-}
-.unittag_santillanaportugalmates #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-    border-color: #178ff51c;
-    background-color: #178ff51c;
-}
-.unittag_santillanaportugalmates #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-    background-color: #63acd93d;
-}
-
-/*Ordenar*/
-.unittag_santillanaportugalmates #actividad .workspace.ordenar .js-rank-item:hover {
-    background-color: #63acd93d;
-}
-/*Respuesta larga*/
-.unittag_santillanaportugalmates .shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
-    -webkit-box-shadow: 0 0 2px #63acd9;
-    -moz-box-shadow: 0 0 2px #63acd9;
-    box-shadow: 0 0 2px #63acd9;
-    border-color: #63acd9;
-}
-/*Rellenar espacios - Arrastrar a hueco - */
-.unittag_santillanaportugalmates .fillblanks-draggable-wrapper .response:hover {
-    background: #63acd93d;
-}
-
-/*COLOR TEST*/
-.unittag_santillanaportugalmates .checkbox-option label.filter-label:before,
- .unittag_santillanaportugalmates .slides_averages #cont_checkSelfCorrect label:before,
-  .unittag_santillanaportugalmates .slides_averages #cont_checkEvaluation label:before,
-   .unittag_santillanaportugalmates .radio-option label.filter-label:before {
-    filter: hue-rotate(118deg);
-}
-/*Clasificar PALABRAS*/
-.unittag_santillanaportugalmates #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 2px solid #63acd9;
-}
-.unittag_santillanaportugalmates #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
-    background-color: #178ff51c;
-}
-.unittag_santillanaportugalmates #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
-    background: #178ff51c;
-}
-
-
-
+    .unittag_santillanaportugalmates #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
+        background-color: #178ff51c;
+    }
+    .unittag_santillanaportugalmates #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
+        background: #178ff51c;
+    }
 
 /**** CSS PORTUGUES ****
-.unittag_santillanaportugalportugues */
+    .unittag_santillanaportugalportugues */
+    /*CAMBIOS DE TAG Portugues*/
 
-/*CAMBIOS DE TAG Portugues*/
-
-/*Cambios de ckeditor*/
-
-/*Títulos*/
-.unittag_santillanaportugalportugues .bck-title1 {
-    color: #DC4739;
-}
-
-.unittag_santillanaportugalportugues .bck-title2 {
-	color: #DC4739;
-}
-
-.unittag_santillanaportugalportugues .bck-title3 {
-    border-color:#DC4739 ;
-    color: #DC4739;
-}
-
-.unittag_santillanaportugalportugues .bck-title4 {
-    background: #DC4739;
-}
-
-.unittag_santillanaportugalportugues .bck-title5 {
-    border-color: #DC4739;
-    color: #DC4739;
-}
-
-/*Cajas*/
-.unittag_santillanaportugalportugues .bck-box1 .bck-title {
-    background: #DC4739;
-}
-.unittag_santillanaportugalportugues .bck-box.bck-box1 {
-    border-color: #DC4739;
-}
-
-.unittag_santillanaportugalportugues .bck-box.bck-box2 {
-    border-color: #DC4739;
-}
-
-.unittag_santillanaportugalportugues .bck-box.bck-box2 .bck-title {
-    background: #DC4739;
-}
-
-.unittag_santillanaportugalportugues .bck-box.bck-box3 {
-    background: #DC473966;
-}
-.unittag_santillanaportugalportugues .bck-box.bck-box3 .bck-title {
-    background: #DC4739;
-}
-
-/*Énfasis*/
-.unittag_santillanaportugalportugues .bck-enfasis-7 {
-    background: #CF4639;
-}
-/*Listas*/
-.unittag_santillanaportugalportugues .content .bck-ol7 li:before,
-.unittag_santillanaportugalportugues .cke_contents .bck-ol7 li:before {
-    color: #DC4739;
-}
-.unittag_santillanaportugalportugues .texto_curso .bck-ul1 li:before,
-.unittag_santillanaportugalportugues .workspace ul li .bck-ul1 li:before,
-.unittag_santillanaportugalportugues .cke_contents .bck-ul1 li:before {
-    background-color: #DC4739;
-}
-
-/*POPUP*/
-.unittag_santillanaportugalportugues #actividad .info-button {
-    background: #DC4739;
-}
-.unittag_santillanaportugalportugues .info-template.shown {
-    border: 2px solid #DC4739;
-    border-right: 0;
-}
-.unittag_santillanaportugalportugues .info-template .info-title {
-    color: #DC4739;
-}
-.unittag_santillanaportugalportugues .info-popover .popover-title,
-.unittag_santillanaportugalportugues .popover-template .popover-title {
-    color: #DC4739;
-}
-.unittag_santillanaportugalportugues .popover-container {
-    border: 3px solid #DC4739;
-}
-
-
-/*Desplegable*/
-.unittag_santillanaportugalportugues .bck-dropdown-button {
-    background: rgb(220,71,57);
-    background: -moz-linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
-    background: linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
-}
-.unittag_santillanaportugalportugues .bck-dropdown-content {
-	border-color:  rgba(244,117,105,1);
-}
-
-/*Flipbox*/
-
-body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.front,
- body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
-    border-color: #E76A5E;
-}
-body:not(.edit).unittag_santillanaportugalportugues .front .bck-flipbox-title,
- body:not(.edit).unittag_santillanaportugalportugues .front .bck-flipbox-section {
-    color: #E76A5E;
-}
-body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
-    background-color: #E76A5E;
-}
-
-/*Icono de Audio - Cambia por tag*/
-.unittag_santillanaportugalportugues #actividad .player.audio,
-.unittag_santillanaportugalportugues #actividad .player.video, 
-.unittag_santillanaportugalportugues #help-panel-content .player,
-.unittag_santillanaportugalportugues #remote-alert-modal-rich .player {
-    background-color:#E76A5E;
-  }
-  .unittag_santillanaportugalportugues #actividad .player:hover,
-  .unittag_santillanaportugalportugues #help-panel-content .player:hover,
-  .unittag_santillanaportugalportugues #remote-alert-modal-rich .player:hover {
-        background-color: #F68378;
+    /*Cambios de ckeditor*/
+    /*Títulos*/
+    .unittag_santillanaportugalportugues .bck-title1 {
+        color: #DC4739;
+    }
+    .unittag_santillanaportugalportugues .bck-title2 {
+        color: #DC4739;
+    }
+    .unittag_santillanaportugalportugues .bck-title3 {
+        border-color:#DC4739 ;
+        color: #DC4739;
+    }
+    .unittag_santillanaportugalportugues .bck-title4 {
+        background: #DC4739;
+    }
+    .unittag_santillanaportugalportugues .bck-title5 {
+        border-color: #DC4739;
+        color: #DC4739;
     }
 
-/*Enlace*/
-.unittag_santillanaportugalportugues a:hover,
-.unittag_santillanaportugalportugues a:active,
-.unittag_santillanaportugalportugues a:focus {
-    color: #E76A5E;
-}
-
-/*---CAMBIO HEADER Y NAVBAR----*/
-.unittag_santillanaportugalportugues.content_type_clase_santillanapt #actividad .content .header .title {
-    background: rgb(220,71,57);
-    background: -moz-linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
-    background: linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
-}
-
-.unittag_santillanaportugalportugues .navbar-bottom {
-    background: #46201c;
-}
-.unittag_santillanaportugalportugues #bottom-navigator li:hover {
-    background: #F68378;
-}
-.unittag_santillanaportugalportugues #bottom-navigator li.active {
-    background: #E76A5E;
-}
-
-/*----CAMBIOS EN LAS SLIDES----*/
-
-/*Form Hueco*/
-.unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main input,
-.unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main .img-input-container {
-    background: #dd493b33;
-}
-.unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main input:focus,
-.unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main .img-input-container:focus {
-        border: 2px solid #E76A5E;
+    /*Cajas*/
+    .unittag_santillanaportugalportugues .bck-box1 .bck-title {
+        background: #DC4739;
     }
-    
-/*RESPUESTA MULTIPLE*/
-.unittag_santillanaportugalportugues #actividad .workspace.multiplechoice_horizontal .opcion:hover {
-    background: #e76a5e47;
-}
-.unittag_santillanaportugalportugues #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-    border-color: #e76a5e47;
-    background-color: #e76a5e47;
-}
-.unittag_santillanaportugalportugues #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-    background-color: #E76A5E3d;
-}
+    .unittag_santillanaportugalportugues .bck-box.bck-box1 {
+        border-color: #DC4739;
+    }
+    .unittag_santillanaportugalportugues .bck-box.bck-box2 {
+        border-color: #DC4739;
+    }
+    .unittag_santillanaportugalportugues .bck-box.bck-box2 .bck-title {
+        background: #DC4739;
+    }
+    .unittag_santillanaportugalportugues .bck-box.bck-box3 {
+        background: #DC473966;
+    }
+    .unittag_santillanaportugalportugues .bck-box.bck-box3 .bck-title {
+        background: #DC4739;
+    }
 
-/*Ordenar*/
-.unittag_santillanaportugalportugues #actividad .workspace.ordenar .js-rank-item:hover {
-    background-color: #E76A5E3d;
-}
-/*Respuesta larga*/
-.unittag_santillanaportugalportugues .shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
-    -webkit-box-shadow: 0 0 2px #E76A5E;
-    -moz-box-shadow: 0 0 2px #E76A5E;
-    box-shadow: 0 0 2px #E76A5E;
-    border-color: #E76A5E;
-}
-/*Rellenar espacios - Arrastrar a hueco - */
-.unittag_santillanaportugalportugues .fillblanks-draggable-wrapper .response:hover {
-    background: #E76A5E3d;
-}
+    /*Énfasis*/
+    .unittag_santillanaportugalportugues .bck-enfasis-7 {
+        background: #CF4639;
+    }
+    /*Listas*/
+    .unittag_santillanaportugalportugues .content .bck-ol7 li:before,
+    .unittag_santillanaportugalportugues .cke_contents .bck-ol7 li:before {
+        color: #DC4739;
+    }
+    .unittag_santillanaportugalportugues .texto_curso .bck-ul1 li:before,
+    .unittag_santillanaportugalportugues .workspace ul li .bck-ul1 li:before,
+    .unittag_santillanaportugalportugues .cke_contents .bck-ul1 li:before {
+        background-color: #DC4739;
+    }
 
-/*COLOR TEST*/
-.unittag_santillanaportugalportugues .checkbox-option label.filter-label:before,
- .unittag_santillanaportugalportugues .slides_averages #cont_checkSelfCorrect label:before,
-  .unittag_santillanaportugalportugues .slides_averages #cont_checkEvaluation label:before,
-   .unittag_santillanaportugalportugues .radio-option label.filter-label:before {
-    filter: hue-rotate(633deg);
-}
+    /*POPUP*/
+    .unittag_santillanaportugalportugues #actividad .info-button {
+        background: #DC4739;
+    }
+    .unittag_santillanaportugalportugues .info-template.shown {
+        border: 2px solid #DC4739;
+        border-right: 0;
+    }
+    .unittag_santillanaportugalportugues .info-template .info-title {
+        color: #DC4739;
+    }
+    .unittag_santillanaportugalportugues .info-popover .popover-title,
+    .unittag_santillanaportugalportugues .popover-template .popover-title {
+        color: #DC4739;
+    }
+    .unittag_santillanaportugalportugues .popover-container {
+        border: 3px solid #DC4739;
+    }
 
-/*Clasificar PALABRAS*/
-.unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 2px solid #DC4739;
-    padding-top: 10px;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-}
-.unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
-    background-color: #e76a5e47;
-    padding: 3px;
-}
-.unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
-    background: #e76a5e47;
-}
+    /*Desplegable*/
+    .unittag_santillanaportugalportugues .bck-dropdown-button {
+        background: rgb(220,71,57);
+        background: -moz-linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
+        background: linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
+    }
+    .unittag_santillanaportugalportugues .bck-dropdown-content {
+        border-color:  rgba(244,117,105,1);
+    }
+
+    /*Flipbox*/
+
+    body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.front,
+    body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
+        border-color: #E76A5E;
+    }
+    body:not(.edit).unittag_santillanaportugalportugues .front .bck-flipbox-title,
+    body:not(.edit).unittag_santillanaportugalportugues .front .bck-flipbox-section {
+        color: #E76A5E;
+    }
+    body:not(.edit).unittag_santillanaportugalportugues .bck-flipbox-face.back {
+        background-color: #E76A5E;
+    }
+
+    /*Icono de Audio - Cambia por tag*/
+    .unittag_santillanaportugalportugues #actividad .player.audio,
+    .unittag_santillanaportugalportugues #actividad .player.video, 
+    .unittag_santillanaportugalportugues #help-panel-content .player,
+    .unittag_santillanaportugalportugues #remote-alert-modal-rich .player {
+        background-color:#E76A5E;
+    }
+    .unittag_santillanaportugalportugues #actividad .player:hover,
+    .unittag_santillanaportugalportugues #help-panel-content .player:hover,
+    .unittag_santillanaportugalportugues #remote-alert-modal-rich .player:hover {
+            background-color: #F68378;
+    }
+
+    /*Enlace*/
+    .unittag_santillanaportugalportugues a:hover,
+    .unittag_santillanaportugalportugues a:active,
+    .unittag_santillanaportugalportugues a:focus {
+        color: #E76A5E;
+    }
+
+    /*---CAMBIO HEADER Y NAVBAR----*/
+    .unittag_santillanaportugalportugues.content_type_clase_santillanapt #actividad .content .header .title {
+        background: rgb(220,71,57);
+        background: -moz-linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
+        background: linear-gradient(180deg, rgba(220,71,57,1) 0%, rgba(244,117,105,1) 100%);
+    }
+    .unittag_santillanaportugalportugues .navbar-bottom {
+        background: #46201c;
+    }
+    .unittag_santillanaportugalportugues #bottom-navigator li:hover {
+        background: #F68378;
+    }
+    .unittag_santillanaportugalportugues #bottom-navigator li.active {
+        background: #E76A5E;
+    }
+
+    /*----CAMBIOS EN LAS SLIDES----*/
+    /*Form Hueco*/
+    .unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main input,
+    .unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main .img-input-container {
+        background: #dd493b33;
+    }
+    .unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main input:focus,
+    .unittag_santillanaportugalportugues.content_type_clase_santillanapt .slide_main .img-input-container:focus {
+            border: 2px solid #E76A5E;
+    }
+        
+    /*RESPUESTA MULTIPLE*/
+    .unittag_santillanaportugalportugues #actividad .workspace.multiplechoice_horizontal .opcion:hover {
+        background: #e76a5e47;
+    }
+    .unittag_santillanaportugalportugues #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+        border-color: #e76a5e47;
+        background-color: #e76a5e47;
+    }
+    .unittag_santillanaportugalportugues #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+        background-color: #E76A5E3d;
+    }
+
+    /*Ordenar*/
+    .unittag_santillanaportugalportugues #actividad .workspace.ordenar .js-rank-item:hover {
+        background-color: #E76A5E3d;
+    }
+
+    /*Respuesta larga*/
+    .unittag_santillanaportugalportugues .shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
+        -webkit-box-shadow: 0 0 2px #E76A5E;
+        -moz-box-shadow: 0 0 2px #E76A5E;
+        box-shadow: 0 0 2px #E76A5E;
+        border-color: #E76A5E;
+    }
+
+    /*Rellenar espacios - Arrastrar a hueco - */
+    .unittag_santillanaportugalportugues .fillblanks-draggable-wrapper .response:hover {
+        background: #E76A5E3d;
+    }
+
+    /*COLOR TEST*/
+    .unittag_santillanaportugalportugues .checkbox-option label.filter-label:before,
+    .unittag_santillanaportugalportugues .slides_averages #cont_checkSelfCorrect label:before,
+    .unittag_santillanaportugalportugues .slides_averages #cont_checkEvaluation label:before,
+    .unittag_santillanaportugalportugues .radio-option label.filter-label:before {
+        filter: hue-rotate(633deg);
+    }
+
+    /*Clasificar PALABRAS*/
+    .unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+        border: 2px solid #DC4739;
+        padding-top: 10px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+    }
+    .unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
+        background-color: #e76a5e47;
+        padding: 3px;
+    }
+    .unittag_santillanaportugalportugues #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
+        background: #e76a5e47;
+    }
 
 /**** CSS FYQ ****
 .unittag_santillanaportugalfyq */
 
-/*CAMBIOS DE TAG FYQ*/
+    /*CAMBIOS DE TAG FYQ*/
 
-/*Cambios de ckeditor*/
+    /*Cambios de ckeditor*/
 
-/*Títulos*/
-.unittag_santillanaportugalfyq .bck-title1 {
-    color: #5ebdc0;
-}
-
-.unittag_santillanaportugalfyq .bck-title2 {
-	color: #5ebdc0;
-}
-
-.unittag_santillanaportugalfyq .bck-title3 {
-    border-color:#5ebdc0 ;
-    color: #5ebdc0;
-}
-
-.unittag_santillanaportugalfyq .bck-title4 {
-    background: #5ebdc0;
-}
-
-.unittag_santillanaportugalfyq .bck-title5 {
-    border-color: #5ebdc0;
-    color: #5ebdc0;
-}
-
-/*Cajas*/
-.unittag_santillanaportugalfyq .bck-box1 .bck-title {
-    background: #5ebdc0;
-}
-.unittag_santillanaportugalfyq .bck-box.bck-box1 {
-    border-color: #5ebdc0;
-}
-
-.unittag_santillanaportugalfyq .bck-box.bck-box2 {
-    border-color: #5ebdc0;
-}
-
-.unittag_santillanaportugalfyq .bck-box.bck-box2 .bck-title {
-    background: #5ebdc0;
-}
-
-.unittag_santillanaportugalfyq .bck-box.bck-box3 {
-    background: #5ebdc066;
-}
-.unittag_santillanaportugalfyq .bck-box.bck-box3 .bck-title {
-    background: #5ebdc0;
-}
-
-/*Énfasis*/
-.unittag_santillanaportugalfyq .bck-enfasis-7 {
-    background: #5EBDC4;
-}
-/*Listas*/
-.unittag_santillanaportugalfyq .content .bck-ol7 li:before,
-.unittag_santillanaportugalfyq .cke_contents .bck-ol7 li:before {
-    color: #5ebdc0;
-}
-.unittag_santillanaportugalfyq .texto_curso .bck-ul1 li:before,
-.unittag_santillanaportugalfyq .workspace ul li .bck-ul1 li:before,
-.unittag_santillanaportugalfyq .cke_contents .bck-ul1 li:before {
-    background-color: #5ebdc0;
-}
-
-/*POPUP*/
-.unittag_santillanaportugalfyq #actividad .info-button {
-    background: #5ebdc0;
-}
-.unittag_santillanaportugalfyq .info-template.shown {
-    border: 2px solid #5ebdc0;
-    border-right: 0;
-}
-.unittag_santillanaportugalfyq .info-template .info-title {
-    color: #5ebdc0;
-}
-.unittag_santillanaportugalfyq .info-popover .popover-title,
-.unittag_santillanaportugalfyq .popover-template .popover-title {
-    color: #5ebdc0;
-}
-.unittag_santillanaportugalfyq .popover-container {
-    border: 3px solid #5ebdc0;
-}
-
-
-/*Desplegable*/
-.unittag_santillanaportugalfyq .bck-dropdown-button {
-    background: rgb(94,189,192);
-    background: -moz-linear-gradient(180deg, rgba(94,189,192,1) 0%, rgba(145,224,230,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(94,189,192,1) 0%, rgba(145,224,230,1) 100%);
-    background: linear-gradient(180deg, rgba(94,189,192,1) 0%, rgba(145,224,230,1) 100%);
-}
-.unittag_santillanaportugalfyq .bck-dropdown-content {
-	border-color:  #91e0e6;
-}
-
-/*Flipbox*/
-
-body:not(.edit).unittag_santillanaportugalfyq .bck-flipbox-face.front,
- body:not(.edit).unittag_santillanaportugalfyq .bck-flipbox-face.back {
-    border-color: #5ebdc0;
-}
-body:not(.edit).unittag_santillanaportugalfyq .front .bck-flipbox-title,
- body:not(.edit).unittag_santillanaportugalfyq .front .bck-flipbox-section {
-    color: #5ebdc0;
-}
-body:not(.edit).unittag_santillanaportugalfyq .bck-flipbox-face.back {
-    background-color: #5ebdc0;
-}
-
-/*Icono de Audio - Cambia por tag*/
-.unittag_santillanaportugalfyq #actividad .player.audio,
-.unittag_santillanaportugalfyq #actividad .player.video, 
-.unittag_santillanaportugalfyq #help-panel-content .player,
-.unittag_santillanaportugalfyq #remote-alert-modal-rich .player {
-    background-color:#5ebdc0;
-  }
-  .unittag_santillanaportugalfyq #actividad .player:hover,
-  .unittag_santillanaportugalfyq #help-panel-content .player:hover,
-  .unittag_santillanaportugalfyq #remote-alert-modal-rich .player:hover {
-        background-color: #91e0e6;
+    /*Títulos*/
+    .unittag_santillanaportugalfyq .bck-title1 {
+        color: #5ebdc0;
+    }
+    .unittag_santillanaportugalfyq .bck-title2 {
+        color: #5ebdc0;
+    }
+    .unittag_santillanaportugalfyq .bck-title3 {
+        border-color:#5ebdc0 ;
+        color: #5ebdc0;
+    }
+    .unittag_santillanaportugalfyq .bck-title4 {
+        background: #5ebdc0;
+    }
+    .unittag_santillanaportugalfyq .bck-title5 {
+        border-color: #5ebdc0;
+        color: #5ebdc0;
     }
 
-/*Enlace*/
-.unittag_santillanaportugalfyq a:hover,
-.unittag_santillanaportugalfyq a:active,
-.unittag_santillanaportugalfyq a:focus {
-    color: #5ebdc0;
-}
+    /*Cajas*/
+    .unittag_santillanaportugalfyq .bck-box1 .bck-title {
+        background: #5ebdc0;
+    }
+    .unittag_santillanaportugalfyq .bck-box.bck-box1 {
+        border-color: #5ebdc0;
+    }
+    .unittag_santillanaportugalfyq .bck-box.bck-box2 {
+        border-color: #5ebdc0;
+    }
+    .unittag_santillanaportugalfyq .bck-box.bck-box2 .bck-title {
+        background: #5ebdc0;
+    }
+    .unittag_santillanaportugalfyq .bck-box.bck-box3 {
+        background: #5ebdc066;
+    }
+    .unittag_santillanaportugalfyq .bck-box.bck-box3 .bck-title {
+        background: #5ebdc0;
+    }
 
-/*---CAMBIO HEADER Y NAVBAR----*/
-.unittag_santillanaportugalfyq.content_type_clase_santillanapt #actividad .content .header .title {
-    background: rgb(94,189,192);
-    background: -moz-linear-gradient(180deg, rgba(94,189,192,1) 0%, rgba(145,224,230,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(94,189,192,1) 0%, rgba(145,224,230,1) 100%);
-    background: linear-gradient(180deg, rgba(94,189,192,1) 0%, rgba(145,224,230,1) 100%);
-}
+    /*Énfasis*/
+    .unittag_santillanaportugalfyq .bck-enfasis-7 {
+        background: #5EBDC4;
+    }
+    /*Listas*/
+    .unittag_santillanaportugalfyq .content .bck-ol7 li:before,
+    .unittag_santillanaportugalfyq .cke_contents .bck-ol7 li:before {
+        color: #5ebdc0;
+    }
+    .unittag_santillanaportugalfyq .texto_curso .bck-ul1 li:before,
+    .unittag_santillanaportugalfyq .workspace ul li .bck-ul1 li:before,
+    .unittag_santillanaportugalfyq .cke_contents .bck-ul1 li:before {
+        background-color: #5ebdc0;
+    }
 
-.unittag_santillanaportugalfyq .navbar-bottom {
-    background: #2a4d4e;
-}
-.unittag_santillanaportugalfyq #bottom-navigator li:hover {
-    background: #91e0e6;
-}
-.unittag_santillanaportugalfyq #bottom-navigator li.active {
-    background: #5ebdc0;
-}
-
-/*----CAMBIOS EN LAS SLIDES----*/
-
-/*Form Hueco*/
-.unittag_santillanaportugalfyq.content_type_clase_santillanapt .slide_main input,
-.unittag_santillanaportugalfyq.content_type_clase_santillanapt .slide_main .img-input-container {
-    background: #8ddde342;
-}
-.unittag_santillanaportugalfyq.content_type_clase_santillanapt .slide_main input:focus,
-.unittag_santillanaportugalfyq.content_type_clase_santillanapt .slide_main .img-input-container:focus {
+    /*POPUP*/
+    .unittag_santillanaportugalfyq #actividad .info-button {
+        background: #5ebdc0;
+    }
+    .unittag_santillanaportugalfyq .info-template.shown {
         border: 2px solid #5ebdc0;
+        border-right: 0;
     }
-    
-/*RESPUESTA MULTIPLE*/
-.unittag_santillanaportugalfyq #actividad .workspace.multiplechoice_horizontal .opcion:hover {
-    background: #5ebdc052;
-}
-.unittag_santillanaportugalfyq #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-    border-color: #5ebdc052;
-    background-color: #5ebdc052;
-}
-.unittag_santillanaportugalfyq #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-    background-color: #5ebdc052;
-}
+    .unittag_santillanaportugalfyq .info-template .info-title {
+        color: #5ebdc0;
+    }
+    .unittag_santillanaportugalfyq .info-popover .popover-title,
+    .unittag_santillanaportugalfyq .popover-template .popover-title {
+        color: #5ebdc0;
+    }
+    .unittag_santillanaportugalfyq .popover-container {
+        border: 3px solid #5ebdc0;
+    }
 
-/*Ordenar*/
-.unittag_santillanaportugalfyq #actividad .workspace.ordenar .js-rank-item:hover {
-    background-color: #5ebdc052;
-}
-/*Respuesta larga*/
-.unittag_santillanaportugalfyq .shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
-    -webkit-box-shadow: 0 0 2px #5ebdc0;
-    -moz-box-shadow: 0 0 2px #5ebdc0;
-    box-shadow: 0 0 2px #5ebdc0;
-    border-color: #5ebdc0;
-}
-/*Rellenar espacios - Arrastrar a hueco - */
-.unittag_santillanaportugalfyq .fillblanks-draggable-wrapper .response:hover {
-    background: #5ebdc052;
-}
+    /*Desplegable*/
+    .unittag_santillanaportugalfyq .bck-dropdown-button {
+        background: rgb(94,189,192);
+        background: -moz-linear-gradient(180deg, rgba(94,189,192,1) 0%, rgba(145,224,230,1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(94,189,192,1) 0%, rgba(145,224,230,1) 100%);
+        background: linear-gradient(180deg, rgba(94,189,192,1) 0%, rgba(145,224,230,1) 100%);
+    }
+    .unittag_santillanaportugalfyq .bck-dropdown-content {
+        border-color:  #91e0e6;
+    }
 
-/*COLOR TEST*/
-.unittag_santillanaportugalfyq .checkbox-option label.filter-label:before,
- .unittag_santillanaportugalfyq .slides_averages #cont_checkSelfCorrect label:before,
-  .unittag_santillanaportugalfyq .slides_averages #cont_checkEvaluation label:before,
-   .unittag_santillanaportugalfyq .radio-option label.filter-label:before {
-    filter: hue-rotate(63deg);
-}
+    /*Flipbox*/
+    body:not(.edit).unittag_santillanaportugalfyq .bck-flipbox-face.front,
+    body:not(.edit).unittag_santillanaportugalfyq .bck-flipbox-face.back {
+        border-color: #5ebdc0;
+    }
+    body:not(.edit).unittag_santillanaportugalfyq .front .bck-flipbox-title,
+    body:not(.edit).unittag_santillanaportugalfyq .front .bck-flipbox-section {
+        color: #5ebdc0;
+    }
+    body:not(.edit).unittag_santillanaportugalfyq .bck-flipbox-face.back {
+        background-color: #5ebdc0;
+    }
 
-/*Clasificar PALABRAS*/
-.unittag_santillanaportugalfyq #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 2px solid #5ebdc0;
-    padding-top: 10px;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-}
-.unittag_santillanaportugalfyq #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
-    background-color: #5ebdc052;
-    padding: 3px;
-}
-.unittag_santillanaportugalfyq #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
-    background: #5ebdc052;
-}
+    /*Icono de Audio - Cambia por tag*/
+    .unittag_santillanaportugalfyq #actividad .player.audio,
+    .unittag_santillanaportugalfyq #actividad .player.video, 
+    .unittag_santillanaportugalfyq #help-panel-content .player,
+    .unittag_santillanaportugalfyq #remote-alert-modal-rich .player {
+        background-color:#5ebdc0;
+    }
+    .unittag_santillanaportugalfyq #actividad .player:hover,
+    .unittag_santillanaportugalfyq #help-panel-content .player:hover,
+    .unittag_santillanaportugalfyq #remote-alert-modal-rich .player:hover {
+            background-color: #91e0e6;
+     }
+
+    /*Enlace*/
+    .unittag_santillanaportugalfyq a:hover,
+    .unittag_santillanaportugalfyq a:active,
+    .unittag_santillanaportugalfyq a:focus {
+        color: #5ebdc0;
+    }
+
+    /*---CAMBIO HEADER Y NAVBAR----*/
+    .unittag_santillanaportugalfyq.content_type_clase_santillanapt #actividad .content .header .title {
+        background: rgb(94,189,192);
+        background: -moz-linear-gradient(180deg, rgba(94,189,192,1) 0%, rgba(145,224,230,1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(94,189,192,1) 0%, rgba(145,224,230,1) 100%);
+        background: linear-gradient(180deg, rgba(94,189,192,1) 0%, rgba(145,224,230,1) 100%);
+    }
+    .unittag_santillanaportugalfyq .navbar-bottom {
+        background: #2a4d4e;
+    }
+    .unittag_santillanaportugalfyq #bottom-navigator li:hover {
+        background: #91e0e6;
+    }
+    .unittag_santillanaportugalfyq #bottom-navigator li.active {
+        background: #5ebdc0;
+    }
+
+    /*----CAMBIOS EN LAS SLIDES----*/
+
+    /*Form Hueco*/
+    .unittag_santillanaportugalfyq.content_type_clase_santillanapt .slide_main input,
+    .unittag_santillanaportugalfyq.content_type_clase_santillanapt .slide_main .img-input-container {
+        background: #8ddde342;
+    }
+    .unittag_santillanaportugalfyq.content_type_clase_santillanapt .slide_main input:focus,
+    .unittag_santillanaportugalfyq.content_type_clase_santillanapt .slide_main .img-input-container:focus {
+            border: 2px solid #5ebdc0;
+     }
+        
+    /*RESPUESTA MULTIPLE*/
+    .unittag_santillanaportugalfyq #actividad .workspace.multiplechoice_horizontal .opcion:hover {
+        background: #5ebdc052;
+    }
+    .unittag_santillanaportugalfyq #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+        border-color: #5ebdc052;
+        background-color: #5ebdc052;
+    }
+    .unittag_santillanaportugalfyq #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+        background-color: #5ebdc052;
+    }
+
+    /*Ordenar*/
+    .unittag_santillanaportugalfyq #actividad .workspace.ordenar .js-rank-item:hover {
+        background-color: #5ebdc052;
+    }
+
+    /*Respuesta larga*/
+    .unittag_santillanaportugalfyq .shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
+        -webkit-box-shadow: 0 0 2px #5ebdc0;
+        -moz-box-shadow: 0 0 2px #5ebdc0;
+        box-shadow: 0 0 2px #5ebdc0;
+        border-color: #5ebdc0;
+    }
+
+    /*Rellenar espacios - Arrastrar a hueco - */
+    .unittag_santillanaportugalfyq .fillblanks-draggable-wrapper .response:hover {
+        background: #5ebdc052;
+    }
+
+    /*COLOR TEST*/
+    .unittag_santillanaportugalfyq .checkbox-option label.filter-label:before,
+    .unittag_santillanaportugalfyq .slides_averages #cont_checkSelfCorrect label:before,
+    .unittag_santillanaportugalfyq .slides_averages #cont_checkEvaluation label:before,
+    .unittag_santillanaportugalfyq .radio-option label.filter-label:before {
+        filter: hue-rotate(63deg);
+    }
+
+    /*Clasificar PALABRAS*/
+    .unittag_santillanaportugalfyq #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+        border: 2px solid #5ebdc0;
+        padding-top: 10px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+    }
+    .unittag_santillanaportugalfyq #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
+        background-color: #5ebdc052;
+        padding: 3px;
+    }
+    .unittag_santillanaportugalfyq #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
+        background: #5ebdc052;
+    }
 
 /**** CSS HISTORIA ****
 .unittag_santillanaportugalhistoria */
 
-/*CAMBIOS DE TAG HISTORIA*/
+    /*CAMBIOS DE TAG HISTORIA*/
 
-/*Cambios de ckeditor*/
+    /*Cambios de ckeditor*/
 
-/*Títulos*/
-.unittag_santillanaportugalhistoria .bck-title1 {
-    color: #ed7e33;
-}
-
-.unittag_santillanaportugalhistoria .bck-title2 {
-	color: #ed7e33;
-}
-
-.unittag_santillanaportugalhistoria .bck-title3 {
-    border-color:#ed7e33 ;
-    color: #ed7e33;
-}
-
-.unittag_santillanaportugalhistoria .bck-title4 {
-    background: #ed7e33;
-}
-
-.unittag_santillanaportugalhistoria .bck-title5 {
-    border-color: #ed7e33;
-    color: #ed7e33;
-}
-
-/*Cajas*/
-.unittag_santillanaportugalhistoria .bck-box1 .bck-title {
-    background: #ed7e33;
-}
-.unittag_santillanaportugalhistoria .bck-box.bck-box1 {
-    border-color: #ed7e33;
-}
-
-.unittag_santillanaportugalhistoria .bck-box.bck-box2 {
-    border-color: #ed7e33;
-}
-
-.unittag_santillanaportugalhistoria .bck-box.bck-box2 .bck-title {
-    background: #ed7e33;
-}
-
-.unittag_santillanaportugalhistoria .bck-box.bck-box3 {
-    background: #ed7e3366;
-}
-.unittag_santillanaportugalhistoria .bck-box.bck-box3 .bck-title {
-    background: #ed7e33;
-}
-
-/*Énfasis*/
-.unittag_santillanaportugalhistoria .bck-enfasis-7 {
-    background: #ed7e33;
-}
-/*Listas*/
-.unittag_santillanaportugalhistoria .content .bck-ol7 li:before,
-.unittag_santillanaportugalhistoria .cke_contents .bck-ol7 li:before {
-    color: #ed7e33;
-}
-.unittag_santillanaportugalhistoria .texto_curso .bck-ul1 li:before,
-.unittag_santillanaportugalhistoria .workspace ul li .bck-ul1 li:before,
-.unittag_santillanaportugalhistoria .cke_contents .bck-ul1 li:before {
-    background-color: #ed7e33;
-}
-
-/*POPUP*/
-.unittag_santillanaportugalhistoria #actividad .info-button {
-    background: #ed7e33;
-}
-.unittag_santillanaportugalhistoria .info-template.shown {
-    border: 2px solid #ed7e33;
-    border-right: 0;
-}
-.unittag_santillanaportugalhistoria .info-template .info-title {
-    color: #ed7e33;
-}
-.unittag_santillanaportugalhistoria .info-popover .popover-title,
-.unittag_santillanaportugalhistoria .popover-template .popover-title {
-    color: #ed7e33;
-}
-.unittag_santillanaportugalhistoria .popover-container {
-    border: 3px solid #ed7e33;
-}
-
-
-/*Desplegable*/
-.unittag_santillanaportugalhistoria .bck-dropdown-button {
-    background: rgb(237,126,51);
-    background: -moz-linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
-    background: linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
-}
-.unittag_santillanaportugalhistoria .bck-dropdown-content {
-	border-color:  #ee9652;
-}
-
-/*Flipbox*/
-
-body:not(.edit).unittag_santillanaportugalhistoria .bck-flipbox-face.front,
- body:not(.edit).unittag_santillanaportugalhistoria .bck-flipbox-face.back {
-    border-color: #ed7e33;
-}
-body:not(.edit).unittag_santillanaportugalhistoria .front .bck-flipbox-title,
- body:not(.edit).unittag_santillanaportugalhistoria .front .bck-flipbox-section {
-    color: #ed7e33;
-}
-body:not(.edit).unittag_santillanaportugalhistoria .bck-flipbox-face.back {
-    background-color: #ed7e33;
-}
-
-/*Icono de Audio - Cambia por tag*/
-.unittag_santillanaportugalhistoria #actividad .player.audio,
-.unittag_santillanaportugalhistoria #actividad .player.video, 
-.unittag_santillanaportugalhistoria #help-panel-content .player,
-.unittag_santillanaportugalhistoria #remote-alert-modal-rich .player {
-    background-color:#ed7e33;
-  }
-  .unittag_santillanaportugalhistoria #actividad .player:hover,
-  .unittag_santillanaportugalhistoria #help-panel-content .player:hover,
-  .unittag_santillanaportugalhistoria #remote-alert-modal-rich .player:hover {
-        background-color: #ee9652;
+    /*Títulos*/
+    .unittag_santillanaportugalhistoria .bck-title1 {
+        color: #ed7e33;
+    }
+    .unittag_santillanaportugalhistoria .bck-title2 {
+        color: #ed7e33;
+    }
+    .unittag_santillanaportugalhistoria .bck-title3 {
+        border-color:#ed7e33 ;
+        color: #ed7e33;
+    }
+    .unittag_santillanaportugalhistoria .bck-title4 {
+        background: #ed7e33;
+    }
+    .unittag_santillanaportugalhistoria .bck-title5 {
+        border-color: #ed7e33;
+        color: #ed7e33;
     }
 
-/*Enlace*/
-.unittag_santillanaportugalhistoria a:hover,
-.unittag_santillanaportugalhistoria a:active,
-.unittag_santillanaportugalhistoria a:focus {
-    color: #ed7e33;
-}
+    /*Cajas*/
+    .unittag_santillanaportugalhistoria .bck-box1 .bck-title {
+        background: #ed7e33;
+    }
+    .unittag_santillanaportugalhistoria .bck-box.bck-box1 {
+        border-color: #ed7e33;
+    }
 
-/*---CAMBIO HEADER Y NAVBAR----*/
-.unittag_santillanaportugalhistoria.content_type_clase_santillanapt #actividad .content .header .title {
-    background: rgb(237,126,51);
-    background: -moz-linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
-    background: linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
-}
+    .unittag_santillanaportugalhistoria .bck-box.bck-box2 {
+        border-color: #ed7e33;
+    }
+    .unittag_santillanaportugalhistoria .bck-box.bck-box2 .bck-title {
+        background: #ed7e33;
+    }
+    .unittag_santillanaportugalhistoria .bck-box.bck-box3 {
+        background: #ed7e3366;
+    }
+    .unittag_santillanaportugalhistoria .bck-box.bck-box3 .bck-title {
+        background: #ed7e33;
+    }
 
-.unittag_santillanaportugalhistoria .navbar-bottom {
-    background: #614533;
-}
-.unittag_santillanaportugalhistoria #bottom-navigator li:hover {
-    background: #ee9652;
-}
-.unittag_santillanaportugalhistoria #bottom-navigator li.active {
-    background: #ed7e33;
-}
+    /*Énfasis*/
+    .unittag_santillanaportugalhistoria .bck-enfasis-7 {
+        background: #ed7e33;
+    }
+    /*Listas*/
+    .unittag_santillanaportugalhistoria .content .bck-ol7 li:before,
+    .unittag_santillanaportugalhistoria .cke_contents .bck-ol7 li:before {
+        color: #ed7e33;
+    }
+    .unittag_santillanaportugalhistoria .texto_curso .bck-ul1 li:before,
+    .unittag_santillanaportugalhistoria .workspace ul li .bck-ul1 li:before,
+    .unittag_santillanaportugalhistoria .cke_contents .bck-ul1 li:before {
+        background-color: #ed7e33;
+    }
 
-/*----CAMBIOS EN LAS SLIDES----*/
-
-/*Form Hueco*/
-.unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main input,
-.unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main .img-input-container {
-    background: #ee96523b;
-}
-.unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main input:focus,
-.unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main .img-input-container:focus {
+    /*POPUP*/
+    .unittag_santillanaportugalhistoria #actividad .info-button {
+        background: #ed7e33;
+    }
+    .unittag_santillanaportugalhistoria .info-template.shown {
         border: 2px solid #ed7e33;
-}
-    
-/*RESPUESTA MULTIPLE*/
-.unittag_santillanaportugalhistoria #actividad .workspace.multiplechoice_horizontal .opcion:hover {
-    background: #ee965242;
-}
-.unittag_santillanaportugalhistoria #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-    border-color: #ee965242;
-    background-color: #ee965242;
-}
-.unittag_santillanaportugalhistoria #actividad .workspace.multiple-choice .opcion.respuesta_checked {
-    background-color: #ee965242;
-}
+        border-right: 0;
+    }
+    .unittag_santillanaportugalhistoria .info-template .info-title {
+        color: #ed7e33;
+    }
+    .unittag_santillanaportugalhistoria .info-popover .popover-title,
+    .unittag_santillanaportugalhistoria .popover-template .popover-title {
+        color: #ed7e33;
+    }
+    .unittag_santillanaportugalhistoria .popover-container {
+        border: 3px solid #ed7e33;
+    }
 
-/*Ordenar*/
-.unittag_santillanaportugalhistoria #actividad .workspace.ordenar .js-rank-item:hover {
-    background-color: #ee965242;
-}
-/*Respuesta larga*/
-.unittag_santillanaportugalhistoria .shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
-    -webkit-box-shadow: 0 0 2px #ed7e33;
-    -moz-box-shadow: 0 0 2px #ed7e33;
-    box-shadow: 0 0 2px #ed7e33;
-    border-color: #ed7e33;
-}
-/*Rellenar espacios - Arrastrar a hueco - */
-.unittag_santillanaportugalhistoria .fillblanks-draggable-wrapper .response:hover {
-    background: #ed7e3352;
-}
+    /*Desplegable*/
+    .unittag_santillanaportugalhistoria .bck-dropdown-button {
+        background: rgb(237,126,51);
+        background: -moz-linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
+        background: linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
+    }
+    .unittag_santillanaportugalhistoria .bck-dropdown-content {
+        border-color:  #ee9652;
+    }
 
-/*COLOR TEST*/
-.unittag_santillanaportugalhistoria .checkbox-option label.filter-label:before,
- .unittag_santillanaportugalhistoria .slides_averages #cont_checkSelfCorrect label:before,
-  .unittag_santillanaportugalhistoria .slides_averages #cont_checkEvaluation label:before,
-   .unittag_santillanaportugalhistoria .radio-option label.filter-label:before {
-    filter: hue-rotate(296deg);
-}
+    /*Flipbox*/
+    body:not(.edit).unittag_santillanaportugalhistoria .bck-flipbox-face.front,
+    body:not(.edit).unittag_santillanaportugalhistoria .bck-flipbox-face.back {
+        border-color: #ed7e33;
+    }
+    body:not(.edit).unittag_santillanaportugalhistoria .front .bck-flipbox-title,
+    body:not(.edit).unittag_santillanaportugalhistoria .front .bck-flipbox-section {
+        color: #ed7e33;
+    }
+    body:not(.edit).unittag_santillanaportugalhistoria .bck-flipbox-face.back {
+        background-color: #ed7e33;
+    }
 
-/*Clasificar PALABRAS*/
-.unittag_santillanaportugalhistoria #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 2px solid #ed7e33;
-    padding-top: 10px;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-}
-.unittag_santillanaportugalhistoria #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
-    background-color: #ee965242;
-    padding: 3px;
-}
-.unittag_santillanaportugalhistoria #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
-    background: #ee965242;
-}
+    /*Icono de Audio - Cambia por tag*/
+    .unittag_santillanaportugalhistoria #actividad .player.audio,
+    .unittag_santillanaportugalhistoria #actividad .player.video, 
+    .unittag_santillanaportugalhistoria #help-panel-content .player,
+    .unittag_santillanaportugalhistoria #remote-alert-modal-rich .player {
+        background-color:#ed7e33;
+    }
+    .unittag_santillanaportugalhistoria #actividad .player:hover,
+    .unittag_santillanaportugalhistoria #help-panel-content .player:hover,
+    .unittag_santillanaportugalhistoria #remote-alert-modal-rich .player:hover {
+            background-color: #ee9652;
+    }
 
-/* Smartphones (portrait & landscape) */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+    /*Enlace*/
+    .unittag_santillanaportugalhistoria a:hover,
+    .unittag_santillanaportugalhistoria a:active,
+    .unittag_santillanaportugalhistoria a:focus {
+        color: #ed7e33;
+    }
 
-   .unittag_santillanaportugalmates.content_type_clase_santillanapt .slide_main {
-    padding: 0px 20px 0px 58px;
-}
+    /*---CAMBIO HEADER Y NAVBAR----*/
+    .unittag_santillanaportugalhistoria.content_type_clase_santillanapt #actividad .content .header .title {
+        background: rgb(237,126,51);
+        background: -moz-linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
+        background: linear-gradient(180deg, rgba(237,126,51,1) 0%, rgba(238,150,82,1) 100%);
+    }
 
-.unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title h3 {
-    font-size: 22px;
-}
+    .unittag_santillanaportugalhistoria .navbar-bottom {
+        background: #614533;
+    }
+    .unittag_santillanaportugalhistoria #bottom-navigator li:hover {
+        background: #ee9652;
+    }
+    .unittag_santillanaportugalhistoria #bottom-navigator li.active {
+        background: #ed7e33;
+    }
 
+    /*----CAMBIOS EN LAS SLIDES----*/
 
-.unittag_santillanaportugalmates.content_type_clase_santillanapt #actividad .content .header .title {
-    padding: 24px 22px;
-}
+    /*Form Hueco*/
+    .unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main input,
+    .unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main .img-input-container {
+        background: #ee96523b;
+    }
+    .unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main input:focus,
+    .unittag_santillanaportugalhistoria.content_type_clase_santillanapt .slide_main .img-input-container:focus {
+            border: 2px solid #ed7e33;
+    }
+        
+    /*RESPUESTA MULTIPLE*/
+    .unittag_santillanaportugalhistoria #actividad .workspace.multiplechoice_horizontal .opcion:hover {
+        background: #ee965242;
+    }
+    .unittag_santillanaportugalhistoria #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+        border-color: #ee965242;
+        background-color: #ee965242;
+    }
+    .unittag_santillanaportugalhistoria #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+        background-color: #ee965242;
+    }
 
-.unittag_santillanaportugalportugues.content_type_clase_santillanapt #actividad .content .header .title {
-    padding: 20px 10px;
-}
+    /*Ordenar*/
+    .unittag_santillanaportugalhistoria #actividad .workspace.ordenar .js-rank-item:hover {
+        background-color: #ee965242;
+    }
 
-.unittag_santillanaportugalportugues .unidade {
-    font-size: 34px;
-}
-}
+    /*Respuesta larga*/
+    .unittag_santillanaportugalhistoria .shortanswer-container textarea:focus, .shortanswer-container input:focus, .shortanswer-container .preview:focus {
+        -webkit-box-shadow: 0 0 2px #ed7e33;
+        -moz-box-shadow: 0 0 2px #ed7e33;
+        box-shadow: 0 0 2px #ed7e33;
+        border-color: #ed7e33;
+    }
 
-/*AJUSTE PARA FONDO EN SLIDE CON FONDO*/
-@media screen and (max-width: 1023px) {
-.unittag_santillanaportugalportugues #actividad .carousel-inner .item-container.aux-fullscreen,
- #actividad .carousel-inner .item-container.aux-bckg {
-    padding-left: 0px;
-}
-}
+    /*Rellenar espacios - Arrastrar a hueco - */
+    .unittag_santillanaportugalhistoria .fillblanks-draggable-wrapper .response:hover {
+        background: #ed7e3352;
+    }
 
-/*QUERIES*/
-@media only screen and (max-width: 640px) {
-.logo-publisher {
-    width: 45px;
-    background: url(imagenes-santillanapt/logo-santillana-movil.png);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    left: 10px;
-}
-}
+    /*COLOR TEST*/
+    .unittag_santillanaportugalhistoria .checkbox-option label.filter-label:before,
+    .unittag_santillanaportugalhistoria .slides_averages #cont_checkSelfCorrect label:before,
+    .unittag_santillanaportugalhistoria .slides_averages #cont_checkEvaluation label:before,
+    .unittag_santillanaportugalhistoria .radio-option label.filter-label:before {
+        filter: hue-rotate(296deg);
+    }
+
+    /*Clasificar PALABRAS*/
+    .unittag_santillanaportugalhistoria #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+        border: 2px solid #ed7e33;
+        padding-top: 10px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+    }
+    .unittag_santillanaportugalhistoria #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
+        background-color: #ee965242;
+        padding: 3px;
+    }
+    .unittag_santillanaportugalhistoria #actividad .workspace.clasificar .clasificar_lista .respuesta_over {
+        background: #ee965242;
+    }
+
+/*--*/
+
+/*MEDIA QUERIES ADICIONALES A LAS QUE TIENE EL ESTILO POPTROPICA*/ 
 
 /* Smartphones (portrait & landscape) */
 @media only screen 
@@ -2191,6 +2000,13 @@ and (max-device-width : 480px) {
 }
 .content_type_clase_santillanapt #actividad .content .header .title {
     padding: 18px;
+}
+.rf-tgrid {
+    font-size: 12px;
+    padding: 0;
+}
+.rf-wordcontainer {
+    margin-top: 8px;
 }
 }
 
