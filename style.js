@@ -48,8 +48,6 @@
 				{ name: 'Énfasis 8', element: 'span', attributes: { 'class': 'bck-enfasis-8'} },
 				{ name: 'Énfasis 9', element: 'span', attributes: { 'class': 'bck-enfasis-9'} },
 
-				
-				
 				{ name: 'Tabla verde', element: 'table', attributes: { 'class': 'bck-table bck-table-1' } },
 				{ name: 'Tabla azul', element: 'table', attributes: { 'class': 'bck-table bck-table-2' } },
 				{ name: 'Tabla amarilla', element: 'table', attributes: { 'class': 'bck-table bck-table-3' } },
@@ -68,8 +66,8 @@
 				{ name: 'Celda Celeste 1', element: 'td', attributes: { 'class': 'bck-td-9' } },
 				{ name: 'Celda Celeste 2', element: 'td', attributes: { 'class': 'bck-td-10' } },
 				{ name: 'Celda Roja 1', element: 'td', attributes: { 'class': 'bck-td-11' } },
-				{ name: 'Celda Roja 2', element: 'td', attributes: { 'class': 'bck-td-12' } },
-			]
+				{ name: 'Celda Roja 2', element: 'td', attributes: { 'class': 'bck-td-12' } }
+			],stylesToRemove: ["Título 1", "Titulo 2", "Lista ordenada 1", "Lista ordenada 2", "Lista ordenada 3", "Lista ordenada 4", "Caja 1", "Caja 2", "Caja 3", "Icono Draw", "Icono Write", "Icono Speaking", "Icono Reading", "Icono Star"]
 		},
 
 		init: function (scope) {
